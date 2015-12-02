@@ -4,6 +4,6 @@ This latter function checks for and automatically installs package dependencies.
 
 To use:
 ```{r}
-drat::addRepo("OHDSI")
+drat::addRepo("OHDSI")   ## Could place in ~/.Rprofile
 install.packages("PatientLevelPrediction", type = "source")
 ```
