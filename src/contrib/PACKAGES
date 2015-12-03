@@ -23,7 +23,7 @@ Depends: R (>= 3.1.0)
 Imports: codetools, formatR, snow, RJSONIO, RCurl, XML
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: 545589baaff57c0320938a005cac570d
+MD5sum: b0e0944f1c53be4a6c74af4e37fd435d
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
