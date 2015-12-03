@@ -17,6 +17,14 @@ License: Apache License
 MD5sum: 7e3c79c61fc87ce0d12e66de88e2c452
 NeedsCompilation: no
 
+Package: EmpiricalCalibration
+Version: 1.1.0
+Imports: ggplot2
+Suggests: knitr, rmarkdown, OhdsiRTools
+License: Apache License 2.0
+MD5sum: 69b031d487185c228640f90fcdb11436
+NeedsCompilation: no
+
 Package: OhdsiRTools
 Version: 1.0.1
 Depends: R (>= 3.1.0)
