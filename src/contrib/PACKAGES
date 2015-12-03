@@ -17,6 +17,15 @@ License: Apache License
 MD5sum: 7e3c79c61fc87ce0d12e66de88e2c452
 NeedsCompilation: no
 
+Package: OhdsiRTools
+Version: 1.0.1
+Depends: R (>= 3.1.0)
+Imports: codetools, formatR, snow, RJSONIO, RCurl, XML
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 545589baaff57c0320938a005cac570d
+NeedsCompilation: no
+
 Package: PatientLevelPrediction
 Version: 1.1.0
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>= 1.2.0)
