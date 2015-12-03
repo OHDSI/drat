@@ -1,3 +1,15 @@
+Package: CohortMethod
+Version: 1.1.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), PatientLevelPrediction (>= 1.1.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, jsonlite, OhdsiRTools
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: c6e7542b837d95a55f24c344796942a2
+NeedsCompilation: yes
+
 Package: Cyclops
 Version: 1.2.0
 Depends: R (>= 3.1.0)
