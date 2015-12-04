@@ -57,6 +57,17 @@ License: Apache License 2.0
 MD5sum: d10ffe33a9a6f06cc07118dc42ee8bef
 NeedsCompilation: yes
 
+Package: SelfControlledCaseSeries
+Version: 0.0.2
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 1.3.0)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.0.1), splines, ggplot2
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 822269e04046e0b9a2b83c4eb03dd59a
+NeedsCompilation: yes
+
 Package: SqlRender
 Version: 1.1.3
 Imports: rJava
