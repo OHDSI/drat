@@ -71,8 +71,8 @@ NeedsCompilation: yes
 Package: SqlRender
 Version: 1.1.3
 Imports: rJava
-Suggests: testthat, knitr, rmarkdown, OhdsiRTools
+Suggests: testthat, knitr, rmarkdown
 License: Apache License
-MD5sum: 4792942bb1f3dd632b2b835f2e6edee1
+MD5sum: 7814fc480efd8d5c56503f2e01d76a13
 NeedsCompilation: no
 
