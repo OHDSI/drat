@@ -24,9 +24,9 @@ Package: DatabaseConnector
 Version: 1.4.0
 Depends: RJDBC (>= 0.2-5)
 Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender
-Suggests: testthat, OhdsiRTools
+Suggests: testthat
 License: Apache License
-MD5sum: 465ec78d1c3cba494f8252fbddd11f4c
+MD5sum: b474fad0152a1ba49935f854d6f3b86f
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
