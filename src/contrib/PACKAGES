@@ -41,7 +41,7 @@ Version: 1.1.0
 Imports: ggplot2 (>= 2.0.0), MASS
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 2f5417d5bdf5f593b940dd4812117f42
+MD5sum: 15e4f689b19d4afd39043297cf03ccd9
 NeedsCompilation: no
 
 Package: OhdsiRTools
