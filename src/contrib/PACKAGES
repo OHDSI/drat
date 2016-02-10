@@ -1,3 +1,10 @@
+Package: BigKnn
+Version: 0.0.1
+Imports: rJava, Cyclops, PatientLevelPrediction, OhdsiRTools
+License: Apache License
+MD5sum: 913af1df31c194f03c55159f25867f58
+NeedsCompilation: no
+
 Package: CohortMethod
 Version: 1.1.3
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
