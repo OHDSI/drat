@@ -80,6 +80,6 @@ Version: 1.1.3
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown
 License: Apache License
-MD5sum: 7814fc480efd8d5c56503f2e01d76a13
+MD5sum: 217b062ddc1a5db03c4032fd48cd5413
 NeedsCompilation: no
 
