@@ -59,9 +59,9 @@ Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>= 1.2.0)
 Imports: ggplot2, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
         0.11.2), RJDBC, SqlRender (>= 1.1.3), survival
 LinkingTo: Rcpp
-Suggests: testthat, pROC, gnm, knitr, rmarkdown, OhdsiRTools
+Suggests: testthat, pROC, gnm, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 9653f6e738ad5758eca6139ba4767806
+MD5sum: 7fb9b1cf0b4f60a0657816c1c7cfb25c
 NeedsCompilation: yes
 
 Package: SelfControlledCaseSeries
