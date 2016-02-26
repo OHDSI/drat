@@ -61,7 +61,7 @@ Imports: ggplot2, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 261d126100079b4aad48798c9d297005
+MD5sum: c81cac09f67528b514d65605f76bad0d
 NeedsCompilation: yes
 
 Package: SelfControlledCaseSeries
