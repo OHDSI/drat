@@ -58,7 +58,7 @@ Version: 0.0.1
 Imports: rJava
 Suggests: OhdsiRTools
 License: Apache License
-MD5sum: bf0e58f2621e66eaec38d4a3f1cc7726
+MD5sum: 09887b1050182597d4a80826d7609a44
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
