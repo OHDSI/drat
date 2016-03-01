@@ -51,7 +51,7 @@ Imports: SqlRender (>= 1.1.2), CohortMethod (>= 1.1.0), Cyclops,
         EmpiricalCalibration, DBI, OhdsiSharing, ggplot2, mailR
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: f2626eb66848bbf3bb1b831df1f64885
+MD5sum: 0c05558a7e8112bc3ecc0366cb6627ee
 NeedsCompilation: no
 
 Package: OhdsiRTools
