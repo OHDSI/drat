@@ -48,11 +48,10 @@ Package: NoacStudy
 Version: 0.1
 Depends: R (>= 3.2), DatabaseConnector (>= 1.3.0)
 Imports: SqlRender (>= 1.1.2), CohortMethod (>= 1.1.0), Cyclops,
-        EmpiricalCalibration, DBI, PatientLevelPrediction, OhdsiRTools,
-        ReporteRs
-Suggests: testthat
+        EmpiricalCalibration, DBI, PatientLevelPrediction, OhdsiRTools
+Suggests: testthat, ReporteRs
 License: Apache License 2.0
-MD5sum: ef05a851817178dba49ea965954bbe45
+MD5sum: a7e16f72951ea74d07a6e079209ca558
 NeedsCompilation: no
 
 Package: OhdsiRTools
