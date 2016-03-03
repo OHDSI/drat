@@ -90,7 +90,7 @@ Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 822269e04046e0b9a2b83c4eb03dd59a
+MD5sum: 337484c5eec87cd4ea8fe3c599175357
 NeedsCompilation: yes
 
 Package: SqlRender
