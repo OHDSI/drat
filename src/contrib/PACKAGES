@@ -14,7 +14,7 @@ Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 9a3df9a58ea1f8cf4eff2957a3bc81a1
+MD5sum: 968644865176de074046ebe24ffa5398
 NeedsCompilation: yes
 
 Package: Cyclops
