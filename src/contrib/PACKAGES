@@ -51,7 +51,7 @@ Imports: SqlRender (>= 1.1.2), CohortMethod (>= 1.1.0), Cyclops,
         EmpiricalCalibration, DBI, PatientLevelPrediction, OhdsiRTools
 Suggests: testthat, ReporteRs
 License: Apache License 2.0
-MD5sum: a7e16f72951ea74d07a6e079209ca558
+MD5sum: dd42757697805d5bd16694c23a01a2f0
 NeedsCompilation: no
 
 Package: OhdsiRTools
