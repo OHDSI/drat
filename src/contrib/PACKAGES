@@ -5,6 +5,14 @@ License: Apache License
 MD5sum: 0f48f5adefa3982b054c6dbdcde628a0
 NeedsCompilation: no
 
+Package: BoostCompiledLibraries
+Version: 1.58.0-1
+Depends: BH (>= 1.58.0)
+LinkingTo: BH
+License: BSL-1.0
+MD5sum: 6ef47c4e02090e06b78a35b7cd0d9b47
+NeedsCompilation: yes
+
 Package: CohortMethod
 Version: 1.1.3
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
