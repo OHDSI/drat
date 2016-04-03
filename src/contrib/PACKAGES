@@ -90,6 +90,16 @@ License: Apache License 2.0
 MD5sum: c81cac09f67528b514d65605f76bad0d
 NeedsCompilation: yes
 
+Package: RcppBoostCompute
+Version: 0.1
+Depends: Rcpp (>= 0.11.1), BH (>= 1.54.0), BoostCompiledLibraries (>=
+        1.54.0)
+LinkingTo: Rcpp, BH, BoostCompiledLibraries
+Suggests: testthat
+License: Apache License 2.0 | file LICENSE
+MD5sum: 5546626a46200b59fe7581926ff3c333
+NeedsCompilation: yes
+
 Package: SelfControlledCaseSeries
 Version: 0.0.2
 Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 1.3.0)
