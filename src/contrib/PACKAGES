@@ -91,12 +91,11 @@ NeedsCompilation: yes
 
 Package: RcppBoostCompute
 Version: 0.1
-Depends: Rcpp (>= 0.11.1), BH (>= 1.54.0), BoostCompiledLibraries (>=
-        1.54.0)
-LinkingTo: Rcpp, BH, BoostCompiledLibraries
+Depends: Rcpp (>= 0.11.1)
+LinkingTo: Rcpp, BH (>= 1.58.0), BoostCompiledLibraries (>= 1.58.0)
 Suggests: testthat
 License: Apache License 2.0 | file LICENSE
-MD5sum: ccc50ad4ef13bce41d4abc4160ac8f09
+MD5sum: 25f3be56337f196557a68e9cfa7f5160
 NeedsCompilation: yes
 
 Package: SelfControlledCaseSeries
