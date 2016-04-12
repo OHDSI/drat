@@ -48,7 +48,7 @@ Version: 1.1.0
 Imports: ggplot2 (>= 2.0.0), MASS
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 54f102bcaede171eb298627b8e4f92fe
+MD5sum: fe7a8066b3572c5c10fae63f01bc9bc2
 NeedsCompilation: no
 
 Package: NoacStudy
