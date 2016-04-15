@@ -95,7 +95,7 @@ Depends: Rcpp (>= 0.11.1)
 LinkingTo: Rcpp, BH (>= 1.58.0), BoostCompiledLibraries (>= 1.58.0)
 Suggests: testthat
 License: Apache License 2.0 | file LICENSE
-MD5sum: 926efb97bd2116d88fa0ea4351957300
+MD5sum: 51bfd346742b2aab6be5e122d7b0c20c
 NeedsCompilation: yes
 
 Package: SelfControlledCaseSeries
