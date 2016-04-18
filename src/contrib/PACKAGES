@@ -45,11 +45,11 @@ MD5sum: 3c8296eb124198f6bbc94fc1feed0424
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
-Version: 1.1.0
+Version: 1.1.1
 Imports: ggplot2 (>= 2.0.0), MASS
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: fe7a8066b3572c5c10fae63f01bc9bc2
+MD5sum: a590aaa1915990298137750f93f6bf87
 NeedsCompilation: no
 
 Package: NoacStudy
