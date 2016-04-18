@@ -13,7 +13,7 @@ MD5sum: 9ce2478e91c3087ab42c44e7e7da58be
 NeedsCompilation: yes
 
 Package: CohortMethod
-Version: 1.1.3
+Version: 1.1.4
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
         1.2.0), PatientLevelPrediction (>= 1.1.0)
 Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
@@ -21,7 +21,7 @@ Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 968644865176de074046ebe24ffa5398
+MD5sum: 0cd1aa01f4cdecf325d270c3164ac6bd
 NeedsCompilation: yes
 
 Package: Cyclops
