@@ -20,9 +20,9 @@ Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
         RJDBC, SqlRender (>= 1.1.1), survival, jsonlite
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
-        OhdsiRTools
+        OhdsiRTools (>= 1.1.1)
 License: Apache License 2.0
-MD5sum: 58e3bcef69f7445e54c5e12ad0990dc3
+MD5sum: 54d7225fe266c7d2fee7851def62c381
 NeedsCompilation: yes
 
 Package: Cyclops
