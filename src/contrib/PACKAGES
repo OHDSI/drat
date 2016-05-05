@@ -73,10 +73,10 @@ NeedsCompilation: no
 
 Package: OhdsiSharing
 Version: 0.0.1
-Imports: rJava, aws.signature, httr, XML
+Imports: rJava, aws.signature, httr, XML, uuid
 Suggests: OhdsiRTools
 License: Apache License
-MD5sum: 72895320cc35c65be12af93b0d31bc3e
+MD5sum: 897ae7d898f6acd794c81fd02c7b79b9
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
