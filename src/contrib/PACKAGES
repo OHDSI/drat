@@ -72,11 +72,11 @@ MD5sum: b0e0944f1c53be4a6c74af4e37fd435d
 NeedsCompilation: no
 
 Package: OhdsiSharing
-Version: 0.0.1
-Imports: rJava, aws.signature, httr, XML, uuid
-Suggests: OhdsiRTools
+Version: 0.1.0
+Imports: rJava, aws.signature, httr, XML, uuid, xml2, base64enc,
+        digest, curl
 License: Apache License
-MD5sum: 8f80f93280ece609b7ae354bcaec1b66
+MD5sum: 804df757a3f91aed48f71915346346d8
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
