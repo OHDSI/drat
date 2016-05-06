@@ -76,7 +76,7 @@ Version: 0.1.0
 Imports: rJava, aws.signature, httr, XML, uuid, xml2, base64enc,
         digest, curl
 License: Apache License
-MD5sum: 804df757a3f91aed48f71915346346d8
+MD5sum: 064d92b7a8f7baa12a5da87377808427
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
