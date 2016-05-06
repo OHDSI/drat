@@ -1,4 +1,4 @@
-# drat [IN DEVELOPMENT]
+# drat repository for OHDSI R packages
 The `R` package `drat` enables `github` to behave as an `R` repository that allows the use of `install.packages()`.
 This latter function checks for and automatically installs package dependencies.
 
