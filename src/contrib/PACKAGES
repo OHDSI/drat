@@ -76,7 +76,7 @@ Version: 0.0.1
 Imports: rJava, aws.signature, httr, XML, uuid
 Suggests: OhdsiRTools
 License: Apache License
-MD5sum: 897ae7d898f6acd794c81fd02c7b79b9
+MD5sum: 8f80f93280ece609b7ae354bcaec1b66
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
