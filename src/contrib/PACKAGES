@@ -63,6 +63,16 @@ License: Apache License 2.0
 MD5sum: d5a097ecda9965a56ec6690df4002a54
 NeedsCompilation: yes
 
+Package: KeppraAngioedema
+Version: 0.1.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
+Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
+        CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>=
+        0.1.0), RJDBC, Cyclops
+License: Apache License 2.0
+MD5sum: 1a65e6ddfe5482e9578c9ba4ac1bbd2c
+NeedsCompilation: no
+
 Package: NoacStudy
 Version: 0.1
 Depends: R (>= 3.2), DatabaseConnector (>= 1.3.0)
