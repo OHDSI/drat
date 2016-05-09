@@ -17,12 +17,12 @@ Version: 2.0.2
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
         1.2.0), FeatureExtraction (>= 1.0.0)
 Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
-        RJDBC, SqlRender (>= 1.1.1), survival
+        RJDBC, SqlRender (>= 1.1.1), survival, stringi
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
         OhdsiRTools (>= 1.1.1)
 License: Apache License 2.0
-MD5sum: 682b101edfb5a776bc441e0ed6aea7b7
+MD5sum: 4dbf3516c1acaf2efde2beaa86b5e4ed
 NeedsCompilation: yes
 
 Package: Cyclops
