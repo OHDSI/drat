@@ -70,7 +70,7 @@ Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
         CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>=
         0.1.0), RJDBC, Cyclops
 License: Apache License 2.0
-MD5sum: a21c4a2c764ed5e7784c95c606caf5b1
+MD5sum: 222a9ec249656b0896d6b037a14d61b8
 NeedsCompilation: no
 
 Package: NoacStudy
