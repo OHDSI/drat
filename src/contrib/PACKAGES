@@ -28,11 +28,11 @@ NeedsCompilation: yes
 Package: Cyclops
 Version: 1.2.0
 Depends: R (>= 3.1.0)
-Imports: Matrix, Rcpp (>= 0.11.3), bit, ff, ffbase, RcppParallel
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel
 LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
 Suggests: testthat, survival, gnm, ggplot2
 License: Apache License 2.0
-MD5sum: 0c4365c67cc230bd63a89ae2cf2bd689
+MD5sum: b31cacf915051ca9a176a970a52cecbc
 NeedsCompilation: yes
 
 Package: DatabaseConnector
