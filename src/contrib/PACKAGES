@@ -76,13 +76,13 @@ MD5sum: d3d6a78c3407cda1968abeb6c52b778b
 NeedsCompilation: yes
 
 Package: KeppraAngioedema
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
 Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
         CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>=
-        0.1.1), OhdsiRTools, RJDBC, Cyclops
+        0.1.1), OhdsiRTools, RJDBC, Cyclops, rmarkdown
 License: Apache License 2.0
-MD5sum: 2330ac6ebda171c998a247bebb39bcbf
+MD5sum: f3d5b058b805ced50c3b288031d6eeda
 NeedsCompilation: no
 
 Package: NoacStudy
