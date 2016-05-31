@@ -21,7 +21,7 @@ Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: c5aafaa4038555291edff5b3504697a3
+MD5sum: e31e85602ee76a5244d51505168e1349
 NeedsCompilation: yes
 
 Package: CohortMethod
