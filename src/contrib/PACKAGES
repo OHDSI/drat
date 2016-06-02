@@ -9,7 +9,7 @@ Package: BoostCompiledLibraries
 Version: 1.58.0-1
 LinkingTo: BH (>= 1.58.0)
 License: BSL-1.0
-MD5sum: 9ce2478e91c3087ab42c44e7e7da58be
+MD5sum: a49314a2f804b6decae77d65019cac50
 NeedsCompilation: yes
 
 Package: CaseControl
