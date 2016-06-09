@@ -19,9 +19,9 @@ Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
 Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
         (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
 LinkingTo: Rcpp
-Suggests: testthat, knitr, rmarkdown
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: a14d75ea967d09a78b3e515861a5a4de
+MD5sum: a869b0bcf7d0f760df571be64ff223da
 NeedsCompilation: yes
 
 Package: CohortMethod
