@@ -72,7 +72,7 @@ Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: d3d6a78c3407cda1968abeb6c52b778b
+MD5sum: f1fd4dc28279aad0c1917c7710352a63
 NeedsCompilation: yes
 
 Package: KeppraAngioedema
