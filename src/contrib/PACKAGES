@@ -48,12 +48,12 @@ MD5sum: 9116e7746bc8ce40e9c45ca322a4c832
 NeedsCompilation: yes
 
 Package: DatabaseConnector
-Version: 1.6.0
+Version: 1.6.1
 Depends: RJDBC (>= 0.2-5)
 Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender
 Suggests: testthat
 License: Apache License
-MD5sum: 3ad017ce2836f906442c0bb30500c211
+MD5sum: bb84e98acd89c3b64c35cd5b676a9da3
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
