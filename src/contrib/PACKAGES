@@ -149,6 +149,6 @@ Version: 1.1.4
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown
 License: Apache License
-MD5sum: 3b78bdca2ad0b3ee4cdac688d3f14255
+MD5sum: dd6f595be5e19d7c79cd3890d5833d4c
 NeedsCompilation: no
 
