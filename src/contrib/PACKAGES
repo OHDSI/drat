@@ -145,10 +145,10 @@ MD5sum: 376f3d853fee9954d4e91af3f7e269b7
 NeedsCompilation: yes
 
 Package: SqlRender
-Version: 1.1.4
+Version: 1.1.6
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown
 License: Apache License
-MD5sum: dd6f595be5e19d7c79cd3890d5833d4c
+MD5sum: 97b311b31e5121475acf70a12df416a2
 NeedsCompilation: no
 
