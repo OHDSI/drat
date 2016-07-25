@@ -102,7 +102,7 @@ Depends: R (>= 3.1.0)
 Imports: codetools, formatR, snow, RJSONIO, RCurl, XML, jsonlite
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: dfb059a141c968f121cf631480dc85a1
+MD5sum: 8bca49fb67ab0b4e5760aa0477ddadb4
 NeedsCompilation: no
 
 Package: OhdsiSharing
