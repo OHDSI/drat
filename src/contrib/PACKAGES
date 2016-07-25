@@ -121,7 +121,7 @@ Imports: ggplot2, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: c7ad01867396e8dfa06814072891cea6
+MD5sum: fd430173ac9f14b00b034d3bfccb557d
 NeedsCompilation: yes
 
 Package: RcppBoostCompute
