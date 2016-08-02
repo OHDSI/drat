@@ -149,7 +149,7 @@ Package: SqlRender
 Version: 1.1.6
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown
-License: Apache License
-MD5sum: 3510fbfca6c4613bdf097e45abbc3bed
+License: Apache License 2.0
+MD5sum: 1a71ec0afb281747e92e08278d5c05ca
 NeedsCompilation: no
 
