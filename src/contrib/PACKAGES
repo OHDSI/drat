@@ -45,7 +45,7 @@ Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
 LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
 Suggests: testthat, survival, gnm, ggplot2
 License: Apache License 2.0
-MD5sum: 00dc724d7e45b8f9ad5f85522aeece5b
+MD5sum: 15b85777d44af54fec5b650126e2b729
 NeedsCompilation: yes
 
 Package: DatabaseConnector
