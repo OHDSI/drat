@@ -80,8 +80,8 @@ NeedsCompilation: yes
 Package: KeppraAngioedema
 Version: 0.1.3
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
-Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0), CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>= 0.1.1),
-               OhdsiRTools, RJDBC, Cyclops, rmarkdown
+Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0), CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>=
+              0.1.1), OhdsiRTools, RJDBC, Cyclops, rmarkdown
 License: Apache License 2.0
 MD5sum: 1f1fdff35f2aa928614c55866a85e833
 NeedsCompilation: no
@@ -90,7 +90,7 @@ Package: NoacStudy
 Version: 0.1
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
 Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0), CohortMethod (>= 2.0.2), Cyclops, EmpiricalCalibration, RJDBC,
-               OhdsiRTools, OhdsiSharing (>= 0.1.1)
+              OhdsiRTools, OhdsiSharing (>= 0.1.1)
 Suggests: testthat, ReporteRs
 License: Apache License 2.0
 MD5sum: 7f6fe932a02007163d92dfe86364b670
@@ -156,6 +156,6 @@ Imports: Rcpp
 LinkingTo: Rcpp (>= 0.11.4.6), BH
 Suggests: testthat, curl, covr, knitr, rmarkdown, magrittr, httr
 License: GPL (>= 2)
-MD5sum: d91fb27ee94f595e62ef58dea3d80822
+MD5sum: 1b491951c6350134e8fa9bd89039cc20
 NeedsCompilation: yes
 
