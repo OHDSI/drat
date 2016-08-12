@@ -14,10 +14,8 @@ NeedsCompilation: yes
 
 Package: CaseControl
 Version: 0.0.5
-Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
-        1.3.0), survival, FeatureExtraction (>= 1.0.1)
-Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
-        (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 1.3.0), survival, FeatureExtraction (>= 1.0.1)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
@@ -26,13 +24,10 @@ NeedsCompilation: yes
 
 Package: CohortMethod
 Version: 2.0.4
-Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
-        1.2.0), FeatureExtraction (>= 1.0.0)
-Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
-        RJDBC, SqlRender (>= 1.1.1), survival, stringi
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>= 1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1), survival, stringi
 LinkingTo: Rcpp
-Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
-        OhdsiRTools (>= 1.1.1)
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration, OhdsiRTools (>= 1.1.1)
 License: Apache License 2.0
 MD5sum: a43602a4267d4f2ab11e082c1baf9ee6
 NeedsCompilation: yes
@@ -40,8 +35,7 @@ NeedsCompilation: yes
 Package: Cyclops
 Version: 1.2.1-1
 Depends: R (>= 3.1.0)
-Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
-        methods
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel, methods
 LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
 Suggests: testthat, survival, gnm, ggplot2
 License: Apache License 2.0
@@ -68,8 +62,7 @@ NeedsCompilation: no
 Package: FeatureExtraction
 Version: 1.0.1
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
-Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
-        SqlRender (>= 1.1.3),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.3),
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
@@ -79,9 +72,8 @@ NeedsCompilation: yes
 Package: KeppraAngioedema
 Version: 0.1.3
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
-Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
-        CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>=
-        0.1.1), OhdsiRTools, RJDBC, Cyclops, rmarkdown
+Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0), CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>= 0.1.1),
+               OhdsiRTools, RJDBC, Cyclops, rmarkdown
 License: Apache License 2.0
 MD5sum: 1f1fdff35f2aa928614c55866a85e833
 NeedsCompilation: no
@@ -89,9 +81,8 @@ NeedsCompilation: no
 Package: NoacStudy
 Version: 0.1
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
-Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
-        CohortMethod (>= 2.0.2), Cyclops, EmpiricalCalibration, RJDBC,
-        OhdsiRTools, OhdsiSharing (>= 0.1.1)
+Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0), CohortMethod (>= 2.0.2), Cyclops, EmpiricalCalibration, RJDBC,
+               OhdsiRTools, OhdsiSharing (>= 0.1.1)
 Suggests: testthat, ReporteRs
 License: Apache License 2.0
 MD5sum: 7f6fe932a02007163d92dfe86364b670
@@ -108,8 +99,7 @@ NeedsCompilation: no
 
 Package: OhdsiSharing
 Version: 0.1.1
-Imports: rJava, aws.signature, httr (>= 1.1.0), XML, uuid, xml2,
-        base64enc, digest, curl, aws.s3
+Imports: rJava, aws.signature, httr (>= 1.1.0), XML, uuid, xml2, base64enc, digest, curl, aws.s3
 License: Apache License
 MD5sum: e1c5067014e94a3c6683adcf8f273683
 NeedsCompilation: no
@@ -117,8 +107,7 @@ NeedsCompilation: no
 Package: PatientLevelPrediction
 Version: 1.1.0
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>= 1.2.0)
-Imports: ggplot2, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
-        0.11.2), RJDBC, SqlRender (>= 1.1.3), survival
+Imports: ggplot2, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.3), survival
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown
 License: Apache License 2.0
@@ -137,8 +126,7 @@ NeedsCompilation: yes
 Package: SelfControlledCaseSeries
 Version: 0.0.2
 Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 1.3.0)
-Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
-        (>= 0.11.2), OhdsiRTools (>= 1.0.1), splines, ggplot2
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>= 0.11.2), OhdsiRTools (>= 1.0.1), splines, ggplot2
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
@@ -152,4 +140,14 @@ Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
 MD5sum: c51de7f34b765f64d01b57029da91916
 NeedsCompilation: no
+
+Package: xml2
+Version: 1.0.0.9000
+Depends: R (>= 3.1.0)
+Imports: Rcpp
+LinkingTo: Rcpp (>= 0.11.4.6), BH
+Suggests: testthat, curl, covr, knitr, rmarkdown, magrittr, httr
+License: GPL (>= 2)
+MD5sum: 07e34c301ac39be4248e18fff4b25d25
+NeedsCompilation: yes
 
