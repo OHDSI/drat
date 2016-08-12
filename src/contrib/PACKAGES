@@ -1,9 +1,9 @@
 Package: aws.s3
-Version: 0.1.28
-Imports: tools, httr, xml2 (> 1.0.0), base64enc, digest, curl, aws.signature
+Version: 0.1.27
+Imports: tools, httr, xml2 (>= 1.0.0), base64enc, digest, curl, aws.signature
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 011f9b1b274b0990a7a6138e6aa9f830
+MD5sum: 058652bdb1e039744182ee6d839a8f4f
 NeedsCompilation: no
 
 Package: BigKnn
