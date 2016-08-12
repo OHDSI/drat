@@ -1,3 +1,11 @@
+Package: aws.s3
+Version: 0.1.28
+Imports: tools, httr, xml2 (> 1.0.0), base64enc, digest, curl, aws.signature
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 011f9b1b274b0990a7a6138e6aa9f830
+NeedsCompilation: no
+
 Package: BigKnn
 Version: 0.0.1
 Imports: rJava, Cyclops, OhdsiRTools, ff, ffbase, bit
@@ -148,6 +156,6 @@ Imports: Rcpp
 LinkingTo: Rcpp (>= 0.11.4.6), BH
 Suggests: testthat, curl, covr, knitr, rmarkdown, magrittr, httr
 License: GPL (>= 2)
-MD5sum: 07e34c301ac39be4248e18fff4b25d25
+MD5sum: d91fb27ee94f595e62ef58dea3d80822
 NeedsCompilation: yes
 
