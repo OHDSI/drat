@@ -118,9 +118,10 @@ NeedsCompilation: no
 Package: OhdsiSharing
 Version: 0.1.1
 Imports: rJava, aws.signature, httr (>= 1.1.0), XML, uuid, xml2,
-        base64enc, digest, curl, aws.s3
+        base64enc, digest, curl
+Suggests: aws.s3
 License: Apache License
-MD5sum: e1c5067014e94a3c6683adcf8f273683
+MD5sum: 4fba406434a5ce8fc30943777f3c93ed
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
