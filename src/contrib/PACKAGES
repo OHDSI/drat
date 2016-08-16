@@ -68,10 +68,10 @@ NeedsCompilation: no
 
 Package: EmpiricalCalibration
 Version: 1.1.1
-Imports: ggplot2 (>= 2.0.0)
+Imports: ggplot2 (>= 2.0.0), methods
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 7b94f4d85ea96398b5b671e63888b049
+MD5sum: b6041e6c501a115e178bad73d7a54089
 NeedsCompilation: no
 
 Package: FeatureExtraction
