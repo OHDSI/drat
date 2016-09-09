@@ -100,7 +100,7 @@ Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
         CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>=
         0.1.1), OhdsiRTools, RJDBC, Cyclops, rmarkdown
 License: Apache License 2.0
-MD5sum: a0b009efdd1ce62bc2c01f6eb6e05e27
+MD5sum: 31fba637989f0ace2bb11d5280080473
 NeedsCompilation: no
 
 Package: MethodEvaluation
