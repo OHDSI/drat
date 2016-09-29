@@ -47,14 +47,14 @@ MD5sum: 1aa4179d1c1a65bce89c76d1df3c449e
 NeedsCompilation: yes
 
 Package: Cyclops
-Version: 1.2.1-1
+Version: 1.2.1-2
 Depends: R (>= 3.1.0)
 Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
         methods
 LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
 Suggests: testthat, survival, gnm, ggplot2
 License: Apache License 2.0
-MD5sum: 3935485b7365c1c562619fb02e4b4c9f
+MD5sum: dca3bb2a8894d92bdf96e90dd91199f0
 NeedsCompilation: yes
 
 Package: DatabaseConnector
