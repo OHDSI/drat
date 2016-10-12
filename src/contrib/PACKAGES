@@ -43,7 +43,7 @@ LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
         OhdsiRTools (>= 1.1.1)
 License: Apache License 2.0
-MD5sum: 1aa4179d1c1a65bce89c76d1df3c449e
+MD5sum: 9f0a48c1fa192fa4dad4e11289959b77
 NeedsCompilation: yes
 
 Package: Cyclops
