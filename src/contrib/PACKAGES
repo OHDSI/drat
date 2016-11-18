@@ -8,10 +8,10 @@ MD5sum: 058652bdb1e039744182ee6d839a8f4f
 NeedsCompilation: no
 
 Package: BigKnn
-Version: 0.0.1
-Imports: rJava, Cyclops, OhdsiRTools, ff, ffbase, bit
+Version: 0.0.2
+Imports: rJava, OhdsiRTools, ff, ffbase, bit, Cyclops
 License: Apache License
-MD5sum: 350245c8a25f892f71cd1d01e9045068
+MD5sum: 9aab571108d2b35cf6ea8ad49b2e8009
 NeedsCompilation: no
 
 Package: BoostCompiledLibraries
