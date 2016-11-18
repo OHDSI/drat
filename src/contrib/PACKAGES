@@ -106,12 +106,12 @@ NeedsCompilation: no
 Package: MethodEvaluation
 Version: 0.0.3
 Depends: R (>= 3.2.0), DatabaseConnector (>= 1.3.0), FeatureExtraction,
-        Cyclops
+        Cyclops (>= 1.2.3)
 Imports: ff, ffbase (>= 0.12.1), RJDBC, SqlRender (>= 1.1.2), pROC,
         ggplot2, OhdsiRTools
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: 0746ff01586f8973df01b50c48070578
+MD5sum: c5639c60b29c0be1bde28a5cf36eeeb0
 NeedsCompilation: no
 
 Package: NoacStudy
