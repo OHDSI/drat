@@ -126,12 +126,13 @@ MD5sum: 35dbec1faf84f53911e0f934635813e8
 NeedsCompilation: no
 
 Package: OhdsiRTools
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 3.1.0)
-Imports: codetools, formatR, snow, RJSONIO, RCurl, XML, jsonlite
+Imports: codetools, formatR, snow, RJSONIO, RCurl, XML, jsonlite,
+        methods, utils
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: 8bca49fb67ab0b4e5760aa0477ddadb4
+MD5sum: e9c8bded856c24dbe108ef0be56d8eda
 NeedsCompilation: no
 
 Package: OhdsiSharing
