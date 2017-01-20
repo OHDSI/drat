@@ -156,7 +156,7 @@ LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
         SparseM, ResourceSelection
 License: Apache License 2.0
-MD5sum: 23396717c38465857f695c2d4f9870cb
+MD5sum: 1aaabaa8cd965a5200ddfeeaf117e5d2
 NeedsCompilation: yes
 
 Package: RcppBoostCompute
