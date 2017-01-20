@@ -145,14 +145,18 @@ MD5sum: 4fba406434a5ce8fc30943777f3c93ed
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
-Version: 1.1.0
-Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>= 1.2.0)
-Imports: ggplot2, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
-        0.11.2), RJDBC, SqlRender (>= 1.1.3), survival
+Version: 1.2.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.1-2)
+Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
+        survAUC, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.3),
+        survival, FeatureExtraction, xgboost, Matrix, AUC, PythonInR,
+        futile.logger, utils, methods, BigKnn, reshape2
 LinkingTo: Rcpp
-Suggests: testthat, pROC, gnm, knitr, rmarkdown
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
+        SparseM, ResourceSelection
 License: Apache License 2.0
-MD5sum: fd430173ac9f14b00b034d3bfccb557d
+MD5sum: 605379058d714baa1b2d3321b09404a5
 NeedsCompilation: yes
 
 Package: RcppBoostCompute
