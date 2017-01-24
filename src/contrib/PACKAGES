@@ -1,3 +1,11 @@
+Package: Achilles
+Version: 1.4
+Depends: SqlRender, DatabaseConnector, rjson
+Suggests: testthat
+License: Apache License
+MD5sum: 47a49e7aceb57b5ab9188019130b9190
+NeedsCompilation: no
+
 Package: aws.s3
 Version: 0.1.27
 Imports: tools, httr, xml2 (>= 1.0.0), base64enc, digest, curl,
