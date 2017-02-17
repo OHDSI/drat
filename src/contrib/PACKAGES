@@ -112,14 +112,14 @@ MD5sum: 71115e39ae244c6d52e5144f748df618
 NeedsCompilation: no
 
 Package: MethodEvaluation
-Version: 0.0.3
+Version: 0.0.4
 Depends: R (>= 3.2.0), DatabaseConnector (>= 1.3.0), FeatureExtraction,
         Cyclops (>= 1.2.3)
 Imports: ff, ffbase (>= 0.12.1), RJDBC, SqlRender (>= 1.1.2), pROC,
         ggplot2, OhdsiRTools
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: 299c3fddfc36c30edb7e6d896375d328
+MD5sum: 24766ce6a5f7df0b2dd8eda774fc9bfb
 NeedsCompilation: no
 
 Package: NoacStudy
