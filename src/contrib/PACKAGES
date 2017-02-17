@@ -159,12 +159,12 @@ Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
 Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
         survAUC, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.3),
         survival, FeatureExtraction, xgboost, Matrix, AUC, PythonInR,
-        futile.logger, utils, methods, BigKnn, reshape2
+        futile.options, futile.logger, utils, methods, BigKnn, reshape2
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
         SparseM, ResourceSelection
 License: Apache License 2.0
-MD5sum: b4a80284049c5dfc405d10aec5b31647
+MD5sum: da3688d1eb19577a2ef1eef187d75357
 NeedsCompilation: yes
 
 Package: RcppBoostCompute
