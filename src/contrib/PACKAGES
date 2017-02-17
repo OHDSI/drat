@@ -202,7 +202,7 @@ Version: 1.2.0
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 3145d25ccfe710d6a4e256381c95a095
+MD5sum: d2bc181257d4713a42aa9e86b628bd75
 NeedsCompilation: no
 
 Package: xml2
