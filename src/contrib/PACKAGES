@@ -119,7 +119,7 @@ Imports: ff, ffbase (>= 0.12.1), RJDBC, SqlRender (>= 1.1.2), pROC,
         ggplot2, OhdsiRTools
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: 24766ce6a5f7df0b2dd8eda774fc9bfb
+MD5sum: c4c6f62328d6da1d2cc347ba501cfd70
 NeedsCompilation: no
 
 Package: NoacStudy
