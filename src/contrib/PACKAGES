@@ -149,7 +149,7 @@ Imports: rJava, aws.signature, httr (>= 1.1.0), XML, uuid, xml2,
         base64enc, digest, curl
 Suggests: aws.s3
 License: Apache License
-MD5sum: 4fba406434a5ce8fc30943777f3c93ed
+MD5sum: 566abddf23875f7b11d5af9ace337e88
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
