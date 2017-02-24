@@ -3,7 +3,7 @@ Version: 1.4
 Depends: SqlRender, DatabaseConnector, rjson
 Suggests: testthat
 License: Apache License
-MD5sum: 5b7578872222ab7d560a5021267510d0
+MD5sum: 89e95f4d28469511f316b18dfe4be35c
 NeedsCompilation: no
 
 Package: aws.s3
