@@ -184,7 +184,7 @@ Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 15998ba5e9a5d42eebd8d748f541a645
+MD5sum: 1b53702a6e6f2a2ee3730e0b2a9eb72c
 NeedsCompilation: yes
 
 Package: SelfControlledCohort
