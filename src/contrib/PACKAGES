@@ -90,7 +90,7 @@ Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 7c20aacf59161930f5167eec7441177b
+MD5sum: ec90c1f932d5b89b961cea4d9ed2acac
 NeedsCompilation: yes
 
 Package: IcTemporalPatternDiscovery
