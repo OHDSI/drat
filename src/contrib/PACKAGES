@@ -79,7 +79,7 @@ Version: 1.2.2
 Imports: ggplot2 (>= 2.0.0), methods
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: ac993c471ff9549bd89efdc0d2435097
+MD5sum: 1b03442a26f9484f3d0f94db7034363e
 NeedsCompilation: no
 
 Package: FeatureExtraction
