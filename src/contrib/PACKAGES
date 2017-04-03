@@ -6,6 +6,18 @@ License: Apache License
 MD5sum: 89e95f4d28469511f316b18dfe4be35c
 NeedsCompilation: no
 
+Package: AlendronateVsRaloxifene
+Version: 0.1.2
+Depends: DatabaseConnector (>= 1.10.0)
+Imports: SqlRender (>= 1.3.0), RJDBC, FeatureExtraction (>= 1.0.3),
+        CohortMethod (>= 2.2.2), EmpiricalCalibration (>= 1.2.0),
+        OhdsiSharing (>= 0.1.1), Cyclops (>= 1.2.2), rmarkdown,
+        ggplot2, ff, ffbase
+Suggests: OhdsiRTools
+License: Apache License 2.0
+MD5sum: a80d68b4fdd48f25abf55c735968d53e
+NeedsCompilation: no
+
 Package: aws.s3
 Version: 0.1.27
 Imports: tools, httr, xml2 (>= 1.0.0), base64enc, digest, curl,
