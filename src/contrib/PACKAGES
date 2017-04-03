@@ -121,7 +121,7 @@ Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
         0.1.1), OhdsiRTools, RJDBC, Cyclops, rmarkdown, ggplot2
 Suggests: gridExtra, meta, grid
 License: Apache License 2.0
-MD5sum: c1e9f2abbe21fd9c3c775262e8819a3b
+MD5sum: cf42ec39c7b5ebd447f9a93103ec1176
 NeedsCompilation: no
 
 Package: MethodEvaluation
