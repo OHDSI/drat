@@ -15,7 +15,7 @@ Imports: SqlRender (>= 1.3.0), RJDBC, FeatureExtraction (>= 1.0.3),
         ggplot2, ff, ffbase
 Suggests: OhdsiRTools
 License: Apache License 2.0
-MD5sum: a80d68b4fdd48f25abf55c735968d53e
+MD5sum: 641ffbde87a32b4216a12665da6977e2
 NeedsCompilation: no
 
 Package: aws.s3
