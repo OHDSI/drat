@@ -83,7 +83,7 @@ Depends: RJDBC (>= 0.2-5)
 Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
 Suggests: testthat
 License: Apache License
-MD5sum: 070760038f688cd1fd7327b3078849eb
+MD5sum: 0a18f28f81c9d2b5b2f1fd4f0de77f73
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
