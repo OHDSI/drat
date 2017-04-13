@@ -31,7 +31,7 @@ Package: BigKnn
 Version: 0.0.2
 Imports: rJava, OhdsiRTools, ff, ffbase, bit, Cyclops
 License: Apache License
-MD5sum: d20dc134ca966562bb3e2428dfa9b7d3
+MD5sum: 8b0f40f3dbf690634d96ff62872992c2
 NeedsCompilation: no
 
 Package: BoostCompiledLibraries
