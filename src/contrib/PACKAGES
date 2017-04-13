@@ -63,7 +63,7 @@ Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: b7c68ff2d5dd181840d29d94bf1eef7a
+MD5sum: 61c45d6f967d92a2030e1c3f69510e3b
 NeedsCompilation: yes
 
 Package: Cyclops
