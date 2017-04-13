@@ -50,7 +50,7 @@ Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 2b84732e7b7510b1f266b1e61aeaf08c
+MD5sum: dd732167535aa6b25991a52abac28f68
 NeedsCompilation: yes
 
 Package: CohortMethod
