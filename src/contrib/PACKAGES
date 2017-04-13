@@ -110,7 +110,7 @@ Version: 1.0.1
 Depends: DatabaseConnector
 Imports: RJDBC, SqlRender, OhdsiRTools (>= 1.1.1)
 License: Apache License 2.0
-MD5sum: 7344875aaf7ed6b062f7427f3deb8e9d
+MD5sum: 855a34162e3188e3d7591bb3e454dbe2
 NeedsCompilation: no
 
 Package: KeppraAngioedema
