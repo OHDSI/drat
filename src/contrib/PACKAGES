@@ -201,13 +201,13 @@ MD5sum: 0306921bbf43f0a336f5d87b3882f5db
 NeedsCompilation: yes
 
 Package: SelfControlledCohort
-Version: 1.2.0
+Version: 1.2.1
 Depends: DatabaseConnector (>= 1.3.0)
 Imports: SqlRender (>= 1.1.1), RJDBC, OhdsiRTools (>= 1.1.1),
         rateratio.test
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: 6e7133e7fad0065dd13b1a95c8479be4
+MD5sum: f576acb8f9aa1f9afcdfc139df31f5cb
 NeedsCompilation: no
 
 Package: SqlRender
