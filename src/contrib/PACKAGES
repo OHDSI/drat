@@ -63,6 +63,15 @@ License: Apache License 2.0
 MD5sum: 71caf7726f9bd3a4d2b5d841cf9ff914
 NeedsCompilation: no
 
+Package: Centaur
+Version: 1.0.0
+Imports: AUC, broom, data.table, dplyr, ff, gtools, Hmisc, MASS,
+        MatchIt, plyr, RJDBC, SDMTools, sm, survival, twang, vioplot
+Suggests: knitr, rmarkdown, testthat
+License: Apache License 2.0
+MD5sum: 17873c0356e73807b8dd5440291e84d8
+NeedsCompilation: no
+
 Package: CohortMethod
 Version: 2.2.2
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
