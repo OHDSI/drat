@@ -186,17 +186,17 @@ NeedsCompilation: no
 
 Package: PatientLevelPrediction
 Version: 1.2.0
-Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
-        1.2.1-2)
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), FeatureExtraction,
+        Cyclops (>= 1.2.2)
 Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
         survAUC, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.3),
-        survival, FeatureExtraction, xgboost, Matrix, AUC, PythonInR,
-        futile.options, futile.logger, utils, methods, BigKnn, reshape2
+        survival, xgboost, Matrix, AUC, PythonInR, futile.options,
+        futile.logger, utils, methods, BigKnn, reshape2
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
         SparseM, ResourceSelection
 License: Apache License 2.0
-MD5sum: ffe52dcef14f6fc84610a91f7417fdde
+MD5sum: cd5c38febf582814d4f3016cac845b1d
 NeedsCompilation: yes
 
 Package: RcppBoostCompute
