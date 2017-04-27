@@ -69,7 +69,7 @@ Imports: AUC, broom, data.table, dplyr, ff, gtools, Hmisc, MASS,
         MatchIt, plyr, RJDBC, SDMTools, sm, survival, twang, vioplot
 Suggests: knitr, rmarkdown, testthat
 License: Apache License 2.0
-MD5sum: 17873c0356e73807b8dd5440291e84d8
+MD5sum: 0b31449a0b9ed13a1e1692d7cf7932e4
 NeedsCompilation: no
 
 Package: CohortMethod
@@ -246,4 +246,3 @@ Suggests: testthat, curl, covr, knitr, rmarkdown, magrittr, httr
 License: GPL (>= 2)
 MD5sum: 1b491951c6350134e8fa9bd89039cc20
 NeedsCompilation: yes
-
