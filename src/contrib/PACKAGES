@@ -162,7 +162,7 @@ Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
         OhdsiRTools, OhdsiSharing (>= 0.1.1)
 Suggests: testthat, ReporteRs
 License: Apache License 2.0
-MD5sum: a845f55e32c395d1dd384bc6429dac0c
+MD5sum: 97490210bce401437c10d82531d49b2e
 NeedsCompilation: no
 
 Package: OhdsiRTools
