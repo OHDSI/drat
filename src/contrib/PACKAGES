@@ -234,7 +234,7 @@ Imports: SqlRender (>= 1.1.1), RJDBC, OhdsiRTools (>= 1.1.1),
         rateratio.test
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: f576acb8f9aa1f9afcdfc139df31f5cb
+MD5sum: cbc180c5ebdea7c8ad976d469077d863
 NeedsCompilation: no
 
 Package: SqlRender
