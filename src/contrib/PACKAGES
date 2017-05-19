@@ -43,10 +43,10 @@ NeedsCompilation: yes
 
 Package: BrokenAdaptiveRidge
 Version: 0.1.0
-Depends: R (>= 3.2.2), Cyclops (>= 1.2.0)
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.4)
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 70aecdc21dcd3cd8bb15334067c60cfe
+MD5sum: 0497fe83d44801a0b3115d6faf03f796
 NeedsCompilation: no
 
 Package: CaseControl
