@@ -68,7 +68,7 @@ Imports: Cyclops (>= 1.2.2), ff, ffbase (>= 0.12.1), CaseControl (>=
         1.3.0), OhdsiRTools
 Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 71caf7726f9bd3a4d2b5d841cf9ff914
+MD5sum: 85510749970e5970b8447c1735a3d060
 NeedsCompilation: no
 
 Package: Centaur
