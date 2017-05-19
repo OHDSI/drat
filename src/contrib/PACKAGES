@@ -46,7 +46,7 @@ Version: 0.1.0
 Depends: R (>= 3.2.2), Cyclops (>= 1.2.4)
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 7a2ed996d6809c5c0277601b16db1df7
+MD5sum: 208908857f80e612e355feca9f7eba0f
 NeedsCompilation: no
 
 Package: CaseControl
