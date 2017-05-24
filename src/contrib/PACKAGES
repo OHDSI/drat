@@ -114,11 +114,11 @@ MD5sum: eac018ed14001e0e7eb36ce14a50a252
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
-Version: 1.3.1
+Version: 1.3.2
 Imports: ggplot2 (>= 2.0.0), methods
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: e7e4f5bdef0809c87519d5fbc7d02b66
+MD5sum: 89509745a01570fb8fa4f778f99f3575
 NeedsCompilation: no
 
 Package: FeatureExtraction
