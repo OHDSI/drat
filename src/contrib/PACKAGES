@@ -58,7 +58,7 @@ Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 272231763d435b023f03c56aae028f32
+MD5sum: cd91ae02d7cf309018aa8635521c1551
 NeedsCompilation: yes
 
 Package: CaseCrossover
