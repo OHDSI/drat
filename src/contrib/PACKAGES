@@ -240,9 +240,9 @@ NeedsCompilation: no
 Package: SqlRender
 Version: 1.4.0
 Imports: rJava
-Suggests: testthat, knitr, rmarkdown
+Suggests: testthat, knitr, rmarkdown, formatR
 License: Apache License 2.0
-MD5sum: b806ac0243d08eb8fac803d6442b0e75
+MD5sum: 46ae11f641c2a41ae11e35815c2ed08b
 NeedsCompilation: no
 
 Package: xml2
@@ -254,4 +254,3 @@ Suggests: testthat, curl, covr, knitr, rmarkdown, magrittr, httr
 License: GPL (>= 2)
 MD5sum: 1b491951c6350134e8fa9bd89039cc20
 NeedsCompilation: yes
-
