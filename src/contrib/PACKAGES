@@ -238,11 +238,11 @@ MD5sum: f3b8724548a39bf2a2bd5c530aa9a1be
 NeedsCompilation: no
 
 Package: SqlRender
-Version: 1.4.1
+Version: 1.4.2
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown, formatR
 License: Apache License 2.0
-MD5sum: f10abeac9effb37b809c90e1ab22eeb8
+MD5sum: e0aa4e272af03e1fb2adb7691018e20f
 NeedsCompilation: no
 
 Package: xml2
