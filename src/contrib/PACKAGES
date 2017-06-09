@@ -97,11 +97,11 @@ Package: Cyclops
 Version: 1.2.4
 Depends: R (>= 3.1.0)
 Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
-        methods
+        methods, survival
 LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
-Suggests: testthat, survival, gnm, ggplot2
+Suggests: testthat, gnm, ggplot2
 License: Apache License 2.0
-MD5sum: 91ec627f8b935700470b74c5cba4e320
+MD5sum: 60edb6ad768bc29945ecf6ccbbbcfcda
 NeedsCompilation: yes
 
 Package: DatabaseConnector
