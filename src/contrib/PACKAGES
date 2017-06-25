@@ -46,7 +46,7 @@ Version: 0.1.0
 Depends: R (>= 3.2.2), Cyclops (>= 1.2.4)
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 20538fbcde1da710c0234cbbb3025e1d
+MD5sum: b2508b1b76884274aa79b971c1bddb9f
 NeedsCompilation: no
 
 Package: CaseControl
@@ -254,4 +254,3 @@ Suggests: testthat, curl, covr, knitr, rmarkdown, magrittr, httr
 License: GPL (>= 2)
 MD5sum: 1b491951c6350134e8fa9bd89039cc20
 NeedsCompilation: yes
-
