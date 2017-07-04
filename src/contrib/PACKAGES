@@ -82,7 +82,7 @@ NeedsCompilation: no
 
 Package: CohortMethod
 Version: 2.4.3
-Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4), Cyclops (>=
         1.2.0), FeatureExtraction (>= 1.0.0)
 Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
         0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
@@ -90,7 +90,7 @@ Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: e312119e1e46168afb567279e5917039
+MD5sum: cf411e1ca185b21a85aaf13dc7a97edf
 NeedsCompilation: yes
 
 Package: Cyclops
