@@ -122,14 +122,14 @@ MD5sum: ac087a4c45425ace2ba3fd971803f7a4
 NeedsCompilation: no
 
 Package: FeatureExtraction
-Version: 1.2.2
-Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
-Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
-        SqlRender (>= 1.1.3),
+Version: 1.2.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4)
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), SqlRender
+        (>= 1.1.3),
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 4ccf8ebdfedb764013a96fc7263989e1
+MD5sum: 4161d9bae1def763372a0396e005c9a4
 NeedsCompilation: yes
 
 Package: IcTemporalPatternDiscovery
