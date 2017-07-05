@@ -241,7 +241,7 @@ Version: 1.4.3
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard, formatR
 License: Apache License 2.0
-MD5sum: daa06984895d69fe9c885304aec198cf
+MD5sum: d732a087dc05eaa5437e20e960843d79
 NeedsCompilation: no
 
 Package: xml2
