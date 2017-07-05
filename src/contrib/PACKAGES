@@ -228,13 +228,12 @@ MD5sum: 7864b7a02a9dd352ee46d1d1fa8888ba
 NeedsCompilation: yes
 
 Package: SelfControlledCohort
-Version: 1.4.0
-Depends: DatabaseConnector (>= 1.3.0)
-Imports: SqlRender (>= 1.4.3), RJDBC, OhdsiRTools (>= 1.3.1),
-        rateratio.test
+Version: 1.4.1
+Depends: DatabaseConnector (>= 1.11.4)
+Imports: SqlRender (>= 1.4.3), OhdsiRTools (>= 1.3.1), rateratio.test
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: e8ae4ce8f60795e2502c0ba2baef91a4
+MD5sum: e751f2bce603f823b49cc87cfaf4e1fc
 NeedsCompilation: no
 
 Package: SqlRender
@@ -254,4 +253,3 @@ Suggests: testthat, curl, covr, knitr, rmarkdown, magrittr, httr
 License: GPL (>= 2)
 MD5sum: 1b491951c6350134e8fa9bd89039cc20
 NeedsCompilation: yes
-
