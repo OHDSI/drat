@@ -176,10 +176,10 @@ Package: OhdsiRTools
 Version: 1.3.1
 Depends: R (>= 3.1.0)
 Imports: devtools, codetools, formatR, snow, RJSONIO, RCurl, XML,
-        jsonlite, methods, utils
+        jsonlite, methods, utils, httr, SqlRender, stringr
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: a9d2f4636ac104149f0979fad173f58b
+MD5sum: 6b1006e43b741fe0b2b9669418817593
 NeedsCompilation: no
 
 Package: OhdsiSharing
