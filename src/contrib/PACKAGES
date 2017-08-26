@@ -217,14 +217,13 @@ NeedsCompilation: yes
 
 Package: SelfControlledCaseSeries
 Version: 1.1.1
-Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
-        1.11.4)
-Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
-        (>= 0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2, methods
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.0.0)
+Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2, methods
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 0784adc3bd82ca08a61a33990db4d10b
+MD5sum: b9ca9c6924016eda797ec749213eae76
 NeedsCompilation: yes
 
 Package: SelfControlledCohort
