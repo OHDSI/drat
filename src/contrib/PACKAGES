@@ -179,7 +179,7 @@ Imports: devtools, codetools, formatR, snow, RJSONIO, RCurl, XML,
         jsonlite, methods, utils, httr, SqlRender, stringr
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: 6b1006e43b741fe0b2b9669418817593
+MD5sum: 436f21c74ab99b4d7e9905ece6d1b49f
 NeedsCompilation: no
 
 Package: OhdsiSharing
@@ -252,4 +252,3 @@ Suggests: testthat, curl, covr, knitr, rmarkdown, magrittr, httr
 License: GPL (>= 2)
 MD5sum: 1b491951c6350134e8fa9bd89039cc20
 NeedsCompilation: yes
-
