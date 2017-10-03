@@ -217,14 +217,14 @@ MD5sum: 3e85ec3111abc136840847d9748a98be
 NeedsCompilation: yes
 
 Package: SelfControlledCaseSeries
-Version: 1.1.4
+Version: 1.2.0
 Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.0.0)
 Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
         0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2, methods, zip
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 8dd1ba607ce85939b3f3da416f0b6e32
+MD5sum: 184d3a28801346facb73f225ae393a3f
 NeedsCompilation: yes
 
 Package: SelfControlledCohort
