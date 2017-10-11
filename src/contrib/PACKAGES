@@ -183,12 +183,12 @@ MD5sum: d914c386b4553224ecf1c2df58560e3a
 NeedsCompilation: no
 
 Package: OhdsiSharing
-Version: 0.1.1
+Version: 0.1.2
 Imports: rJava, aws.signature, httr (>= 1.1.0), XML, uuid, xml2,
         base64enc, digest, curl
 Suggests: aws.s3
 License: Apache License
-MD5sum: 589d143bf53da5eb2e0641e4b8ca245e
+MD5sum: 303b094b0d6b35bd3d43b7766c9f5c84
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
