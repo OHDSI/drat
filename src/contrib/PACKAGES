@@ -179,7 +179,7 @@ Imports: devtools, codetools, formatR, snow, RJSONIO, RCurl, XML,
         jsonlite, methods, utils, mailR
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: d914c386b4553224ecf1c2df58560e3a
+MD5sum: 9e1349bcfe33f6fe9e4d957b187b153f
 NeedsCompilation: no
 
 Package: OhdsiSharing
