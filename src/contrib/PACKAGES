@@ -105,11 +105,11 @@ MD5sum: ef791df804327a5a3e9373f5e2425667
 NeedsCompilation: yes
 
 Package: DatabaseConnector
-Version: 2.0.1
+Version: 2.0.2
 Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
 Suggests: testthat
 License: Apache License
-MD5sum: 05f25345bffd1f0cb96c94187e9e44d0
+MD5sum: c13ef4b25392ed2881f0d924c7c7786c
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
