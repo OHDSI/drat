@@ -62,13 +62,13 @@ MD5sum: 5c30f044de91e944821e65d76c7844ac
 NeedsCompilation: yes
 
 Package: CaseCrossover
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), survival
 Imports: Cyclops (>= 1.2.2), ff, ffbase (>= 0.12.1), CaseControl (>=
-        1.3.0), OhdsiRTools
+        1.3.2), OhdsiRTools
 Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 027b5c59f52b05eb7cc9284e80dd5b70
+MD5sum: 3ecf520be7ea2d25d8b3dfe3d15f6f12
 NeedsCompilation: no
 
 Package: Centaur
