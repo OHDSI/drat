@@ -109,7 +109,7 @@ Version: 2.0.2
 Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
 Suggests: testthat
 License: Apache License
-MD5sum: 6a021ed8902cd5aeaaffcf0d7188a86e
+MD5sum: 994fa8c27f9c7c19be7b1611a4e0f0f0
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
