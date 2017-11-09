@@ -233,7 +233,7 @@ Depends: DatabaseConnector (>= 1.11.4)
 Imports: SqlRender (>= 1.4.3), OhdsiRTools (>= 1.3.1), rateratio.test
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: e751f2bce603f823b49cc87cfaf4e1fc
+MD5sum: a059e5634931a490c756567f04935ba4
 NeedsCompilation: no
 
 Package: SqlRender
