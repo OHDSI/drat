@@ -42,11 +42,12 @@ MD5sum: a49314a2f804b6decae77d65019cac50
 NeedsCompilation: yes
 
 Package: BrokenAdaptiveRidge
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.2.2), Cyclops (>= 1.3.0)
+Imports: futile.logger
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 9a9fbb6f8082bab70ecabc02aae97b06
+MD5sum: 4a8e94d378131d363870dadca313697e
 NeedsCompilation: no
 
 Package: CaseControl
