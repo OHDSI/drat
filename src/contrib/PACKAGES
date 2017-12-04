@@ -118,7 +118,7 @@ Version: 1.3.6
 Imports: ggplot2 (>= 2.0.0), gridExtra, methods
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 160d800bb2ddaa9ab270e5593a7b18b3
+MD5sum: b5c8ed8cc0678b8c45ade83fee9b32e3
 NeedsCompilation: no
 
 Package: FeatureExtraction
