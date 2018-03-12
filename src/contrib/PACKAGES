@@ -82,7 +82,7 @@ MD5sum: 0b31449a0b9ed13a1e1692d7cf7932e4
 NeedsCompilation: no
 
 Package: CohortMethod
-Version: 2.6.0
+Version: 2.6.1
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4), Cyclops (>=
         1.2.0), FeatureExtraction (>= 2.0.0)
 Imports: methods, ggplot2, gridExtra, grid, ff, ffbase (>= 0.12.3),
@@ -91,7 +91,7 @@ Imports: methods, ggplot2, gridExtra, grid, ff, ffbase (>= 0.12.3),
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 28e61a2c3a324ecd141459d89a4ac93e
+MD5sum: 44fce31d12e3c6401fcad77b09f6c874
 NeedsCompilation: yes
 
 Package: Cyclops
