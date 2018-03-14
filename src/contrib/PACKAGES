@@ -129,7 +129,7 @@ Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 52f3d5c940a4cf5411b6487da6609666
+MD5sum: 91a735b82d1e2d28d41c8342bd1f78cf
 NeedsCompilation: yes
 
 Package: IcTemporalPatternDiscovery
