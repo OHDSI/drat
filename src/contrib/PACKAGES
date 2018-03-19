@@ -122,14 +122,14 @@ MD5sum: b2fa19c6116792ff7b2a21c6607f75d5
 NeedsCompilation: no
 
 Package: FeatureExtraction
-Version: 2.1.0
+Version: 2.1.1
 Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
 Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
         rJava, jsonlite, SqlRender (>= 1.4.5),
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 5666f3510d35b9f21e03dc0ba22d4db9
+MD5sum: 58373c8cb7b1f8e243babe47142c7e85
 NeedsCompilation: yes
 
 Package: IcTemporalPatternDiscovery
