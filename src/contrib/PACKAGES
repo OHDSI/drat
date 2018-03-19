@@ -180,7 +180,7 @@ Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
         XML, jsonlite, methods, utils, mailR
 Suggests: testthat, shiny, DT
 License: Apache License 2.0
-MD5sum: 20ed2becb016f78037c33a412d60b124
+MD5sum: 6e688d2f1d750bdae87f9a59751897a6
 NeedsCompilation: no
 
 Package: OhdsiSharing
