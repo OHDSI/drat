@@ -111,7 +111,7 @@ Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils,
         DBI, urltools
 Suggests: aws.s3, uuid, R.utils, testthat, DBItest
 License: Apache License
-MD5sum: 9324d455c9f47ac58755a0f0d5d51110
+MD5sum: a99ca7cadb0175210e3be65736445d44
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
