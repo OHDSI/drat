@@ -122,6 +122,13 @@ License: Apache License 2.0
 MD5sum: b2fa19c6116792ff7b2a21c6607f75d5
 NeedsCompilation: no
 
+Package: EvidenceSynthesis
+Version: 0.0.4
+Imports: ggplot2 (>= 2.0.0), gridExtra, meta, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 27b9f2cc4462352ef3a3c3d187a943e4
+NeedsCompilation: no
+
 Package: FeatureExtraction
 Version: 2.1.1
 Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
