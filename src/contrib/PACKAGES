@@ -160,14 +160,14 @@ MD5sum: fde7cc09a8d0cdba4c490e8c1347a03d
 NeedsCompilation: no
 
 Package: MethodEvaluation
-Version: 0.2.1
-Depends: R (>= 3.2.0), DatabaseConnector (>= 1.3.0), FeatureExtraction
+Version: 0.3.0
+Depends: R (>= 3.2.0), DatabaseConnector (>= 2.0.0), FeatureExtraction
         (>= 2.0.0), Cyclops (>= 1.2.2)
-Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.1.2), pROC, ggplot2,
-        OhdsiRTools, methods
+Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.5.0), pROC, ggplot2,
+        ParallelLogger, methods
 Suggests: testthat
 License: Apache License 2.0
-MD5sum: 5a778f547e686acfa4047b226cf1aaa3
+MD5sum: 2ab426a88c15884a328e38ac404b0a4e
 NeedsCompilation: no
 
 Package: NoacStudy
