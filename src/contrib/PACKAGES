@@ -201,20 +201,21 @@ MD5sum: 249ef9394269763293b7f98af7bbf14d
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
-Version: 2.0.5
+Version: 3.0.0
 Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
         (>= 2.0.0), Cyclops (>= 1.2.2)
-Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
-        survAUC, Rcpp (>= 0.11.2), SqlRender (>= 1.1.3), survival,
-        xgboost, Matrix, AUC, PythonInR, utils, methods, BigKnn,
-        reshape2, officer, diagram, shiny, plotly, DT, htmlwidgets (>
-        0.8), tidyr, viridisLite, RCurl, RJSONIO, keras, slam,
-        magrittr, OhdsiSharing, OhdsiRTools
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        PythonInR, utils, methods, BigKnn, reshape2, officer, diagram,
+        shiny, plotly, DT, htmlwidgets (> 0.8), tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, magrittr, OhdsiSharing,
+        OhdsiRTools
 LinkingTo: Rcpp
 Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
         SparseM, ResourceSelection
 License: Apache License 2.0
-MD5sum: b4025aa1cbef8b2e9b64d445a3cc9588
+MD5sum: 726ccbbb41a8cfd0c43c55256b841c82
 NeedsCompilation: yes
 
 Package: RcppBoostCompute
