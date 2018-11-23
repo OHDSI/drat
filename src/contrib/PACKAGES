@@ -51,15 +51,15 @@ MD5sum: 3a8ece267dd759be59325bbe25061cfd
 NeedsCompilation: no
 
 Package: CaseControl
-Version: 1.4.2
+Version: 1.5.0
 Depends: R (>= 3.2.2), Cyclops (>= 1.3.0), DatabaseConnector (>=
-        2.0.0), survival, FeatureExtraction (>= 2.0.0)
+        2.2.0), survival, FeatureExtraction (>= 2.0.0)
 Imports: SqlRender (>= 1.4.5), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
-        0.11.2), OhdsiRTools (>= 1.1.1), plyr
+        0.11.2), ParallelLogger, plyr
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: 607128aebcd8a9beaaa92695a261c734
+MD5sum: 744f162fc33984421019a454ff422083
 NeedsCompilation: yes
 
 Package: CaseCrossover
