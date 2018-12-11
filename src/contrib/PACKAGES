@@ -223,7 +223,7 @@ Depends: R (>= 3.2.2), DatabaseConnector (>= 2.1.4)
 Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
         2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8)
 License: Apache License 2.0
-MD5sum: 2096b74089abaca631dd4c637f4d59d4
+MD5sum: 34594049f7207e1b45707b82a1b8eee5
 NeedsCompilation: no
 
 Package: RcppBoostCompute
