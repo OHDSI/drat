@@ -47,7 +47,7 @@ Depends: R (>= 3.2.2), Cyclops (>= 1.3.0)
 Imports: futile.logger
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 0ee5e9979c084a59b8cd3bbecf38a569
+MD5sum: b2378037d764b02eeb325f467c385d03
 NeedsCompilation: no
 
 Package: CaseControl
