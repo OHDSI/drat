@@ -269,7 +269,7 @@ Version: 1.6.0
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
 License: Apache License 2.0
-MD5sum: 739ed6d0ed768406c9c39a4b46cf3a90
+MD5sum: eb9420d1849fa79ef7936f9d96dc69f1
 NeedsCompilation: no
 
 Package: xml2
