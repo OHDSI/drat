@@ -101,7 +101,7 @@ Imports: Matrix, Rcpp (>= 0.12.12), bit, ff, ffbase, methods, survival,
 LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2)
 Suggests: testthat, gnm, ggplot2, microbenchmark
 License: Apache License 2.0
-MD5sum: 861b952cc60ba9232962a4da7a34150d
+MD5sum: c03801f27aefa4113b1c0384030f50a6
 NeedsCompilation: yes
 
 Package: DatabaseConnector
