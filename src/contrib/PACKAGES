@@ -153,7 +153,7 @@ Version: 1.1.1
 Depends: DatabaseConnector (>= 1.11.4),
 Imports: SqlRender, ParallelLogger, ggplot2, gridExtra
 License: Apache License 2.0
-MD5sum: 0142ec2800cf6473ffc284711f26c9dd
+MD5sum: 49e77bd9a66346e878ff61a6e933978a
 NeedsCompilation: no
 
 Package: KeppraAngioedema
