@@ -149,11 +149,11 @@ MD5sum: 0caa38596c53ff62f9cb86efa540d5ec
 NeedsCompilation: no
 
 Package: IcTemporalPatternDiscovery
-Version: 1.0.1
-Depends: DatabaseConnector
-Imports: RJDBC, SqlRender, OhdsiRTools (>= 1.1.1)
+Version: 1.1.1
+Depends: DatabaseConnector (>= 1.11.4),
+Imports: SqlRender, ParallelLogger, ggplot2, gridExtra
 License: Apache License 2.0
-MD5sum: 855a34162e3188e3d7591bb3e454dbe2
+MD5sum: 0142ec2800cf6473ffc284711f26c9dd
 NeedsCompilation: no
 
 Package: KeppraAngioedema
