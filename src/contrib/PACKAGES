@@ -119,7 +119,7 @@ Version: 2.0.0
 Imports: ggplot2 (>= 2.0.0), gridExtra, methods
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 276d8bc0cf9c8b5d12ac9e07f250a752
+MD5sum: 7806d8f951303490be99556b907da61a
 NeedsCompilation: no
 
 Package: EvidenceSynthesis
