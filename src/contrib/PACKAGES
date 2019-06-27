@@ -141,11 +141,11 @@ MD5sum: 1f6311a0ba9a2d060992f2a407b8942d
 NeedsCompilation: yes
 
 Package: Hydra
-Version: 0.0.4
+Version: 0.0.5
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 0caa38596c53ff62f9cb86efa540d5ec
+MD5sum: 3a747c798ad4e6ab40c3cad47e907476
 NeedsCompilation: no
 
 Package: IcTemporalPatternDiscovery
