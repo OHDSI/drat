@@ -168,14 +168,15 @@ MD5sum: fde7cc09a8d0cdba4c490e8c1347a03d
 NeedsCompilation: no
 
 Package: MethodEvaluation
-Version: 1.0.2
+Version: 1.1.0
 Depends: R (>= 3.2.0), DatabaseConnector (>= 2.0.0), FeatureExtraction
         (>= 2.0.0), Cyclops (>= 1.2.2)
-Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.5.0), pROC, ggplot2,
-        ParallelLogger, methods, EmpiricalCalibration
+Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.6.2), pROC, ggplot2,
+        ParallelLogger, methods, EmpiricalCalibration, rmarkdown,
+        RJSONIO
 Suggests: testthat, DT, shiny, knitr
 License: Apache License 2.0
-MD5sum: 5072d55cca2deaadd01073d6db6277b0
+MD5sum: c0d2213496bb76cea4febe8b28424f1d
 NeedsCompilation: no
 
 Package: NoacStudy
