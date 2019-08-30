@@ -122,6 +122,14 @@ License: Apache License 2.0
 MD5sum: 7806d8f951303490be99556b907da61a
 NeedsCompilation: no
 
+Package: Eunomia
+Version: 1.0.0
+Depends: DatabaseConnector (>= 2.2.0)
+Imports: SqlRender, RSQLite (> 2.1.1)
+License: Apache License 2.0
+MD5sum: a6bf2e1123a0c752d069555688210c7d
+NeedsCompilation: no
+
 Package: EvidenceSynthesis
 Version: 0.0.4
 Imports: ggplot2 (>= 2.0.0), gridExtra, meta, EmpiricalCalibration
