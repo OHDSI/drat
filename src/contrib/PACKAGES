@@ -111,7 +111,7 @@ Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
 Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
         RSQLite
 License: Apache License
-MD5sum: c82f24d9983a0d42bc4d3a68fa6df599
+MD5sum: 6f37fba462dd4a8fdd4e50903351d16f
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
