@@ -227,7 +227,7 @@ MD5sum: ef189247b11b3840ce24e46b7ac07eae
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
-Version: 3.0.6
+Version: 3.0.7
 Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
         (>= 2.0.0), Cyclops (>= 1.2.2)
 Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
@@ -242,7 +242,7 @@ Suggests: shiny, DT, htmlwidgets (> 0.8), shinydashboard,
         rmarkdown, scoring, Metrics, SparseM, ResourceSelection,
         BigKnn, aws.s3, devtools, rms, PythonInR, survminer
 License: Apache License 2.0
-MD5sum: b7f1461c6fc269d533f1562fe5a627ad
+MD5sum: 0d1d65971f43e069474f5f3a4fc8e851
 NeedsCompilation: yes
 
 Package: PheValuator
