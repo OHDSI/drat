@@ -153,7 +153,7 @@ Version: 0.0.6
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 5185f2b7a42065a2ebead196a56640f7
+MD5sum: 7426f9bff7a8ddc186f9cdf5f7d5c3ea
 NeedsCompilation: no
 
 Package: IcTemporalPatternDiscovery
