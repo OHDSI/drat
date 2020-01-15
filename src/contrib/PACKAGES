@@ -105,13 +105,13 @@ MD5sum: c03801f27aefa4113b1c0384030f50a6
 NeedsCompilation: yes
 
 Package: DatabaseConnector
-Version: 2.4.1
+Version: 2.4.2
 Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
-        SqlRender (>= 1.6.0), methods, utils, DBI (>= 1.0.0), urltools
+        SqlRender (>= 1.6.3), methods, utils, DBI (>= 1.0.0), urltools
 Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
         RSQLite
 License: Apache License
-MD5sum: 6f37fba462dd4a8fdd4e50903351d16f
+MD5sum: 1e96323760eadb1a830ab855066a9acf
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
