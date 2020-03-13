@@ -80,6 +80,17 @@ License: Apache License 2.0
 MD5sum: 0b31449a0b9ed13a1e1692d7cf7932e4
 NeedsCompilation: no
 
+Package: CohortDiagnostics
+Version: 0.1.0
+Depends: DatabaseConnector
+Imports: SqlRender, ggplot2, ROhdsiWebApi, ParallelLogger, readr,
+        tibble, dplyr, RJSONIO, FeatureExtraction, ff
+Suggests: testthat, knitr, rmarkdown, DT, plotly, shiny,
+        shinydashboard, RColorBrewer, VennDiagram, htmltools
+License: Apache License
+MD5sum: 25d68b1aef0a34f27c2f46509ba25fd1
+NeedsCompilation: no
+
 Package: CohortMethod
 Version: 3.1.1
 Depends: R (>= 3.2.2), DatabaseConnector (>= 2.2.0), Cyclops,
