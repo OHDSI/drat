@@ -256,14 +256,13 @@ MD5sum: deab6fc94ee750a3ce995f7ff25dcfab
 NeedsCompilation: yes
 
 Package: PheValuator
-Version: 1.1.4
-Depends: R (>= 3.2.2)
-Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
-        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
-        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Version: 2.0.3
+Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
+Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
+        (>= 0.7.8), stringr (>= 1.3.1), methods, ParallelLogger
 Suggests: knitr
 License: Apache License 2.0
-MD5sum: ae2d49dee2beb7e8580c62739914d000
+MD5sum: a211be035ded9fe9618b60b0098d3199
 NeedsCompilation: no
 
 Package: RcppBoostCompute
