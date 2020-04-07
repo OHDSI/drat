@@ -126,11 +126,11 @@ MD5sum: d45f6888489ac1ce2803137c8abecfb8
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
-Version: 2.0.1
+Version: 2.0.2
 Imports: ggplot2 (>= 2.0.0), gridExtra, methods
 Suggests: knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 92690cb36a7cef9ea56af51e974347f6
+MD5sum: 701b7d935495afd16c76000f353a3e2a
 NeedsCompilation: no
 
 Package: Eunomia
