@@ -63,12 +63,12 @@ MD5sum: 63d6ce7b62cc270c8c787f23502d9605
 NeedsCompilation: yes
 
 Package: CaseCrossover
-Version: 1.1.0
+Version: 2.0.0
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), survival
-Imports: ff, ffbase (>= 0.12.1), CaseControl (>= 1.3.2), ParallelLogger
+Imports: ff, ffbase (>= 0.12.1), CaseControl (>= 2.0.0), ParallelLogger
 Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
-MD5sum: a6b5d56ba7e705f2b9c47d4d5f9a9c07
+MD5sum: 9d85a231d826c8c6a53c7b5a9c4f7c9e
 NeedsCompilation: no
 
 Package: Centaur
