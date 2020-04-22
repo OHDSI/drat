@@ -237,12 +237,12 @@ MD5sum: 04188ddeacfcd6293484e77758b81624
 NeedsCompilation: no
 
 Package: ParallelLogger
-Version: 1.1.2
+Version: 1.2.0
 Depends: R (>= 3.1.0)
 Imports: snow, XML, jsonlite, methods, utils
 Suggests: mailR, testthat, shiny, DT, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: be0bf1aa5899a882ec91821a259aee0f
+MD5sum: 2bbc83de6d0375d90631fffe688de5f6
 NeedsCompilation: no
 
 Package: PatientLevelPrediction
