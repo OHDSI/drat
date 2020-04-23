@@ -265,14 +265,14 @@ MD5sum: deab6fc94ee750a3ce995f7ff25dcfab
 NeedsCompilation: yes
 
 Package: PheValuator
-Version: 2.0.6
+Version: 2.0.7
 Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
 Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
         (>= 0.7.8), stringr (>= 1.3.1), readr, methods, ParallelLogger,
         tibble
 Suggests: knitr, ROhdsiWebApi, shiny, shinydashboard, DT, htmltools
 License: Apache License 2.0
-MD5sum: 065cc475edb4d5a9166999af5093ba30
+MD5sum: bed075813ddd1b9f1aea9af8aba42366
 NeedsCompilation: no
 
 Package: RcppBoostCompute
