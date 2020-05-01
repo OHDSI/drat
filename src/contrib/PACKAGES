@@ -25,7 +25,7 @@ Imports: RSQLite, DBI, zip, methods, dbplyr, cli, pillar, Rcpp
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, rlang, tibble
 License: Apache License 2.0
-MD5sum: 8e54837f4d0f7b64e32b7eccec75290b
+MD5sum: aabea08a04bf80902fc0bb258aee1a49
 NeedsCompilation: yes
 
 Package: aws.s3
