@@ -19,13 +19,13 @@ MD5sum: 817e9fa27051bc43441640f51b9151d4
 NeedsCompilation: no
 
 Package: Andromeda
-Version: 0.1.2
+Version: 0.1.3
 Depends: dplyr
 Imports: RSQLite, DBI, zip, methods, dbplyr, cli, pillar, Rcpp
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, rlang, tibble
 License: Apache License 2.0
-MD5sum: aabea08a04bf80902fc0bb258aee1a49
+MD5sum: cdef1bff21059495d18d306b22f8b000
 NeedsCompilation: yes
 
 Package: aws.s3
