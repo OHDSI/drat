@@ -121,7 +121,7 @@ Imports: rlang, Matrix, Rcpp (>= 0.12.12), Andromeda (>= 0.3.1), dplyr,
 LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2)
 Suggests: testthat, MASS, gnm, ggplot2, microbenchmark
 License: Apache License 2.0
-MD5sum: 7a0f59aaa8e14dd3a1dd1b2d871f4575
+MD5sum: cb4f93a02db5f5c9b361637766af6672
 NeedsCompilation: yes
 
 Package: DatabaseConnector
