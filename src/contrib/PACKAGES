@@ -37,10 +37,11 @@ MD5sum: 058652bdb1e039744182ee6d839a8f4f
 NeedsCompilation: no
 
 Package: BigKnn
-Version: 0.0.2
-Imports: rJava, OhdsiRTools, ff, ffbase, bit, Cyclops
+Version: 1.0.0
+Imports: rJava, Andromeda (>= 0.3.0), dplyr, rlang
+Suggests: testthat
 License: Apache License
-MD5sum: 817cbdc0f622494c380af827faa25774
+MD5sum: e1ed38e00569dba81517e29f76732ab0
 NeedsCompilation: no
 
 Package: BoostCompiledLibraries
