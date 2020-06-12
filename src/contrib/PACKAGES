@@ -91,15 +91,15 @@ MD5sum: 0b31449a0b9ed13a1e1692d7cf7932e4
 NeedsCompilation: no
 
 Package: CohortDiagnostics
-Version: 1.0.0
+Version: 1.0.2
 Depends: DatabaseConnector (>= 3.0.0)
 Imports: Andromeda, digest, dplyr, FeatureExtraction (>= 3.0.0),
-        ggplot2, magrittr, ParallelLogger (>= 2.0.0), readr, rlang,
-        RJSONIO, ROhdsiWebApi, SqlRender, stringr, tibble
+        ggplot2, ParallelLogger (>= 2.0.0), readr, rlang, RJSONIO,
+        ROhdsiWebApi (>= 1.0.0), SqlRender, stringr, tibble
 Suggests: DT, Eunomia, htmltools, knitr, plotly, RColorBrewer,
         rmarkdown, shiny, shinydashboard, VennDiagram, testthat
 License: Apache License
-MD5sum: bc847ee26cf52cd3adf1db9ebb294080
+MD5sum: 8fd5939ccf99211f96b221133e14b511
 NeedsCompilation: no
 
 Package: CohortMethod
