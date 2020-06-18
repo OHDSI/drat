@@ -232,11 +232,11 @@ MD5sum: 6e84fdfb23f0c5aa7d48244b3bd87ee8
 NeedsCompilation: no
 
 Package: OhdsiSharing
-Version: 0.2.1
+Version: 0.2.2
 Imports: rJava, ParallelLogger
 Suggests: testthat
 License: Apache License
-MD5sum: 04188ddeacfcd6293484e77758b81624
+MD5sum: f1ef87c26fe8c3e3a8d971728a3af92c
 NeedsCompilation: no
 
 Package: ParallelLogger
