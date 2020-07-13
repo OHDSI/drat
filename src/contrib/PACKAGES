@@ -7,6 +7,30 @@ MD5sum: 89e95f4d28469511f316b18dfe4be35c
 NeedsCompilation: no
 
 Package: AlendronateVsRaloxifene
+Version: 0.1.2
+Depends: DatabaseConnector (>= 1.10.0)
+Imports: SqlRender (>= 1.3.0), RJDBC, FeatureExtraction (>= 1.0.3),
+        CohortMethod (>= 2.2.2), EmpiricalCalibration (>= 1.2.0),
+        OhdsiSharing (>= 0.1.1), Cyclops (>= 1.2.2), rmarkdown,
+        ggplot2, ff, ffbase
+Suggests: OhdsiRTools
+License: Apache License 2.0
+MD5sum: 6eb9e8d8af4e4349f6eb10cd62f8c7f9
+NeedsCompilation: no
+
+Package: AlendronateVsRaloxifene
+Version: 0.2.0
+Depends: DatabaseConnector (>= 1.10.0)
+Imports: SqlRender (>= 1.3.0), RJDBC, FeatureExtraction (>= 1.0.3),
+        CohortMethod (>= 2.2.2), EmpiricalCalibration (>= 1.2.0),
+        OhdsiSharing (>= 0.1.1), Cyclops (>= 1.2.2), rmarkdown,
+        ggplot2, ff, ffbase
+Suggests: OhdsiRTools (>= 1.3.0)
+License: Apache License 2.0
+MD5sum: c3e25d99199abb7b21fca2cd25d286bb
+NeedsCompilation: no
+
+Package: AlendronateVsRaloxifene
 Version: 0.2.1
 Depends: DatabaseConnector (>= 1.10.0)
 Imports: SqlRender (>= 1.3.0), RJDBC, FeatureExtraction (>= 1.2.0),
@@ -16,6 +40,62 @@ Imports: SqlRender (>= 1.3.0), RJDBC, FeatureExtraction (>= 1.2.0),
 Suggests: OhdsiRTools (>= 1.3.0)
 License: Apache License 2.0
 MD5sum: 817e9fa27051bc43441640f51b9151d4
+NeedsCompilation: no
+
+Package: Andromeda
+Version: 0.1.0
+Depends: dplyr
+Imports: RSQLite, DBI, zip, methods, dbplyr, cli, pillar
+Suggests: testthat, knitr, rmarkdown, rlang, tibble
+License: Apache License 2.0
+MD5sum: f9b033263da7bf65cd98cdbf44b1c3d0
+NeedsCompilation: no
+
+Package: Andromeda
+Version: 0.1.1
+Depends: dplyr
+Imports: RSQLite, DBI, zip, methods, dbplyr, cli, pillar
+Suggests: testthat, knitr, rmarkdown, rlang, tibble
+License: Apache License 2.0
+MD5sum: adb489bc37fe1d72d8fed78c39526cac
+NeedsCompilation: no
+
+Package: Andromeda
+Version: 0.1.2
+Depends: dplyr
+Imports: RSQLite, DBI, zip, methods, dbplyr, cli, pillar, Rcpp
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, rlang, tibble
+License: Apache License 2.0
+MD5sum: aabea08a04bf80902fc0bb258aee1a49
+NeedsCompilation: yes
+
+Package: Andromeda
+Version: 0.1.3
+Depends: dplyr
+Imports: RSQLite, DBI, zip, methods, dbplyr, cli, pillar, Rcpp
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, rlang, tibble
+License: Apache License 2.0
+MD5sum: cdef1bff21059495d18d306b22f8b000
+NeedsCompilation: yes
+
+Package: Andromeda
+Version: 0.2.0
+Depends: dplyr
+Imports: RSQLite, DBI, zip, methods, dbplyr, tidyselect, cli, pillar
+Suggests: testthat, knitr, rmarkdown, rlang, tibble
+License: Apache License 2.0
+MD5sum: 195aea7a16942ef2e24bb5a2a037ec78
+NeedsCompilation: no
+
+Package: Andromeda
+Version: 0.3.0
+Depends: dplyr
+Imports: RSQLite, DBI, zip, methods, dbplyr, tidyselect, cli, pillar
+Suggests: testthat, knitr, rmarkdown, rlang, tibble, rJava
+License: Apache License 2.0
+MD5sum: 06e75e45629384a3dfdb6a66b3df4f40
 NeedsCompilation: no
 
 Package: Andromeda
@@ -37,6 +117,20 @@ MD5sum: 058652bdb1e039744182ee6d839a8f4f
 NeedsCompilation: no
 
 Package: BigKnn
+Version: 0.0.1
+Imports: rJava, Cyclops, OhdsiRTools, ff, ffbase, bit
+License: Apache License
+MD5sum: 350245c8a25f892f71cd1d01e9045068
+NeedsCompilation: no
+
+Package: BigKnn
+Version: 0.0.2
+Imports: rJava, OhdsiRTools, ff, ffbase, bit, Cyclops
+License: Apache License
+MD5sum: 817cbdc0f622494c380af827faa25774
+NeedsCompilation: no
+
+Package: BigKnn
 Version: 1.0.0
 Imports: rJava, Andromeda (>= 0.3.0), dplyr, rlang
 Suggests: testthat
@@ -52,6 +146,14 @@ MD5sum: a49314a2f804b6decae77d65019cac50
 NeedsCompilation: yes
 
 Package: BrokenAdaptiveRidge
+Version: 0.1.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.3.0)
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 9a9fbb6f8082bab70ecabc02aae97b06
+NeedsCompilation: no
+
+Package: BrokenAdaptiveRidge
 Version: 0.2.0
 Depends: R (>= 3.2.2), Cyclops (>= 1.3.0)
 Imports: futile.logger
@@ -59,6 +161,198 @@ Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
 MD5sum: 02d2941fdf74760eab38ca404881e00c
 NeedsCompilation: no
+
+Package: CaseControl
+Version: 0.0.2
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
+        1.3.0), survival
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: a869b0bcf7d0f760df571be64ff223da
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 0.0.4
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
+        1.3.0), survival, FeatureExtraction (>= 1.0.1)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: a37ad0df7f2d1cea36500439226d7804
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 0.0.5
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
+        1.3.0), survival, FeatureExtraction (>= 1.0.1)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 17b4b8fdde34675956ff3b3f2c2ecf48
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 0.0.6
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
+        1.3.0), survival, FeatureExtraction (>= 1.0.1)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: dc8a5063bb58bcbd66c4149478c2b751
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.0.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
+        1.3.0), survival, FeatureExtraction (>= 1.0.1)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: fc9c8622cea0ea0ef3da82428ba2d2d4
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.1.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
+        1.3.0), survival, FeatureExtraction (>= 1.0.1)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: d2f443ddae1e862ca5845671c6b65297
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.2.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
+        1.3.0), survival, FeatureExtraction (>= 1.0.1)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: dd732167535aa6b25991a52abac28f68
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.3.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
+        1.3.0), survival, FeatureExtraction (>= 1.0.1)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: cd91ae02d7cf309018aa8635521c1551
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.3.1
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
+        1.11.4), survival, FeatureExtraction (>= 1.0.1)
+Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: e1be19d468f1da4f303de55dc31c53ee
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.3.2
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
+        1.11.4), survival, FeatureExtraction (>= 1.0.1)
+Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 5c30f044de91e944821e65d76c7844ac
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.4.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.3.0), DatabaseConnector (>=
+        2.0.0), survival, FeatureExtraction (>= 2.0.0)
+Imports: SqlRender (>= 1.4.5), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 9a40376c2ba92c97f4a0dd3161d6b354
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.4.1
+Depends: R (>= 3.2.2), Cyclops (>= 1.3.0), DatabaseConnector (>=
+        2.0.0), survival, FeatureExtraction (>= 2.0.0)
+Imports: SqlRender (>= 1.4.5), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 24ae7d0e98d3cc97e38e1d249568e439
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.4.2
+Depends: R (>= 3.2.2), Cyclops (>= 1.3.0), DatabaseConnector (>=
+        2.0.0), survival, FeatureExtraction (>= 2.0.0)
+Imports: SqlRender (>= 1.4.5), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 607128aebcd8a9beaaa92695a261c734
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.5.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.3.0), DatabaseConnector (>=
+        2.2.0), survival, FeatureExtraction (>= 2.0.0)
+Imports: SqlRender (>= 1.4.5), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), ParallelLogger, plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 1846b871a48a86bb5e42fd30876808e2
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 1.6.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.3.0), DatabaseConnector (>=
+        2.2.0), survival, FeatureExtraction (>= 2.0.0)
+Imports: SqlRender (>= 1.6.0), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), ParallelLogger, plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 0c4d09af6560d2283e117588a01fa8cc
+NeedsCompilation: yes
+
+Package: CaseControl
+Version: 2.0.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.3.0), DatabaseConnector (>=
+        2.2.0), survival, FeatureExtraction (>= 2.0.0)
+Imports: SqlRender (>= 1.6.0), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), ParallelLogger, plyr
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: bcb9b986889f59526f875bf2064b63d2
+NeedsCompilation: yes
 
 Package: CaseControl
 Version: 3.0.0
@@ -71,6 +365,64 @@ Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
 License: Apache License 2.0
 MD5sum: cfb3dee6a0e72c53c41fefc18e2c3972
 NeedsCompilation: yes
+
+Package: CaseCrossover
+Version: 0.0.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), survival
+Imports: Cyclops (>= 1.2.2), ff, ffbase (>= 0.12.1), CaseControl (>=
+        1.3.0), OhdsiRTools
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 8e438012514d03431d83ec61812ecbaf
+NeedsCompilation: no
+
+Package: CaseCrossover
+Version: 1.0.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), survival
+Imports: Cyclops (>= 1.2.2), ff, ffbase (>= 0.12.1), CaseControl (>=
+        1.3.0), OhdsiRTools
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 027b5c59f52b05eb7cc9284e80dd5b70
+NeedsCompilation: no
+
+Package: CaseCrossover
+Version: 1.0.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), survival
+Imports: Cyclops (>= 1.2.2), ff, ffbase (>= 0.12.1), CaseControl (>=
+        1.3.2), OhdsiRTools
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 3ecf520be7ea2d25d8b3dfe3d15f6f12
+NeedsCompilation: no
+
+Package: CaseCrossover
+Version: 1.0.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), survival
+Imports: Cyclops (>= 1.2.2), ff, ffbase (>= 0.12.1), CaseControl (>=
+        1.3.2), OhdsiRTools
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 691b3ae14d82346ed7592758e0f0997c
+NeedsCompilation: no
+
+Package: CaseCrossover
+Version: 1.1.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), survival
+Imports: ff, ffbase (>= 0.12.1), CaseControl (>= 1.3.2), ParallelLogger
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: a6b5d56ba7e705f2b9c47d4d5f9a9c07
+NeedsCompilation: no
+
+Package: CaseCrossover
+Version: 2.0.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), survival
+Imports: ff, ffbase (>= 0.12.1), CaseControl (>= 2.0.0), ParallelLogger
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 9d85a231d826c8c6a53c7b5a9c4f7c9e
+NeedsCompilation: no
 
 Package: CaseCrossover
 Version: 3.0.0
@@ -93,6 +445,62 @@ MD5sum: 0b31449a0b9ed13a1e1692d7cf7932e4
 NeedsCompilation: no
 
 Package: CohortDiagnostics
+Version: 0.1.0
+Depends: DatabaseConnector
+Imports: SqlRender, ggplot2, ROhdsiWebApi, ParallelLogger, readr,
+        tibble, dplyr, RJSONIO, FeatureExtraction, ff
+Suggests: testthat, knitr, rmarkdown, DT, plotly, shiny,
+        shinydashboard, RColorBrewer, VennDiagram, htmltools
+License: Apache License
+MD5sum: 25d68b1aef0a34f27c2f46509ba25fd1
+NeedsCompilation: no
+
+Package: CohortDiagnostics
+Version: 0.1.1
+Depends: DatabaseConnector
+Imports: SqlRender, ggplot2, ROhdsiWebApi, ParallelLogger, readr,
+        tibble, dplyr, RJSONIO, FeatureExtraction, ff
+Suggests: testthat, knitr, rmarkdown, DT, plotly, shiny,
+        shinydashboard, RColorBrewer, VennDiagram, htmltools
+License: Apache License
+MD5sum: 1c04a4d0ff8fe11a56cbe338789e2bd5
+NeedsCompilation: no
+
+Package: CohortDiagnostics
+Version: 0.1.2
+Depends: DatabaseConnector
+Imports: SqlRender, ggplot2, ROhdsiWebApi, ParallelLogger, readr,
+        tibble, dplyr, RJSONIO, FeatureExtraction, ff, digest
+Suggests: testthat, knitr, rmarkdown, DT, plotly, shiny,
+        shinydashboard, RColorBrewer, VennDiagram, htmltools, Eunomia
+License: Apache License
+MD5sum: 703c98b82410e7544a8067532acf38c7
+NeedsCompilation: no
+
+Package: CohortDiagnostics
+Version: 0.1.3
+Depends: DatabaseConnector
+Imports: SqlRender, ggplot2, ROhdsiWebApi, ParallelLogger, readr,
+        tibble, dplyr, RJSONIO, FeatureExtraction, ff, digest
+Suggests: testthat, knitr, rmarkdown, DT, plotly, shiny,
+        shinydashboard, RColorBrewer, VennDiagram, htmltools, Eunomia
+License: Apache License
+MD5sum: 23ed98fd80f8bea62d5ddb4d07ec795a
+NeedsCompilation: no
+
+Package: CohortDiagnostics
+Version: 1.0.0
+Depends: DatabaseConnector (>= 3.0.0)
+Imports: Andromeda, digest, dplyr, FeatureExtraction (>= 3.0.0),
+        ggplot2, magrittr, ParallelLogger (>= 2.0.0), readr, rlang,
+        RJSONIO, ROhdsiWebApi, SqlRender, stringr, tibble
+Suggests: DT, Eunomia, htmltools, knitr, plotly, RColorBrewer,
+        rmarkdown, shiny, shinydashboard, VennDiagram, testthat
+License: Apache License
+MD5sum: bc847ee26cf52cd3adf1db9ebb294080
+NeedsCompilation: no
+
+Package: CohortDiagnostics
 Version: 1.0.2
 Depends: DatabaseConnector (>= 3.0.0)
 Imports: Andromeda, digest, dplyr, FeatureExtraction (>= 3.0.0),
@@ -103,6 +511,407 @@ Suggests: DT, Eunomia, htmltools, knitr, plotly, RColorBrewer,
 License: Apache License
 MD5sum: 8fd5939ccf99211f96b221133e14b511
 NeedsCompilation: no
+
+Package: CohortMethod
+Version: 1.1.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), PatientLevelPrediction (>= 1.1.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, jsonlite, OhdsiRTools
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 968644865176de074046ebe24ffa5398
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 1.1.4
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), PatientLevelPrediction (>= 1.1.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, jsonlite, OhdsiRTools
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 0cd1aa01f4cdecf325d270c3164ac6bd
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.0.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, jsonlite
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
+        OhdsiRTools (>= 1.1.1)
+License: Apache License 2.0
+MD5sum: de10eaa2f8af3f5a3551d7da45dfab16
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.0.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
+        OhdsiRTools (>= 1.1.1)
+License: Apache License 2.0
+MD5sum: 8c45b0edfc068bd83f4bae4b7d5870e0
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.0.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, stringi
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
+        OhdsiRTools (>= 1.1.1)
+License: Apache License 2.0
+MD5sum: 6d7eeb2b1c55a3a58126fbbb07869991
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.0.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, stringi
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
+        OhdsiRTools (>= 1.1.1)
+License: Apache License 2.0
+MD5sum: 3aabe5dbb0f58484138f75e239bc4b53
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.0.4
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, stringi
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
+        OhdsiRTools (>= 1.1.1)
+License: Apache License 2.0
+MD5sum: 35235758af93688e2778296e1be99df4
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.0.5
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, stringi
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
+        OhdsiRTools (>= 1.1.1)
+License: Apache License 2.0
+MD5sum: 7aa228f781b4a555bc10c1be76431bff
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.0.6
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, stringi
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
+        OhdsiRTools (>= 1.1.1)
+License: Apache License 2.0
+MD5sum: bb31fee19ccb20fca7f1c72d59f87d5d
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.1.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, stringi
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration,
+        OhdsiRTools (>= 1.1.1)
+License: Apache License 2.0
+MD5sum: 479468d9479a24ccc92d6133a6942626
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.1.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, ggplot2, ff, ffbase (>= 0.12.3), plyr, Rcpp (>= 0.11.2),
+        RJDBC, SqlRender (>= 1.1.1), survival, stringi, OhdsiRTools (>=
+        1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: e4eb68948e8a5222e2dbec3577c44322
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.2.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, ggplot2, gridExtra, grid, ff, ffbase (>= 0.12.3), plyr,
+        Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1), survival,
+        stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: a21311e3722f2c42fb3a627cd38d70c6
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.2.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
+        survival, stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 167c44faa61fc0e6d28b4dd70ec02fbc
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.2.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
+        survival, stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 6dfb64bd4f6c363f98fffef9844a6393
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.3.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
+        survival, stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 3d742d0de4287dd99d9c256a57f5871f
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.3.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
+        survival, stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 32a74df40ea771a73b1444282854a0a5
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.4.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
+        survival, stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: b72b60e3f32154fe1143c8389be33670
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.4.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
+        survival, stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 27b0826cc65995c9e8095e1d0c80cbc5
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.4.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
+        survival, stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 79d5ecb192dcf9432ef4b29181c37569
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.4.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
+        survival, stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 73c7a4a5689fb05dfee191589e0339e2
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.4.4
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 1.0.0)
+Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
+        survival, stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: d260dd265d7e04d47fd0dcb50d90427b
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.5.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 2.0.0)
+Imports: bit, methods, ggplot2, gridExtra, grid, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1),
+        survival, stringi, OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 63a38d0778d05e3e61cc796ca01d0dfa
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.5.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 2.0.0)
+Imports: methods, ggplot2, gridExtra, grid, ff, ffbase (>= 0.12.3),
+        plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1), survival,
+        OhdsiRTools (>= 1.1.2)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: f3c7993179a5d0d3927595228a772889
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.6.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 2.0.0)
+Imports: methods, ggplot2, gridExtra, grid, ff, ffbase (>= 0.12.3),
+        plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1), survival,
+        OhdsiRTools (>= 1.5.1)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 28e61a2c3a324ecd141459d89a4ac93e
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.6.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 2.0.0)
+Imports: methods, ggplot2, gridExtra, grid, ff, ffbase (>= 0.12.3),
+        plyr, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.1), survival,
+        OhdsiRTools (>= 1.5.1)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 44fce31d12e3c6401fcad77b09f6c874
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 2.6.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4), Cyclops (>=
+        1.2.0), FeatureExtraction (>= 2.0.0)
+Imports: methods, ggplot2, gridExtra, grid, ff, ffbase (>= 0.12.3),
+        plyr, Rcpp (>= 0.11.2), SqlRender (>= 1.1.1), survival,
+        OhdsiRTools (>= 1.5.1)
+LinkingTo: Rcpp
+Suggests: testthat, pROC, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: dd0a3892bc2961be7a6dcaa5907aabfe
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 3.0.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.2.0), Cyclops (>=
+        2.0.0), FeatureExtraction (>= 2.0.0)
+Imports: methods, ggplot2, gridExtra, grid, bit, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), SqlRender (>= 1.5.2),
+        survival, ParallelLogger
+LinkingTo: Rcpp
+Suggests: testthat, pROC, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 40e1ed2e36f92095fae1b022dbc2c2b7
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 3.0.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.2.0), Cyclops (>=
+        2.0.0), FeatureExtraction (>= 2.0.0)
+Imports: methods, ggplot2, gridExtra, grid, bit, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), SqlRender (>= 1.5.2),
+        survival, ParallelLogger
+LinkingTo: Rcpp
+Suggests: testthat, pROC, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: bc766f4e1b2a2ecaff14c89ca019a4ad
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 3.0.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.2.0), Cyclops,
+        FeatureExtraction (>= 2.0.0)
+Imports: methods, ggplot2, gridExtra, grid, bit, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), SqlRender (>= 1.5.2),
+        survival, ParallelLogger
+LinkingTo: Rcpp
+Suggests: testthat, pROC, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 522e3f0547bdf37f29862fe5110c9fdf
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 3.1.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.2.0), Cyclops,
+        FeatureExtraction (>= 2.2.3)
+Imports: methods, ggplot2, gridExtra, grid, bit, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), SqlRender (>= 1.5.2),
+        survival, ParallelLogger
+LinkingTo: Rcpp
+Suggests: testthat, pROC, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: e758891a273a500f4ec667378bf8f860
+NeedsCompilation: yes
+
+Package: CohortMethod
+Version: 3.1.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.2.0), Cyclops,
+        FeatureExtraction (>= 2.2.3)
+Imports: methods, ggplot2, gridExtra, grid, bit, ff, ffbase (>=
+        0.12.3), plyr, Rcpp (>= 0.11.2), SqlRender (>= 1.5.2),
+        survival, ParallelLogger
+LinkingTo: Rcpp
+Suggests: testthat, pROC, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 21110e6b81f7890b7a5cedefe2dd4942
+NeedsCompilation: yes
 
 Package: CohortMethod
 Version: 4.0.0
@@ -118,6 +927,215 @@ MD5sum: b276c866c7c26062b94a3f864193eac4
 NeedsCompilation: yes
 
 Package: Cyclops
+Version: 1.2.0
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, survival, gnm, ggplot2
+License: Apache License 2.0
+MD5sum: 97361404fc9839f198635c5b5d015179
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.2.1-1
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, survival, gnm, ggplot2
+License: Apache License 2.0
+MD5sum: 3935485b7365c1c562619fb02e4b4c9f
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.2.1-2
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, survival, gnm, ggplot2
+License: Apache License 2.0
+MD5sum: 1760e7bafa17044b1875bd4cd8d59497
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.2.1
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, survival, gnm, ggplot2
+License: Apache License 2.0
+MD5sum: 49711d2fb1809f414e33ca87279dd9d2
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.2.2
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, survival, gnm, ggplot2
+License: Apache License 2.0
+MD5sum: af4f5b7046d043517a4f34726f4924bb
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.2.3
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, survival, gnm, ggplot2
+License: Apache License 2.0
+MD5sum: 936a755c4ebdb4f00b34876acabe55c6
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.2.4
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods, survival
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, gnm, ggplot2
+License: Apache License 2.0
+MD5sum: 12841503f2221a7760d1c50129180a1b
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.3.0
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods, survival
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, gnm, ggplot2
+License: Apache License 2.0
+MD5sum: ef791df804327a5a3e9373f5e2425667
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.3.1
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods, survival
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, gnm, ggplot2
+License: Apache License 2.0
+MD5sum: e4a7c38a26ab7cf37c7b1ac1a509d6f5
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.3.2
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods, survival
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, gnm, ggplot2
+License: Apache License 2.0
+MD5sum: acc8668a540a6375589a4a78e54f6cad
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.3.3
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods, survival, MASS
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, gnm, ggplot2, microbenchmark
+License: Apache License 2.0
+MD5sum: 3d7c2eb76b5dfa5f4c318163b9ee4c0f
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.3.4
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.4), bit, ff, ffbase, RcppParallel,
+        methods, survival, MASS
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, gnm, ggplot2, microbenchmark
+License: Apache License 2.0
+MD5sum: 222c2bae71a235a5ef66714bc1bae761
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.9.999
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.12), bit, ff, ffbase, RcppParallel,
+        methods, survival, MASS
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, gnm, ggplot2, microbenchmark
+License: Apache License 2.0
+MD5sum: 5c116a1eb1c2e6d2233c21043913297e
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 1.9.9999
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.12), bit, ff, ffbase, RcppParallel,
+        methods, survival, MASS
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2)
+Suggests: testthat, gnm, ggplot2, microbenchmark
+License: Apache License 2.0
+MD5sum: c015efca99bbd2405e30c5b1403b1642
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 2.0.0
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.12), bit, ff, ffbase, RcppParallel,
+        methods, survival, MASS
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2)
+Suggests: testthat, gnm, ggplot2, microbenchmark
+License: Apache License 2.0
+MD5sum: f358008f81d381693f4004a3578d9a8e
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 2.0.1
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.12), bit, ff, ffbase, methods, survival,
+        MASS
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2)
+Suggests: testthat, gnm, ggplot2, microbenchmark
+License: Apache License 2.0
+MD5sum: 53169f7fc818eaa006c05a99f09a2f21
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 2.0.2
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.12), bit, ff, ffbase, methods, survival,
+        MASS
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2)
+Suggests: testthat, gnm, ggplot2, microbenchmark
+License: Apache License 2.0
+MD5sum: c03801f27aefa4113b1c0384030f50a6
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 2.0.3
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.12), bit, ff, ffbase, methods, survival,
+        MASS
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2)
+Suggests: testthat, gnm, ggplot2, microbenchmark
+License: Apache License 2.0
+MD5sum: 70fa412088e681c166627db351b4f6e7
+NeedsCompilation: yes
+
+Package: Cyclops
+Version: 2.0.4
+Depends: R (>= 3.1.0)
+Imports: Matrix, Rcpp (>= 0.12.12), bit, ff, ffbase, methods, survival,
+        MASS
+LinkingTo: Rcpp, BH (>= 1.51.0), RcppEigen (>= 0.3.2)
+Suggests: testthat, gnm, ggplot2, microbenchmark
+License: Apache License 2.0
+MD5sum: 859a97ec70bc8c0e75901a4a833fecc7
+NeedsCompilation: yes
+
+Package: Cyclops
 Version: 3.0.0
 Depends: R (>= 3.1.0)
 Imports: rlang, Matrix, Rcpp (>= 0.12.12), Andromeda (>= 0.3.1), dplyr,
@@ -129,6 +1147,367 @@ MD5sum: cb4f93a02db5f5c9b361637766af6672
 NeedsCompilation: yes
 
 Package: DatabaseConnector
+Version: 1.10.0
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 0a18f28f81c9d2b5b2f1fd4f0de77f73
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.10.1
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 5389b65735fe1c7308452eb1e61d6cc3
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.10.2
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: eac018ed14001e0e7eb36ce14a50a252
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.11.0
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 9074c3f92aba701bf0129964507d72df
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.11.1
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 9e5f1866ded4a812ec7d13784f811655
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.11.2
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 4dd936123f249c2cf57971dec577dde9
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.11.3
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 54c1ed2ebac995e40f6136ec6ec6c900
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.11.4
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: f734d2851b227a743fca48e086ced4dc
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.3.0
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ffbase (>= 0.12.1), SqlRender
+Suggests: testthat, OhdsiRTools
+License: Apache License
+MD5sum: 7e3c79c61fc87ce0d12e66de88e2c452
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.4.0
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender
+Suggests: testthat
+License: Apache License
+MD5sum: 3c8296eb124198f6bbc94fc1feed0424
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.5.0
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender
+Suggests: testthat
+License: Apache License
+MD5sum: 3d470973b29a9a53fb8d3cc0b4704668
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.5.1
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender
+Suggests: testthat
+License: Apache License
+MD5sum: 082731ec5f24bf9631b49d61e320dc04
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.5.2
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender
+Suggests: testthat
+License: Apache License
+MD5sum: c19ec8596599b7b38984e577f02d1262
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.6.0
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender
+Suggests: testthat
+License: Apache License
+MD5sum: 3ad017ce2836f906442c0bb30500c211
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.6.1
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender
+Suggests: testthat
+License: Apache License
+MD5sum: 1d3d82af4ab0e9326e7eef1ea9946e60
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.7.0
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender
+Suggests: testthat
+License: Apache License
+MD5sum: 8c746eb9b18c3a083c9f6857892aa59b
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.7.1
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender
+Suggests: testthat
+License: Apache License
+MD5sum: 119307587a3b2445683fa3e2336e20ab
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.8.0
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 283d31946746ee5c98d62d6f0dfd7120
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.9.0
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: ccffe0184873c09d0cf0fb8e428ab449
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.9.1
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: b51cd034c68371568d388951a0a50310
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 1.9.2
+Depends: RJDBC (>= 0.2-5)
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 0d78d72889e3454cd9f67dc0582a3c01
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.0.0
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: b005c7dad3c42fbd442c210160363faf
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.0.1
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 05f25345bffd1f0cb96c94187e9e44d0
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.0.2
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 994fa8c27f9c7c19be7b1611a4e0f0f0
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.0.3
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: testthat
+License: Apache License
+MD5sum: 22d3837d529651be9acb38e355f1d591
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.0.4
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: aws.s3, uuid, R.utils, testthat
+License: Apache License
+MD5sum: 32962455cf8a983f2f08c4bd19aeb5c1
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.0.5
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils
+Suggests: aws.s3, uuid, R.utils, testthat
+License: Apache License
+MD5sum: 5efd00095320c284f49c1c0b8e95d6b4
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.1.0
+Imports: rJava, bit, ff, ffbase (>= 0.12.1), SqlRender, methods, utils,
+        DBI, urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest
+License: Apache License
+MD5sum: a99ca7cadb0175210e3be65736445d44
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.1.1
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender, methods, utils, DBI, urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+License: Apache License
+MD5sum: cbc28addc78e37cb79b41c035c64a1f1
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.1.2
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender, methods, utils, DBI, urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+License: Apache License
+MD5sum: df0c5a3982abb5c5f09c7a2392d41af0
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.1.3
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender, methods, utils, DBI (>= 1.0.0), urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+License: Apache License
+MD5sum: 9e492989960d07e6eb6b655bc03dc392
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.1.4
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender, methods, utils, DBI (>= 1.0.0), urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+License: Apache License
+MD5sum: f62c7954150f34da4d613f2000d523bb
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.2.0
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender, methods, utils, DBI (>= 1.0.0), urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+License: Apache License
+MD5sum: 5e922c7bc30c53e4d3524b08849d761e
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.2.1
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender, methods, utils, DBI (>= 1.0.0), urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+License: Apache License
+MD5sum: 0e938361692e5be95006655ae33b4be3
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.3.0
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender (>= 1.6.0), methods, utils, DBI (>= 1.0.0), urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+        RSQLite
+License: Apache License
+MD5sum: e21060f3a353ea8a327fdb619dc750c7
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.4.0
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender (>= 1.6.0), methods, utils, DBI (>= 1.0.0), urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+        RSQLite
+License: Apache License
+MD5sum: 9622f6fa1567247ac5fc365cadb9a516
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.4.1
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender (>= 1.6.0), methods, utils, DBI (>= 1.0.0), urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+        RSQLite
+License: Apache License
+MD5sum: 6f37fba462dd4a8fdd4e50903351d16f
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.4.2
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender (>= 1.6.3), methods, utils, DBI (>= 1.0.0), urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+        RSQLite
+License: Apache License
+MD5sum: 1e96323760eadb1a830ab855066a9acf
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.4.3
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender (>= 1.6.3), methods, utils, DBI (>= 1.0.0), urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+        RSQLite, ssh
+License: Apache License
+MD5sum: d45f6888489ac1ce2803137c8abecfb8
+NeedsCompilation: no
+
+Package: DatabaseConnector
+Version: 2.4.4
+Depends: R (>= 2.10)
+Imports: DatabaseConnectorJars, rJava, bit, ff, ffbase (>= 0.12.1),
+        SqlRender (>= 1.6.3), methods, utils, DBI (>= 1.0.0), urltools
+Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
+        RSQLite, ssh
+License: Apache License
+MD5sum: dd90d803260f7089693f382fbfe05670
+NeedsCompilation: no
+
+Package: DatabaseConnector
 Version: 3.0.0
 Depends: R (>= 2.10)
 Imports: DatabaseConnectorJars, rJava, SqlRender (>= 1.6.3), methods,
@@ -137,6 +1516,126 @@ Suggests: aws.s3, uuid, R.utils, testthat, DBItest, knitr, rmarkdown,
         RSQLite, ssh, Andromeda, dplyr
 License: Apache License
 MD5sum: 4d1141616c7a88235469dc2d3701e341
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.1.0
+Imports: ggplot2 (>= 2.0.0), MASS
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: fe7a8066b3572c5c10fae63f01bc9bc2
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.1.1
+Imports: ggplot2 (>= 2.0.0), methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 0f65509516bd818fe51a06b4490e117c
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.2.0
+Imports: ggplot2 (>= 2.0.0), methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 7626624862347c10eb9ecc23622d7b01
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.2.1
+Imports: ggplot2 (>= 2.0.0), methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 0ce5a00023f23537c57f9e1f0f85f244
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.2.2
+Imports: ggplot2 (>= 2.0.0), methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: aea405e35599ac224879dffdfa2cf689
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.3.1
+Imports: ggplot2 (>= 2.0.0), methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: e7e4f5bdef0809c87519d5fbc7d02b66
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.3.2
+Imports: ggplot2 (>= 2.0.0), methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 89509745a01570fb8fa4f778f99f3575
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.3.3
+Imports: ggplot2 (>= 2.0.0), methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: b5246c9f40dc028fef12ead149cf14cd
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.3.4
+Imports: ggplot2 (>= 2.0.0), gridExtra, methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: ac087a4c45425ace2ba3fd971803f7a4
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.3.5
+Imports: ggplot2 (>= 2.0.0), gridExtra, methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: ad1ed2c47d4fe7ff2cd3b7a2ddfb3be7
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.3.6
+Imports: ggplot2 (>= 2.0.0), gridExtra, methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: b2fa19c6116792ff7b2a21c6607f75d5
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.4.0
+Imports: ggplot2 (>= 2.0.0), gridExtra, methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 48df6278f84dcd0864998db3556e72ac
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 1.4.1
+Imports: ggplot2 (>= 2.0.0), gridExtra, methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: c7fe03f0e269ebee75057a2cac18821f
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 2.0.0
+Imports: ggplot2 (>= 2.0.0), gridExtra, methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 7806d8f951303490be99556b907da61a
+NeedsCompilation: no
+
+Package: EmpiricalCalibration
+Version: 2.0.1
+Imports: ggplot2 (>= 2.0.0), gridExtra, methods
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 92690cb36a7cef9ea56af51e974347f6
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
@@ -163,6 +1662,281 @@ MD5sum: 27b9f2cc4462352ef3a3c3d187a943e4
 NeedsCompilation: no
 
 Package: FeatureExtraction
+Version: 1.0.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
+        SqlRender (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: f1fd4dc28279aad0c1917c7710352a63
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 1.0.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
+        SqlRender (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 66142fa87dee5cfc32917949452632a0
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 1.0.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
+        SqlRender (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 62780f59152ee661e14d0532b5f1ed00
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 1.0.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
+        SqlRender (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 703e4542a9b8e3d9a28bc204dd0b1695
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 1.0.4
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
+        SqlRender (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 29f4aa904edcdf7e13ca3a5f98a71f84
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 1.0.5
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
+        SqlRender (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: b67ebdde45b49d56aa4680003e4f1122
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 1.1.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
+        SqlRender (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 5730439e004c5ba818f848fcc11922ef
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 1.2.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
+        SqlRender (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 5ad43a079f7c8ed5a4713a216455ee89
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 1.2.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
+        SqlRender (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: d05ca280d1dd3d4b57d9b987c3edbce0
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 1.2.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), RJDBC,
+        SqlRender (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 4ccf8ebdfedb764013a96fc7263989e1
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 1.2.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4)
+Imports: bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2), SqlRender
+        (>= 1.1.3),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: e17539d7c12f3d7a126d2ea3a4d6fc94
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.0.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.4.5),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: b3c18bfdee15073f7a0e8627084d95a9
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.0.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.4.5),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 6a3bb9b4527c49d6e6b7c00fee72f063
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.0.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.4.5),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 5a09cf275e3e743af903032a035a4fff
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.1.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.4.5),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 5666f3510d35b9f21e03dc0ba22d4db9
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.1.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.4.5),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 58373c8cb7b1f8e243babe47142c7e85
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.1.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.4.5),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 6e61ab3f330191c75d446fae00f28937
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.1.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.4.5),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: df49dc6c646950cc0841e6b23c2ff6cd
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.1.4
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.4.5),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: c3749b0d2cfff502be022f9c514c48ad
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.1.5
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.4.5),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: cf08f5a9e33dc20be7b735cd170bdf56
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.2.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.4.5),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: d23ee0f3521eca3e376f0e956a8f6da0
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.2.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.6.0),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 47b0bd5d7946db31d93f6c5d78d71def
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.2.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.1), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.6.0),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: bed20f919752d5670f8060fd18eb49fd
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.2.4
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.7), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.6.0),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 1f6311a0ba9a2d060992f2a407b8942d
+NeedsCompilation: yes
+
+Package: FeatureExtraction
+Version: 2.2.5
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2),
+Imports: methods, bit, ff, ffbase (>= 0.12.7), plyr, Rcpp (>= 0.11.2),
+        rJava, jsonlite, SqlRender (>= 1.6.0),
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 0ee40b241c22492a491e0db45847dd0f
+NeedsCompilation: yes
+
+Package: FeatureExtraction
 Version: 3.0.0
 Depends: R (>= 3.2.2), DatabaseConnector (>= 3.0.0), Andromeda
 Imports: methods, dplyr, rJava, jsonlite, SqlRender (>= 1.6.0),
@@ -180,12 +1954,116 @@ License: Apache License 2.0
 MD5sum: c2b8c4f3987849b0b5fcce92e0256770
 NeedsCompilation: no
 
+Package: Hydra
+Version: 0.0.3
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 8d61d5db7caf5c7f4061be42f91a3d16
+NeedsCompilation: no
+
+Package: Hydra
+Version: 0.0.4
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 0caa38596c53ff62f9cb86efa540d5ec
+NeedsCompilation: no
+
+Package: Hydra
+Version: 0.0.5
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 3a747c798ad4e6ab40c3cad47e907476
+NeedsCompilation: no
+
+Package: Hydra
+Version: 0.0.6
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 7426f9bff7a8ddc186f9cdf5f7d5c3ea
+NeedsCompilation: no
+
+Package: Hydra
+Version: 0.0.7
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: ef8dbad758481a491946999ad6930f8d
+NeedsCompilation: no
+
+Package: Hydra
+Version: 0.0.8
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 74c230e3eed0d31a48ec14b6c49fd2ea
+NeedsCompilation: no
+
+Package: Hydra
+Version: 0.0.9
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 8345a6d1d14afb8c294409b6a5c2dd49
+NeedsCompilation: no
+
+Package: IcTemporalPatternDiscovery
+Version: 1.0.1
+Depends: DatabaseConnector
+Imports: RJDBC, SqlRender, OhdsiRTools (>= 1.1.1)
+License: Apache License 2.0
+MD5sum: 855a34162e3188e3d7591bb3e454dbe2
+NeedsCompilation: no
+
 Package: IcTemporalPatternDiscovery
 Version: 1.1.1
 Depends: DatabaseConnector (>= 1.11.4),
 Imports: SqlRender, ParallelLogger, ggplot2, gridExtra
 License: Apache License 2.0
 MD5sum: 49e77bd9a66346e878ff61a6e933978a
+NeedsCompilation: no
+
+Package: KeppraAngioedema
+Version: 0.1.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
+Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
+        CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>=
+        0.1.0), OhdsiRTools, RJDBC, Cyclops
+License: Apache License 2.0
+MD5sum: eba11691ca2cc89cc582aef5581de240
+NeedsCompilation: no
+
+Package: KeppraAngioedema
+Version: 0.1.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
+Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
+        CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>=
+        0.1.1), OhdsiRTools, RJDBC, Cyclops
+License: Apache License 2.0
+MD5sum: 2330ac6ebda171c998a247bebb39bcbf
+NeedsCompilation: no
+
+Package: KeppraAngioedema
+Version: 0.1.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
+Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
+        CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>=
+        0.1.1), OhdsiRTools, RJDBC, Cyclops, rmarkdown
+License: Apache License 2.0
+MD5sum: 1286504ec872ea495404eb519d78506e
+NeedsCompilation: no
+
+Package: KeppraAngioedema
+Version: 0.1.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
+Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
+        CohortMethod (>= 2.0.2), EmpiricalCalibration, OhdsiSharing (>=
+        0.1.1), OhdsiRTools, RJDBC, Cyclops, rmarkdown
+License: Apache License 2.0
+MD5sum: 71115e39ae244c6d52e5144f748df618
 NeedsCompilation: no
 
 Package: KeppraAngioedema
@@ -197,6 +2075,117 @@ Imports: SqlRender (>= 1.1.3), FeatureExtraction (>= 1.0.0),
 Suggests: gridExtra, meta, grid
 License: Apache License 2.0
 MD5sum: fde7cc09a8d0cdba4c490e8c1347a03d
+NeedsCompilation: no
+
+Package: MethodEvaluation
+Version: 0.0.3
+Depends: R (>= 3.2.0), DatabaseConnector (>= 1.3.0), FeatureExtraction,
+        Cyclops (>= 1.2.3)
+Imports: ff, ffbase (>= 0.12.1), RJDBC, SqlRender (>= 1.1.2), pROC,
+        ggplot2, OhdsiRTools
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 299c3fddfc36c30edb7e6d896375d328
+NeedsCompilation: no
+
+Package: MethodEvaluation
+Version: 0.0.4
+Depends: R (>= 3.2.0), DatabaseConnector (>= 1.3.0), FeatureExtraction,
+        Cyclops (>= 1.2.3)
+Imports: ff, ffbase (>= 0.12.1), RJDBC, SqlRender (>= 1.1.2), pROC,
+        ggplot2, OhdsiRTools
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 5cbaa6aff6505de640b6beeef4ff3220
+NeedsCompilation: no
+
+Package: MethodEvaluation
+Version: 0.2.0
+Depends: R (>= 3.2.0), DatabaseConnector (>= 1.3.0), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.1.2), pROC, ggplot2,
+        OhdsiRTools
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 4eb1ecc91f6e7f1c7b74dfa0e01fbbee
+NeedsCompilation: no
+
+Package: MethodEvaluation
+Version: 0.2.1
+Depends: R (>= 3.2.0), DatabaseConnector (>= 1.3.0), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.1.2), pROC, ggplot2,
+        OhdsiRTools, methods
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 5a778f547e686acfa4047b226cf1aaa3
+NeedsCompilation: no
+
+Package: MethodEvaluation
+Version: 0.3.0
+Depends: R (>= 3.2.0), DatabaseConnector (>= 2.0.0), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.5.0), pROC, ggplot2,
+        ParallelLogger, methods
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 2ab426a88c15884a328e38ac404b0a4e
+NeedsCompilation: no
+
+Package: MethodEvaluation
+Version: 0.3.1
+Depends: R (>= 3.2.0), DatabaseConnector (>= 2.0.0), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.5.0), pROC, ggplot2,
+        ParallelLogger, methods
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: defd97343b0d92937a35b75141c4f1e7
+NeedsCompilation: no
+
+Package: MethodEvaluation
+Version: 1.0.0
+Depends: R (>= 3.2.0), DatabaseConnector (>= 2.0.0), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.5.0), pROC, ggplot2,
+        ParallelLogger, methods, EmpiricalCalibration
+Suggests: testthat, DT, shiny, knitr
+License: Apache License 2.0
+MD5sum: 8e4d2516df768bab9cc64d50c078d2cd
+NeedsCompilation: no
+
+Package: MethodEvaluation
+Version: 1.0.1
+Depends: R (>= 3.2.0), DatabaseConnector (>= 2.0.0), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.5.0), pROC, ggplot2,
+        ParallelLogger, methods, EmpiricalCalibration
+Suggests: testthat, DT, shiny, knitr
+License: Apache License 2.0
+MD5sum: e7e4dd358f5e9c6ae69cd414adc766cc
+NeedsCompilation: no
+
+Package: MethodEvaluation
+Version: 1.0.2
+Depends: R (>= 3.2.0), DatabaseConnector (>= 2.0.0), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.5.0), pROC, ggplot2,
+        ParallelLogger, methods, EmpiricalCalibration
+Suggests: testthat, DT, shiny, knitr
+License: Apache License 2.0
+MD5sum: 5072d55cca2deaadd01073d6db6277b0
+NeedsCompilation: no
+
+Package: MethodEvaluation
+Version: 1.1.0
+Depends: R (>= 3.2.0), DatabaseConnector (>= 2.0.0), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ff, ffbase (>= 0.12.1), SqlRender (>= 1.6.2), pROC, ggplot2,
+        ParallelLogger, methods, EmpiricalCalibration, rmarkdown,
+        RJSONIO
+Suggests: testthat, DT, shiny, knitr
+License: Apache License 2.0
+MD5sum: c0d2213496bb76cea4febe8b28424f1d
 NeedsCompilation: no
 
 Package: MethodEvaluation
@@ -222,6 +2211,184 @@ MD5sum: ea4d87ec9e4cf546588cb90f362e9d0c
 NeedsCompilation: no
 
 Package: OhdsiRTools
+Version: 1.0.1
+Depends: R (>= 3.1.0)
+Imports: codetools, formatR, snow, RJSONIO, RCurl, XML
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: b0e0944f1c53be4a6c74af4e37fd435d
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.1.1
+Depends: R (>= 3.1.0)
+Imports: codetools, formatR, snow, RJSONIO, RCurl, XML, jsonlite
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 8bca49fb67ab0b4e5760aa0477ddadb4
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.1.2
+Depends: R (>= 3.1.0)
+Imports: codetools, formatR, snow, RJSONIO, RCurl, XML, jsonlite,
+        methods, utils
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 4600c6c97497c357de7459baace0afb2
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.2.0
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, RCurl, XML,
+        jsonlite, methods, utils
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: a64e3b793da7923d9729401e2a09bd1f
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.2.1
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, RCurl, XML,
+        jsonlite, methods, utils
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 08ebd9e0304b213a679b805abab3ae8f
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.3.0
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, RCurl, XML,
+        jsonlite, methods, utils
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: f69507c461a5db2431ef8130aff76811
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.3.1
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, RCurl, XML,
+        jsonlite, methods, utils, httr, SqlRender, stringr
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 436f21c74ab99b4d7e9905ece6d1b49f
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.3.3
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, RCurl, XML,
+        jsonlite, methods, utils, mailR
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 9e1349bcfe33f6fe9e4d957b187b153f
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.4.0
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
+        XML, jsonlite, methods, utils, mailR
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 18c65c90bc25bd437b93869d09abdd46
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.4.1
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
+        XML, jsonlite, methods, utils, mailR
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 7c3d286a8069e58d260699c8acef47d9
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.5.1
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
+        XML, jsonlite, methods, utils, mailR
+Suggests: testthat, shiny, DT
+License: Apache License 2.0
+MD5sum: 30c12991bef45f1e2d8b52ca6b9907a0
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.5.2
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
+        XML, jsonlite, methods, utils, mailR
+Suggests: testthat, shiny, DT
+License: Apache License 2.0
+MD5sum: 6e688d2f1d750bdae87f9a59751897a6
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.5.3
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
+        XML, jsonlite, methods, utils, mailR
+Suggests: testthat, shiny, DT, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 9a36335c167f0ec56af55703b430daed
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.5.4
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
+        XML, jsonlite, methods, utils, mailR
+Suggests: testthat, shiny, DT, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 7860ed05198f84b3288b6e680faa9edb
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.5.5
+Depends: R (>= 3.1.0)
+Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
+        XML, jsonlite, methods, utils, mailR
+Suggests: testthat, shiny, DT, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 367a1529e21148803fcc9ac0e87d042a
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.6.0
+Depends: R (>= 3.1.0),
+Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
+        openxlsx (>= 4.0.17), XML, jsonlite, methods, utils, mailR
+Suggests: testthat, shiny, DT, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 13610706315017cb6e8e4204a382d3f5
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.7.0
+Depends: R (>= 3.1.0),
+Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
+        openxlsx (>= 4.0.17), XML, jsonlite, methods, utils, mailR
+Suggests: testthat, shiny, DT, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 1787c59aff4dd1313a97ac587741e2e0
+NeedsCompilation: no
+
+Package: OhdsiRTools
+Version: 1.8.0
+Depends: R (>= 3.1.0),
+Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
+        openxlsx (>= 4.0.17), XML, jsonlite, methods, utils, mailR
+Suggests: testthat, shiny, DT, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: bc71a05ae48bb35d8d4e42f5da3b9f2b
+NeedsCompilation: no
+
+Package: OhdsiRTools
 Version: 1.9.0
 Depends: R (>= 3.1.0),
 Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
@@ -229,6 +2396,65 @@ Imports: devtools, codetools, formatR, snow, RJSONIO, httr (>= 1.3.1),
 Suggests: testthat, shiny, DT, knitr, rmarkdown
 License: Apache License 2.0
 MD5sum: 6e84fdfb23f0c5aa7d48244b3bd87ee8
+NeedsCompilation: no
+
+Package: OhdsiSharing
+Version: 0.0.1
+Imports: rJava, aws.signature, httr, XML, uuid
+Suggests: OhdsiRTools
+License: Apache License
+MD5sum: 8f80f93280ece609b7ae354bcaec1b66
+NeedsCompilation: no
+
+Package: OhdsiSharing
+Version: 0.1.0
+Imports: rJava, aws.signature, httr, XML, uuid, xml2, base64enc,
+        digest, curl, aws.s3
+License: Apache License
+MD5sum: 63ca594c738ba851b6cd7fbae0e10557
+NeedsCompilation: no
+
+Package: OhdsiSharing
+Version: 0.1.1
+Imports: rJava, aws.signature, httr (>= 1.1.0), XML, uuid, xml2,
+        base64enc, digest, curl
+Suggests: aws.s3
+License: Apache License
+MD5sum: 589d143bf53da5eb2e0641e4b8ca245e
+NeedsCompilation: no
+
+Package: OhdsiSharing
+Version: 0.1.2
+Imports: rJava, aws.signature, httr (>= 1.1.0), XML, uuid, xml2,
+        base64enc, digest, curl
+Suggests: aws.s3
+License: Apache License
+MD5sum: a1fbf22712ef201b690dc36407f7a513
+NeedsCompilation: no
+
+Package: OhdsiSharing
+Version: 0.1.3
+Imports: rJava, aws.signature, httr (>= 1.1.0), XML, uuid, xml2,
+        base64enc, digest, curl
+Suggests: aws.s3, testthat
+License: Apache License
+MD5sum: 249ef9394269763293b7f98af7bbf14d
+NeedsCompilation: no
+
+Package: OhdsiSharing
+Version: 0.2.0
+Imports: rJava, ParallelLogger
+Suggests: testthat
+License: Apache License
+MD5sum: 8f0d2af6bae0c23131c226f74f6f19ec
+NeedsCompilation: no
+
+Package: OhdsiSharing
+Version: 0.2.1
+Imports: rJava, ParallelLogger
+Suggests: testthat
+License: Apache License
+MD5sum: 04188ddeacfcd6293484e77758b81624
 NeedsCompilation: no
 
 Package: OhdsiSharing
@@ -240,6 +2466,42 @@ MD5sum: f1ef87c26fe8c3e3a8d971728a3af92c
 NeedsCompilation: no
 
 Package: ParallelLogger
+Version: 1.1.0
+Depends: R (>= 3.1.0)
+Imports: snow, XML, jsonlite, methods, utils
+Suggests: mailR, testthat, shiny, DT, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: f6c22d183a2870111e2565b22a639231
+NeedsCompilation: no
+
+Package: ParallelLogger
+Version: 1.1.1
+Depends: R (>= 3.1.0)
+Imports: snow, XML, jsonlite, methods, utils
+Suggests: mailR, testthat, shiny, DT, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: ef189247b11b3840ce24e46b7ac07eae
+NeedsCompilation: no
+
+Package: ParallelLogger
+Version: 1.1.2
+Depends: R (>= 3.1.0)
+Imports: snow, XML, jsonlite, methods, utils
+Suggests: mailR, testthat, shiny, DT, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: be0bf1aa5899a882ec91821a259aee0f
+NeedsCompilation: no
+
+Package: ParallelLogger
+Version: 1.2.0
+Depends: R (>= 3.1.0)
+Imports: snow, XML, jsonlite, methods, utils
+Suggests: mailR, testthat, shiny, DT, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 2bbc83de6d0375d90631fffe688de5f6
+NeedsCompilation: no
+
+Package: ParallelLogger
 Version: 2.0.0
 Depends: R (>= 3.1.0)
 Imports: snow, XML, jsonlite, methods, utils
@@ -247,6 +2509,371 @@ Suggests: mailR, testthat, shiny, DT, knitr, rmarkdown
 License: Apache License 2.0
 MD5sum: 9af7ebeae0bd56d99f22461bea9c8ea5
 NeedsCompilation: no
+
+Package: PatientLevelPrediction
+Version: 1.1.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>= 1.2.0)
+Imports: ggplot2, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), RJDBC, SqlRender (>= 1.1.3), survival
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: fd430173ac9f14b00b034d3bfccb557d
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 1.2.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), FeatureExtraction,
+        Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
+        survAUC, Rcpp (>= 0.11.2), RJDBC, SqlRender (>= 1.1.3),
+        survival, xgboost, Matrix, AUC, PythonInR, futile.options,
+        futile.logger, utils, methods, BigKnn, reshape2
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
+        SparseM, ResourceSelection
+License: Apache License 2.0
+MD5sum: cd5c38febf582814d4f3016cac845b1d
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 1.2.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 1.2.3), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
+        survAUC, Rcpp (>= 0.11.2), SqlRender (>= 1.1.3), survival,
+        xgboost, Matrix, AUC, PythonInR, futile.options, futile.logger,
+        utils, methods, BigKnn, reshape2
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
+        SparseM, ResourceSelection
+License: Apache License 2.0
+MD5sum: 6cb472171ca15a2bb84607080b110827
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 1.2.2
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 1.2.3), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
+        survAUC, Rcpp (>= 0.11.2), SqlRender (>= 1.1.3), survival,
+        xgboost, Matrix, AUC, PythonInR, futile.options, futile.logger,
+        utils, methods, BigKnn, reshape2, ReporteRs, diagram, shiny,
+        plotly, DT, htmlwidgets (> 0.8), tidyr, viridisLite
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
+        SparseM, ResourceSelection
+License: Apache License 2.0
+MD5sum: 15db997eafe7c45e43deb174a9749968
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 2.0.0
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
+        survAUC, Rcpp (>= 0.11.2), SqlRender (>= 1.1.3), survival,
+        xgboost, Matrix, AUC, PythonInR, futile.options, futile.logger,
+        utils, methods, BigKnn, reshape2, ReporteRs, diagram, shiny,
+        plotly, DT, htmlwidgets (> 0.8), tidyr, viridisLite, RCurl,
+        RJSONIO
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
+        SparseM, ResourceSelection
+License: Apache License 2.0
+MD5sum: e856a25bc2d6271f99c2f7ee1b817152
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 2.0.1
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
+        survAUC, Rcpp (>= 0.11.2), SqlRender (>= 1.1.3), survival,
+        xgboost, Matrix, AUC, PythonInR, futile.options, futile.logger,
+        utils, methods, BigKnn, reshape2, ReporteRs, diagram, shiny,
+        plotly, DT, htmlwidgets (> 0.8), tidyr, viridisLite, RCurl,
+        RJSONIO
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
+        SparseM, ResourceSelection
+License: Apache License 2.0
+MD5sum: 299e79162f14c7a90924b3c188404674
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 2.0.2
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
+        survAUC, Rcpp (>= 0.11.2), SqlRender (>= 1.1.3), survival,
+        xgboost, Matrix, AUC, PythonInR, futile.options, futile.logger,
+        utils, methods, BigKnn, reshape2, ReporteRs, diagram, shiny,
+        plotly, DT, htmlwidgets (> 0.8), tidyr, viridisLite, RCurl,
+        RJSONIO, keras, slam
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
+        SparseM, ResourceSelection
+License: Apache License 2.0
+MD5sum: f4d8cd20d742545c4de844080fa22fc6
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 2.0.3
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
+        survAUC, Rcpp (>= 0.11.2), SqlRender (>= 1.1.3), survival,
+        xgboost, Matrix, AUC, PythonInR, futile.options, futile.logger,
+        utils, methods, BigKnn, reshape2, ReporteRs, diagram, shiny,
+        plotly, DT, htmlwidgets (> 0.8), tidyr, viridisLite, RCurl,
+        RJSONIO, keras, slam, magrittr, OhdsiSharing
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
+        SparseM, ResourceSelection
+License: Apache License 2.0
+MD5sum: ec8fa3766c91b1bcb297736ddae3e680
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 2.0.5
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, bit, ff, ffbase (>= 0.12.1), plyr,
+        survAUC, Rcpp (>= 0.11.2), SqlRender (>= 1.1.3), survival,
+        xgboost, Matrix, AUC, PythonInR, utils, methods, BigKnn,
+        reshape2, officer, diagram, shiny, plotly, DT, htmlwidgets (>
+        0.8), tidyr, viridisLite, RCurl, RJSONIO, keras, slam,
+        magrittr, OhdsiSharing, OhdsiRTools
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
+        SparseM, ResourceSelection
+License: Apache License 2.0
+MD5sum: b4025aa1cbef8b2e9b64d445a3cc9588
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 3.0.0
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        PythonInR, utils, methods, BigKnn, reshape2, officer, diagram,
+        shiny, plotly, DT, htmlwidgets (> 0.8), tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, magrittr, OhdsiSharing,
+        OhdsiRTools
+LinkingTo: Rcpp
+Suggests: testthat, pROC, gnm, knitr, rmarkdown, scoring, Metrics,
+        SparseM, ResourceSelection
+License: Apache License 2.0
+MD5sum: 726ccbbb41a8cfd0c43c55256b841c82
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 3.0.1
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        utils, methods, reshape2, officer, diagram, tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, ParallelLogger, reticulate (>
+        1.6), tools, plotly
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), cowplot, testthat, pROC, gnm,
+        knitr, rmarkdown, scoring, Metrics, SparseM, ResourceSelection,
+        BigKnn, aws.s3, devtools, rms, PythonInR
+License: Apache License 2.0
+MD5sum: 4012db7aa36351ce460bc53001f68b82
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 3.0.16
+Depends: R (>= 3.3.0), DatabaseConnector (>= 2.2.0), FeatureExtraction
+        (>= 2.2.3), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        utils, methods, reshape2, officer, diagram, tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, ParallelLogger, reticulate (>
+        1.6), tools, plotly, zeallot, htmltools, tensorflow
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), shinydashboard,
+        shinycssloaders, cowplot, testthat, pROC, gnm, knitr,
+        rmarkdown, scoring, Metrics, SparseM, ResourceSelection,
+        BigKnn, aws.s3, devtools, rms, survminer
+License: Apache License 2.0
+MD5sum: 040a4732d3d37aae2f86b20e116b02d3
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 3.0.2
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        utils, methods, reshape2, officer, diagram, tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, ParallelLogger, reticulate (>
+        1.6), tools, plotly
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), cowplot, testthat, pROC, gnm,
+        knitr, rmarkdown, scoring, Metrics, SparseM, ResourceSelection,
+        BigKnn, aws.s3, devtools, rms, PythonInR
+License: Apache License 2.0
+MD5sum: a04577c1999c0beb768dd895785e7f05
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 3.0.3
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        utils, methods, reshape2, officer, diagram, tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, ParallelLogger, reticulate (>
+        1.6), tools, plotly
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), cowplot, testthat, pROC, gnm,
+        knitr, rmarkdown, scoring, Metrics, SparseM, ResourceSelection,
+        BigKnn, aws.s3, devtools, rms, PythonInR
+License: Apache License 2.0
+MD5sum: a94857ae0f507d9e52cbcf3b9c1c0003
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 3.0.4
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        utils, methods, reshape2, officer, diagram, tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, ParallelLogger, reticulate (>
+        1.6), tools, plotly
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), cowplot, testthat, pROC, gnm,
+        knitr, rmarkdown, scoring, Metrics, SparseM, ResourceSelection,
+        BigKnn, aws.s3, devtools, rms, PythonInR, survminer
+License: Apache License 2.0
+MD5sum: 7dacfdab1f349914ff14ebe011c4f890
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 3.0.5
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        utils, methods, reshape2, officer, diagram, tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, ParallelLogger, reticulate (>
+        1.6), tools, plotly
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), shinydashboard,
+        shinycssloaders, cowplot, testthat, pROC, gnm, knitr,
+        rmarkdown, scoring, Metrics, SparseM, ResourceSelection,
+        BigKnn, aws.s3, devtools, rms, PythonInR, survminer
+License: Apache License 2.0
+MD5sum: d52fdd0668cf6d797ae573cef6d2614e
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 3.0.6
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        utils, methods, reshape2, officer, diagram, tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, ParallelLogger, reticulate (>
+        1.6), tools, plotly, zeallot
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), shinydashboard,
+        shinycssloaders, cowplot, testthat, pROC, gnm, knitr,
+        rmarkdown, scoring, Metrics, SparseM, ResourceSelection,
+        BigKnn, aws.s3, devtools, rms, PythonInR, survminer
+License: Apache License 2.0
+MD5sum: b7f1461c6fc269d533f1562fe5a627ad
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 3.0.7
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        utils, methods, reshape2, officer, diagram, tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, ParallelLogger, reticulate (>
+        1.6), tools, plotly, zeallot
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), shinydashboard,
+        shinycssloaders, cowplot, testthat, pROC, gnm, knitr,
+        rmarkdown, scoring, Metrics, SparseM, ResourceSelection,
+        BigKnn, aws.s3, devtools, rms, PythonInR, survminer
+License: Apache License 2.0
+MD5sum: 0d1d65971f43e069474f5f3a4fc8e851
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 3.0.8
+Depends: R (>= 3.3.0), DatabaseConnector (>= 1.11.4), FeatureExtraction
+        (>= 2.0.0), Cyclops (>= 1.2.2)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, ff, ffbase (>= 0.12.1), plyr, survAUC, Rcpp (>=
+        0.11.2), SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC,
+        utils, methods, reshape2, officer, diagram, tidyr, viridisLite,
+        RCurl, RJSONIO, keras, slam, ParallelLogger, reticulate (>
+        1.6), tools, plotly, zeallot
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), shinydashboard,
+        shinycssloaders, cowplot, testthat, pROC, gnm, knitr,
+        rmarkdown, scoring, Metrics, SparseM, ResourceSelection,
+        BigKnn, aws.s3, devtools, rms, PythonInR, survminer
+License: Apache License 2.0
+MD5sum: deab6fc94ee750a3ce995f7ff25dcfab
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 4.0.0
+Depends: R (>= 3.3.0), DatabaseConnector (>= 3.0.0), FeatureExtraction
+        (>= 3.0.0), Cyclops (>= 3.0.0)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, Andromeda, plyr, survAUC, Rcpp (>= 0.11.2),
+        SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC, utils,
+        methods, reshape2, officer, diagram, tidyr, viridisLite, RCurl,
+        RJSONIO, keras, slam, ParallelLogger (>= 2.0.0), reticulate (>
+        1.6), tools, plotly, zeallot, htmltools, tensorflow
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), shinydashboard,
+        shinycssloaders, cowplot, testthat, pROC, gnm, knitr,
+        rmarkdown, scoring, Metrics, SparseM, ResourceSelection, BigKnn
+        (>= 1.0.0), aws.s3, devtools, rms, survminer
+License: Apache License 2.0
+MD5sum: 7c837255e72f5cefa17d1932022c99f6
+NeedsCompilation: yes
+
+Package: PatientLevelPrediction
+Version: 4.0.1
+Depends: R (>= 3.3.0), DatabaseConnector (>= 3.0.0), FeatureExtraction
+        (>= 3.0.0), Cyclops (>= 3.0.0)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, Andromeda, plyr, survAUC, Rcpp (>= 0.11.2),
+        SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC, utils,
+        methods, reshape2, officer, diagram, tidyr, viridisLite, RCurl,
+        RJSONIO, keras, slam, ParallelLogger (>= 2.0.0), reticulate (>
+        1.6), tools, plotly, zeallot, htmltools, tensorflow
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), shinydashboard,
+        shinycssloaders, cowplot, testthat, pROC, gnm, knitr,
+        rmarkdown, scoring, Metrics, SparseM, ResourceSelection, BigKnn
+        (>= 1.0.0), aws.s3, devtools, rms, survminer
+License: Apache License 2.0
+MD5sum: 6cbebc048c54f26ca9808fbf2e48bec9
+NeedsCompilation: yes
 
 Package: PatientLevelPrediction
 Version: 4.0.2
@@ -267,6 +2894,183 @@ License: Apache License 2.0
 MD5sum: 0954ff1210c88b845021bbef299bbcc8
 NeedsCompilation: yes
 
+Package: PatientLevelPrediction
+Version: 4.0.5
+Depends: R (>= 3.3.0), DatabaseConnector (>= 3.0.0), FeatureExtraction
+        (>= 3.0.0), Cyclops (>= 3.0.0)
+Imports: ggplot2, gridExtra, PRROC, magrittr, foreach, doParallel,
+        dplyr, bit, Andromeda, plyr, survAUC, Rcpp (>= 0.11.2),
+        SqlRender (>= 1.1.3), survival, xgboost, Matrix, AUC, utils,
+        methods, reshape2, officer, diagram, tidyr, viridisLite, RCurl,
+        RJSONIO, keras, slam, ParallelLogger (>= 2.0.0), reticulate (>
+        1.6), tools, plotly, zeallot, htmltools, tensorflow
+LinkingTo: Rcpp
+Suggests: shiny, DT, htmlwidgets (> 0.8), shinydashboard,
+        shinycssloaders, cowplot, testthat, pROC, gnm, knitr,
+        rmarkdown, scoring, Metrics, SparseM, ResourceSelection, BigKnn
+        (>= 1.0.0), aws.s3, devtools, rms, survminer
+License: Apache License 2.0
+MD5sum: 054392c7b3636c7acb3098edb6f3aef2
+NeedsCompilation: yes
+
+Package: PheValuator
+Version: 0.1.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.1.4)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8)
+License: Apache License 2.0
+MD5sum: 34594049f7207e1b45707b82a1b8eee5
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 0.1.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.1.4)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8)
+License: Apache License 2.0
+MD5sum: d8820e9cfa3fe50e815599458d0ba26f
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 0.1.3
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.1.4)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8)
+License: Apache License 2.0
+MD5sum: 47cce569c3c06c50d250f2aab92c164b
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 0.1.4
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+License: Apache License 2.0
+MD5sum: 6acbf697c3c676bcbb1c612a5abea1e5
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 0.1.5
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: 746749de6472db90fd1061242a7997f7
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 0.1.6
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: 1ee7cf04ed6f1e553a03e8af858d0209
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 1.0.0
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: 66478bae6e30cf8251cefdd70b7a6680
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 1.0.1
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: 529d78ab38504bb7dc7b042fa2f8bcdf
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 1.0.2
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: 331f540532c8b8ca95dfa85f946c7730
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 1.0.3
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: c09858eb0205fbdb96dacf1668a38b90
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 1.0.4
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: 1c9422d945d9a72bef46c3ae81acc279
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 1.0.5
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: ab03e7b70b6aa624a5ded18baea7e732
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 1.0.6
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: 1d7baa2c5b46946a9b7ac7629b6087cf
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 1.1.3
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: 8b36e1491df3e3975201a72bc46f8200
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 1.1.4
+Depends: R (>= 3.2.2)
+Imports: PatientLevelPrediction (>= 2.0.4), FeatureExtraction (>=
+        2.1.5), SqlRender (>= 1.5.2), data.table (>= 1.11.8), dplyr (>=
+        0.7.8), stringr (>= 1.3.1), DatabaseConnector (>= 2.1.4)
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: ae2d49dee2beb7e8580c62739914d000
+NeedsCompilation: no
+
 Package: PheValuator
 Version: 2.0.10
 Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
@@ -276,6 +3080,70 @@ Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
 Suggests: knitr, ROhdsiWebApi, shiny, shinydashboard, DT, htmltools
 License: Apache License 2.0
 MD5sum: 7c33ad6ffa6b336e41ef512cfffe5cb5
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 2.0.3
+Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
+Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
+        (>= 0.7.8), stringr (>= 1.3.1), methods, ParallelLogger
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: a211be035ded9fe9618b60b0098d3199
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 2.0.4
+Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
+Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
+        (>= 0.7.8), stringr (>= 1.3.1), methods, ParallelLogger
+Suggests: knitr
+License: Apache License 2.0
+MD5sum: 0de208edf61f12bed7ad29ac8c7d3116
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 2.0.6
+Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
+Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
+        (>= 0.7.8), stringr (>= 1.3.1), readr, methods, ParallelLogger,
+        tibble
+Suggests: knitr, ROhdsiWebApi, shiny, shinydashboard, DT, htmltools
+License: Apache License 2.0
+MD5sum: 065cc475edb4d5a9166999af5093ba30
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 2.0.7
+Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
+Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
+        (>= 0.7.8), stringr (>= 1.3.1), readr, methods, ParallelLogger,
+        tibble
+Suggests: knitr, ROhdsiWebApi, shiny, shinydashboard, DT, htmltools
+License: Apache License 2.0
+MD5sum: bed075813ddd1b9f1aea9af8aba42366
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 2.0.8
+Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
+Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
+        (>= 0.7.8), stringr (>= 1.3.1), readr, methods, ParallelLogger,
+        tibble
+Suggests: knitr, ROhdsiWebApi, shiny, shinydashboard, DT, htmltools
+License: Apache License 2.0
+MD5sum: 0c990281d0dcf598bfc1951b976c65e4
+NeedsCompilation: no
+
+Package: PheValuator
+Version: 2.0.9
+Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
+Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
+        (>= 0.7.8), stringr (>= 1.3.1), readr, methods, ParallelLogger,
+        tibble
+Suggests: knitr, ROhdsiWebApi, shiny, shinydashboard, DT, htmltools
+License: Apache License 2.0
+MD5sum: cb5ea59ed47ccbcbf1706cdc044e4368
 NeedsCompilation: no
 
 Package: RcppBoostCompute
@@ -288,6 +3156,16 @@ MD5sum: 3e85ec3111abc136840847d9748a98be
 NeedsCompilation: yes
 
 Package: ROhdsiWebApi
+Version: 0.0.3
+Depends: R (>= 3.1.0),
+Imports: RJSONIO, httr (>= 1.3.1), openxlsx (>= 4.0.17), jsonlite,
+        dplyr, tibble, SqlRender
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 5ff272249f514b537a58885d8cecf892
+NeedsCompilation: no
+
+Package: ROhdsiWebApi
 Version: 1.0.0
 Depends: R (>= 3.1.0),
 Imports: checkmate, dplyr, httr (>= 1.3.1), jsonlite, lifecycle,
@@ -297,6 +3175,138 @@ Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
 MD5sum: ab15d2f3526381609d994a872c1bff05
 NeedsCompilation: no
+
+Package: SelfControlledCaseSeries
+Version: 0.0.2
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 1.3.0)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.0.1), splines, ggplot2
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 376f3d853fee9954d4e91af3f7e269b7
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.0.1
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 1.3.0)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 1b53702a6e6f2a2ee3730e0b2a9eb72c
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.1.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 1.3.0)
+Imports: RJDBC, SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp
+        (>= 0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 7864b7a02a9dd352ee46d1d1fa8888ba
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.1.1
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.0.0)
+Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2, methods
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: b9ca9c6924016eda797ec749213eae76
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.1.3
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.0.0)
+Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2, methods
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 1f24dffb2fbacfb5a996691305cdf27c
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.1.4
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.0.0)
+Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2, methods, zip
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 8dd1ba607ce85939b3f3da416f0b6e32
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.2.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.0.0)
+Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2, methods, zip
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 184d3a28801346facb73f225ae393a3f
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.3.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.0.0)
+Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2, methods, zip
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 2e8ab53f5ab512abe4aae7bd3523df19
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.3.1
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.0.0)
+Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), OhdsiRTools (>= 1.1.1), splines, ggplot2, methods, zip
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 279de3df84247d50a2b479a249e000ea
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.4.0
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.2.0)
+Imports: SqlRender (>= 1.1.1), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), ParallelLogger, splines, ggplot2, methods
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 7fce2bfff091da6aca4b9cece99cc0cc
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.4.1
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.2.0)
+Imports: SqlRender (>= 1.6.0), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), ParallelLogger, splines, ggplot2, methods
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 36faf1215eff0ed9be086da152ffe19b
+NeedsCompilation: yes
+
+Package: SelfControlledCaseSeries
+Version: 1.4.2
+Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 2.2.0)
+Imports: SqlRender (>= 1.6.0), bit, ff, ffbase (>= 0.12.1), Rcpp (>=
+        0.11.2), ParallelLogger, splines, ggplot2, methods
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration
+License: Apache License 2.0
+MD5sum: 758627c194a7281da216a88c2b13f551
+NeedsCompilation: yes
 
 Package: SelfControlledCaseSeries
 Version: 2.0.0
@@ -312,12 +3322,350 @@ MD5sum: 2713544b1b08dfabfd9dd86ef237ce3a
 NeedsCompilation: yes
 
 Package: SelfControlledCohort
+Version: 1.2.0
+Depends: DatabaseConnector (>= 1.3.0)
+Imports: SqlRender (>= 1.1.1), RJDBC, OhdsiRTools (>= 1.1.1),
+        rateratio.test
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 6e7133e7fad0065dd13b1a95c8479be4
+NeedsCompilation: no
+
+Package: SelfControlledCohort
+Version: 1.2.1
+Depends: DatabaseConnector (>= 1.3.0)
+Imports: SqlRender (>= 1.1.1), RJDBC, OhdsiRTools (>= 1.1.1),
+        rateratio.test
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: cbc180c5ebdea7c8ad976d469077d863
+NeedsCompilation: no
+
+Package: SelfControlledCohort
+Version: 1.3.0
+Depends: DatabaseConnector (>= 1.3.0)
+Imports: SqlRender (>= 1.1.1), RJDBC, OhdsiRTools (>= 1.1.1),
+        rateratio.test
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: f3b8724548a39bf2a2bd5c530aa9a1be
+NeedsCompilation: no
+
+Package: SelfControlledCohort
+Version: 1.4.0
+Depends: DatabaseConnector (>= 1.3.0)
+Imports: SqlRender (>= 1.4.3), RJDBC, OhdsiRTools (>= 1.3.1),
+        rateratio.test
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: e8ae4ce8f60795e2502c0ba2baef91a4
+NeedsCompilation: no
+
+Package: SelfControlledCohort
+Version: 1.4.1
+Depends: DatabaseConnector (>= 1.11.4)
+Imports: SqlRender (>= 1.4.3), OhdsiRTools (>= 1.3.1), rateratio.test
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: a059e5634931a490c756567f04935ba4
+NeedsCompilation: no
+
+Package: SelfControlledCohort
+Version: 1.4.2
+Depends: DatabaseConnector (>= 1.11.4)
+Imports: SqlRender (>= 1.4.3), OhdsiRTools (>= 1.3.1), rateratio.test
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 4ee5e95ba5206eb264bc36b59a53cacf
+NeedsCompilation: no
+
+Package: SelfControlledCohort
 Version: 1.5.0
 Depends: DatabaseConnector (>= 2.0.0)
 Imports: SqlRender (>= 1.4.3), ParallelLogger, rateratio.test
 Suggests: testthat
 License: Apache License 2.0
 MD5sum: 721a6ef38710332563c516125935ac0d
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.1.3
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License
+MD5sum: 62c8563a38d738969d62efb36da393f2
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.1.4
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License
+MD5sum: dd6f595be5e19d7c79cd3890d5833d4c
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.1.6
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 1a71ec0afb281747e92e08278d5c05ca
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.1.7
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: ea9716248e3604071de698a7cb7af0c1
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.1.8
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 5b96f506605f2ee00bc63990504cfc09
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.2.0
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: d2bc181257d4713a42aa9e86b628bd75
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.3.0
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 2a10293a0f79f36e5e9f4caba1d69810
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.3.1
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 3183120f8a065bb3ab80aac19c333275
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.3.2
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 827b58eda6c6cff74c2e1738c6cfc258
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.3.3
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 8e27fed663ee084d8bd4ea25b0eced8e
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.3.4
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: da02ab14ac18814e0ca28a48f63ca390
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.3.5
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: f00e12e8df47f57407b7345d4f96af5c
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.3.6
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 90a9997889b50c314b93a8d0325d51bf
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.3.7
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 46fff67b1d54ff68c985860f44f8a023
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.0
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, formatR
+License: Apache License 2.0
+MD5sum: 46ae11f641c2a41ae11e35815c2ed08b
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.1
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, formatR
+License: Apache License 2.0
+MD5sum: f10abeac9effb37b809c90e1ab22eeb8
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.10
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: 4d382baf35c66f3a90b3675d2e0ea627
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.2
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, formatR
+License: Apache License 2.0
+MD5sum: e0aa4e272af03e1fb2adb7691018e20f
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.3
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard, formatR
+License: Apache License 2.0
+MD5sum: 807a7802558ec4615660dc1745e7849d
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.4
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard, formatR
+License: Apache License 2.0
+MD5sum: b242bffd767e34d0330eaafbbbd21c55
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.5
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard, formatR
+License: Apache License 2.0
+MD5sum: 9ab749b7abda5c6e77838040fd3ac0ac
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.6
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard, formatR
+License: Apache License 2.0
+MD5sum: 0bedb66c92a4d7623e8ea3277f4237cf
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.7
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard, formatR
+License: Apache License 2.0
+MD5sum: a18bcd7e807ed7c2fd3a5262214cba69
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.8
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard, formatR
+License: Apache License 2.0
+MD5sum: 35890fdc89a6025d263dbcb558b75efc
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.4.9
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard, formatR
+License: Apache License 2.0
+MD5sum: 35eeaf9352d80fac106514162158af48
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.5.0
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: 833419333c215975990f6105c25783e0
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.5.1
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: 450e221cd2a252bd57cbbd05fc5de4e1
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.5.2
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: a0d67f3991cab34e4c581a9ec2a2b1f1
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.5.3
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: a3ec6bc6676be671b3abc0a409a861ea
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.6.0
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: eb9420d1849fa79ef7936f9d96dc69f1
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.6.1
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: cf7d7a769626404d0fce09c0c7e1b452
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.6.2
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: 5a8a35fa62c9826b791bacd441c2d7c6
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.6.3
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: 45e61b45a89d59efac145a15ffac18cb
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.6.4
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: 736aff032c2729072c7d22b00a5a8d0a
+NeedsCompilation: no
+
+Package: SqlRender
+Version: 1.6.5
+Imports: rJava
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: 700d036ea67adb4fee43ed218b9beece
 NeedsCompilation: no
 
 Package: SqlRender
