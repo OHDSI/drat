@@ -113,7 +113,7 @@ Depends: dplyr
 Imports: RSQLite, DBI, zip, methods, dbplyr, tidyselect, cli, pillar
 Suggests: testthat, knitr, rmarkdown, rlang, tibble, rJava
 License: Apache License 2.0
-MD5sum: 215da8173ea97b881fb7b2a3a69b2f3a
+MD5sum: 7df3095ac97df82374fe8b97d4576c3b
 NeedsCompilation: no
 
 Package: aws.s3
