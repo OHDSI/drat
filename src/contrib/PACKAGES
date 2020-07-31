@@ -525,7 +525,7 @@ Package: CohortDiagnostics
 Version: 1.1.0
 Depends: DatabaseConnector (>= 3.0.0), R (>= 3.5.0)
 Imports: Andromeda, checkmate, digest, dplyr (>= 1.0.0),
-        FeatureExtraction (>= 3.0.0), ggplot2, ParallelLogger (>=
+        FeatureExtraction (>= 3.0.1), ggplot2, ParallelLogger (>=
         2.0.0), readr, rlang, RJSONIO, ROhdsiWebApi (>= 1.0.0),
         SqlRender (>= 1.6.7), stringr, tibble (>= 3.0.0), tidyr (>=
         1.0.0)
@@ -533,7 +533,7 @@ Suggests: DT, Eunomia, RSQLite (> 2.2.0), htmltools, knitr, plotly,
         RColorBrewer, rmarkdown, shiny, shinydashboard, VennDiagram,
         testthat
 License: Apache License
-MD5sum: 50cda1bc36617440bca4d105f85752e6
+MD5sum: 98433616d8df5d97e7aa8fbcd37941cb
 NeedsCompilation: no
 
 Package: CohortMethod
