@@ -548,7 +548,7 @@ Suggests: DT, Eunomia, RSQLite (> 2.2.0), htmltools, knitr, plotly,
         RColorBrewer, rmarkdown, shiny, shinydashboard, VennDiagram,
         testthat
 License: Apache License
-MD5sum: 7813df6af1ede65ceb669e606692fc8c
+MD5sum: 73dfe7a0ed268c1a9e712eed0d79c5ee
 NeedsCompilation: no
 
 Package: CohortDiagnostics
