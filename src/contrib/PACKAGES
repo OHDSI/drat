@@ -2193,6 +2193,14 @@ License: Apache License 2.0
 MD5sum: 41ba93e5dc24c265735e32ec6950d85b
 NeedsCompilation: no
 
+Package: Hydra
+Version: 0.1.1
+Imports: rJava, RJSONIO
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 8b1fc7aa2bfe9e3412d2472ac0469d45
+NeedsCompilation: no
+
 Package: IcTemporalPatternDiscovery
 Version: 1.0.1
 Depends: DatabaseConnector
