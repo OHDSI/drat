@@ -1837,7 +1837,7 @@ Imports: ggplot2, gridExtra, meta, EmpiricalCalibration, rJava,
         BeastJar, Cyclops (>= 3.1.0), HDInterval, coda, rlang, methods
 Suggests: knitr, rmarkdown, testthat, sn
 License: Apache License 2.0
-MD5sum: 1e5ae85d5f81668eee3c38fcbdcb20a2
+MD5sum: 9e1889724abc432a40cb46b10ce17e52
 NeedsCompilation: no
 
 Package: FeatureExtraction
