@@ -1780,6 +1780,14 @@ License: Apache License 2.0
 MD5sum: 701b7d935495afd16c76000f353a3e2a
 NeedsCompilation: no
 
+Package: EmpiricalCalibration
+Version: 2.1.0
+Imports: ggplot2 (>= 2.0.0), gridExtra, methods, rlang
+Suggests: knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: c2d8103c63d2fbca79d43365c9e1aa44
+NeedsCompilation: no
+
 Package: Eunomia
 Version: 1.0.0
 Depends: DatabaseConnector (>= 2.2.0)
