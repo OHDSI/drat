@@ -3497,6 +3497,17 @@ License: Apache License 2.0
 MD5sum: 2c94d21641a3978c558747a318008107
 NeedsCompilation: no
 
+Package: ROhdsiWebApi
+Version: 1.2.0
+Depends: R (>= 3.1.0),
+Imports: checkmate, dplyr, httr (>= 1.3.1), lifecycle, lubridate,
+        openxlsx (>= 4.0.17), purrr, readr, RJSONIO, scales, SqlRender,
+        stringr, tibble, tidyr, rlang
+Suggests: testthat, knitr, rmarkdown, httpuv, jsonlite, plumber, callr
+License: Apache License 2.0
+MD5sum: 6026546706ea05e8bb1bb87ddf0f8e1b
+NeedsCompilation: no
+
 Package: SelfControlledCaseSeries
 Version: 0.0.2
 Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>= 1.3.0)
