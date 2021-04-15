@@ -1678,6 +1678,17 @@ License: Apache License
 MD5sum: 80262d611b18d2194dc2d7ac9fb00bb6
 NeedsCompilation: no
 
+Package: DatabaseConnector
+Version: 4.0.2
+Depends: R (>= 2.10)
+Imports: rJava, SqlRender (>= 1.7.0), methods, stringr, rlang, utils,
+        DBI (>= 1.0.0), urltools, bit64
+Suggests: aws.s3, R.utils, withr, testthat, DBItest, knitr, rmarkdown,
+        RSQLite, ssh, Andromeda, dplyr
+License: Apache License
+MD5sum: bbaa5626919b5ac117ddaf2edd2bdda6
+NeedsCompilation: no
+
 Package: EmpiricalCalibration
 Version: 1.1.0
 Imports: ggplot2 (>= 2.0.0), MASS
