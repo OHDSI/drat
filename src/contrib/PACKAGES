@@ -2201,6 +2201,16 @@ License: Apache License 2.0
 MD5sum: 8793542398924bf90918e68b701f1f2a
 NeedsCompilation: no
 
+Package: FeatureExtraction
+Version: 3.1.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 3.0.0), Andromeda
+Imports: methods, dplyr, rJava, jsonlite, SqlRender (>= 1.6.0),
+        ParallelLogger, cli, pillar, readr, rlang, RSQLite, DBI
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: aeaef592f979fedebaf3c122194d898a
+NeedsCompilation: no
+
 Package: Hydra
 Version: 0.0.11
 Imports: rJava
