@@ -475,6 +475,15 @@ License: Apache License 2.0
 MD5sum: 0b31449a0b9ed13a1e1692d7cf7932e4
 NeedsCompilation: no
 
+Package: CirceR
+Version: 1.1.1
+Depends: R (>= 3.5.0)
+Imports: rJava, RJSONIO
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 0481c3140a9a7f1929e114d52b0331a0
+NeedsCompilation: no
+
 Package: CohortDiagnostics
 Version: 0.1.0
 Depends: DatabaseConnector
