@@ -3824,6 +3824,19 @@ License: Apache License 2.0
 MD5sum: 6c7744f95ed15a42813e4d709cbb09c5
 NeedsCompilation: yes
 
+Package: SelfControlledCaseSeries
+Version: 3.1.0
+Depends: R (>= 3.2.2), Cyclops (>= 3.1.1), DatabaseConnector (>=
+        4.0.0), Andromeda
+Imports: SqlRender (>= 1.8.0), dplyr (>= 1.0.0), Rcpp (>= 0.11.2),
+        ParallelLogger (>= 2.0.2), splines, ggplot2, methods, cli,
+        pillar
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, EmpiricalCalibration, Eunomia
+License: Apache License 2.0
+MD5sum: 3a023a8de322d449834daa3ebc8511e9
+NeedsCompilation: yes
+
 Package: SelfControlledCohort
 Version: 1.2.0
 Depends: DatabaseConnector (>= 1.3.0)
