@@ -676,6 +676,16 @@ License: Apache License
 MD5sum: 02066139e8e62d5fd44a83832beb2e46
 NeedsCompilation: no
 
+Package: CohortGenerator
+Version: 0.1.0
+Depends: DatabaseConnector (>= 4.0.0), CirceR (>= 1.1.1), R (>= 3.5.0)
+Imports: digest, ParallelLogger (>= 2.0.2), readr (>= 1.4.0), rlang,
+        RJSONIO, SqlRender (>= 1.7.0), methods, dplyr, tibble, stats
+Suggests: Eunomia, knitr, testthat
+License: Apache License
+MD5sum: bdec31ae786e3b1b69a1f5733b40c528
+NeedsCompilation: no
+
 Package: CohortMethod
 Version: 1.1.3
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
