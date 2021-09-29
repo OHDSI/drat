@@ -1947,6 +1947,17 @@ License: Apache License 2.0
 MD5sum: c2d8103c63d2fbca79d43365c9e1aa44
 NeedsCompilation: no
 
+Package: EmpiricalCalibration
+Version: 3.0.0
+Depends: R (>= 3.5.0)
+Imports: ggplot2 (>= 2.0.0), gridExtra, methods, rlang, Rcpp
+LinkingTo: Rcpp
+Suggests: knitr, markdown, rmarkdown, testthat, Cyclops, survival,
+        Sequential
+License: Apache License 2.0
+MD5sum: 4e517c9b3886808409ce0c3db1960a13
+NeedsCompilation: yes
+
 Package: Eunomia
 Version: 1.0.0
 Depends: DatabaseConnector (>= 2.2.0)
