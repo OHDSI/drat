@@ -2917,6 +2917,15 @@ License: Apache License 2.0
 MD5sum: ab8b5e2d76ea5da53fea9b6f29bc1950
 NeedsCompilation: no
 
+Package: OhdsiRTools
+Version: 2.0.0
+Imports: remotes, codetools, formatR, RJSONIO, httr (>= 1.3.1),
+        methods, utils
+Suggests: renv
+License: Apache License 2.0
+MD5sum: 42e932058c767164e18024603010f75d
+NeedsCompilation: no
+
 Package: OhdsiSharing
 Version: 0.0.1
 Imports: rJava, aws.signature, httr, XML, uuid
