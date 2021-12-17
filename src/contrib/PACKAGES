@@ -3765,6 +3765,18 @@ License: Apache License 2.0
 MD5sum: cb5ea59ed47ccbcbf1706cdc044e4368
 NeedsCompilation: no
 
+Package: PheValuator
+Version: 2.1.1
+Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
+Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
+        (>= 0.7.8), stringr (>= 1.3.1), readr, methods, ParallelLogger,
+        tibble
+Suggests: knitr, rmarkdown, ROhdsiWebApi, shiny, shinydashboard, DT,
+        htmltools
+License: Apache License 2.0
+MD5sum: 57861b7476de6d512a48b07bd4280ecc
+NeedsCompilation: no
+
 Package: RcppBoostCompute
 Version: 0.1
 Depends: Rcpp (>= 0.11.1)
