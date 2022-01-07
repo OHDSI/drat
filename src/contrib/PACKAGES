@@ -4432,6 +4432,14 @@ License: Apache License 2.0
 MD5sum: e963772c23fcd3573e57fd74b5ccdb99
 NeedsCompilation: no
 
+Package: SqlRender
+Version: 1.8.3
+Imports: rJava, rlang
+Suggests: testthat, knitr, rmarkdown, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: c91c94e948c610f9165d4e3d6e168cea
+NeedsCompilation: no
+
 Package: xml2
 Version: 1.0.0.9000
 Depends: R (>= 3.1.0)
