@@ -4112,6 +4112,16 @@ License: Apache License 2.0
 MD5sum: dd923ed3635d358cd13fcb5b918ae9e9
 NeedsCompilation: no
 
+Package: SelfControlledCohort
+Version: 1.6.0
+Depends: DatabaseConnector (>= 5.0.0), R (>= 4.0.0)
+Imports: SqlRender (>= 1.4.3), ParallelLogger, rateratio.test
+Suggests: withr, testthat, knitr, rmarkdown, Eunomia, DiagrammeR,
+        dplyr, tidyr, R.utils
+License: Apache License 2.0
+MD5sum: 0da8ea5185780ff1a158fc598c1dfd5d
+NeedsCompilation: no
+
 Package: SqlRender
 Version: 1.1.3
 Imports: rJava
