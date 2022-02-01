@@ -794,6 +794,18 @@ License: Apache License
 MD5sum: 4b06e20e9bc9ace6d8b19d274d359982
 NeedsCompilation: no
 
+Package: CohortGenerator
+Version: 0.3.0
+Depends: DatabaseConnector (>= 5.0.0), R (>= 3.6.0)
+Imports: checkmate, digest, dplyr, lubridate, ParallelLogger (>=
+        2.0.2), readr (>= 1.4.0), rlang, RJSONIO, SqlRender (>= 1.7.0),
+        stringi
+Suggests: CirceR (>= 1.1.1), Eunomia, knitr, rmarkdown, ROhdsiWebApi,
+        testthat
+License: Apache License
+MD5sum: a2301b6d44dbe9160398eee0be21a69f
+NeedsCompilation: no
+
 Package: CohortIncidence
 Version: 1.0.0
 Depends: R (>= 3.2.2)
