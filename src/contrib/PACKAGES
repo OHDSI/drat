@@ -762,6 +762,22 @@ License: Apache License
 MD5sum: a07aef5ada90ded3e73c94d724d3d6db
 NeedsCompilation: no
 
+Package: CohortDiagnostics
+Version: 2.2.2
+Depends: DatabaseConnector (>= 4.0.0), FeatureExtraction (>= 3.1.1), R
+        (>= 4.0.0)
+Imports: Andromeda, checkmate, clock, digest, dplyr (>= 1.0.0),
+        methods, ParallelLogger (>= 2.0.0), readr (>= 2.0.1), RJSONIO,
+        rlang, ROhdsiWebApi (>= 1.2.0), SqlRender (>= 1.7.0), stringr,
+        tidyr (>= 1.0.0), CohortGenerator (>= 0.2.0)
+Suggests: CirceR, DT, Eunomia, ggiraph, ggplot2, htmltools, knitr,
+        lubridate, pool, plotly, purrr, RColorBrewer, remotes,
+        rmarkdown, RSQLite (>= 2.2.1), scales, shiny, shinydashboard,
+        shinyWidgets, testthat, withr, zip
+License: Apache License
+MD5sum: 46bbaf3640b12792e79041d0a0897d10
+NeedsCompilation: no
+
 Package: CohortGenerator
 Version: 0.1.0
 Depends: DatabaseConnector (>= 4.0.0), CirceR (>= 1.1.1), R (>= 3.5.0)
