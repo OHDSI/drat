@@ -3685,6 +3685,24 @@ License: Apache License 2.0
 MD5sum: 94c922169150050e2226259a32b2e451
 NeedsCompilation: yes
 
+Package: PatientLevelPrediction
+Version: 5.0.5
+Depends: R (>= 3.3.0), FeatureExtraction (>= 3.0.0)
+Imports: Andromeda, Cyclops (>= 3.0.0), DatabaseConnector (>= 5.0.0),
+        dplyr, ggplot2, gridExtra, Hmisc, jsonlite, Matrix, memuse,
+        ParallelLogger (>= 2.0.0), pROC, PRROC, reticulate (> 1.16),
+        rlang, rms, RSQLite, SqlRender (>= 1.1.3), survival, tibble,
+        tidyr, utils
+Suggests: AUC, BigKnn (>= 1.0.0), DBI, devtools, diagram, DT, Eunomia,
+        gnm, htmlwidgets (> 0.8), htmltools, IterativeHardThresholding,
+        knitr, markdown, Metrics, parallel, plotly, plyr, pool, R6,
+        ResourceSelection, rmarkdown, scoring, shiny, shinycssloaders,
+        shinydashboard, shinyWidgets, SparseM, survAUC, survminer,
+        testthat, withr, xgboost (> 1.3.2.1)
+License: Apache License 2.0
+MD5sum: 849dfa9a7c8cd1e7e5d11ec5574537e6
+NeedsCompilation: no
+
 Package: PheValuator
 Version: 0.1.0
 Depends: R (>= 3.2.2), DatabaseConnector (>= 2.1.4)
