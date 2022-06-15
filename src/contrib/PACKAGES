@@ -2789,6 +2789,15 @@ License: Apache License 2.0
 MD5sum: 49e77bd9a66346e878ff61a6e933978a
 NeedsCompilation: no
 
+Package: IterativeHardThresholding
+Version: 1.0.1
+Depends: R (>= 3.2.2), Cyclops (>= 1.3.0)
+Imports: ParallelLogger
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: f4a4f16cf9cb6c5cb6ccc2be8afa31df
+NeedsCompilation: no
+
 Package: KeppraAngioedema
 Version: 0.1.0
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
