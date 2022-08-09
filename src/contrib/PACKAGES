@@ -624,6 +624,15 @@ License: Apache License
 MD5sum: 197aefce3b4fea4819d9894f203ae8c8
 NeedsCompilation: no
 
+Package: CohortAlgebra
+Version: 0.3.0
+Depends: DatabaseConnector (>= 5.0.0), R (>= 4.1.0)
+Imports: checkmate, clock, dplyr, ParallelLogger, rlang, SqlRender
+Suggests: Eunomia, remotes, rmarkdown, knitr, testthat, withr
+License: Apache License
+MD5sum: 08323b120ec4e55fda726c786d02f874
+NeedsCompilation: no
+
 Package: CohortDiagnostics
 Version: 0.1.0
 Depends: DatabaseConnector
