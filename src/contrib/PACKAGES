@@ -2996,6 +2996,15 @@ License: Apache License 2.0
 MD5sum: 49e77bd9a66346e878ff61a6e933978a
 NeedsCompilation: no
 
+Package: IcTemporalPatternDiscovery
+Version: 1.2.0
+Depends: DatabaseConnector (>= 5.0.4),
+Imports: SqlRender (>= 1.9.2), ParallelLogger, ggplot2, gridExtra
+Suggests: testthat, withr, Eunomia
+License: Apache License 2.0
+MD5sum: c8f4dcee4de804dc410320956d1d4455
+NeedsCompilation: no
+
 Package: IterativeHardThresholding
 Version: 1.0.1
 Depends: R (>= 3.2.2), Cyclops (>= 1.3.0)
