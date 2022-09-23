@@ -2260,6 +2260,17 @@ License: Apache License
 MD5sum: 4b1dbda741e1baef997deee2306f900f
 NeedsCompilation: no
 
+Package: DatabaseConnector
+Version: 5.1.0
+Depends: R (>= 2.10)
+Imports: rJava, SqlRender (>= 1.8.3), methods, stringr, readr, rlang,
+        utils, DBI (>= 1.0.0), urltools, bit64
+Suggests: aws.s3, R.utils, withr, testthat, DBItest, knitr, rmarkdown,
+        RSQLite, ssh, Andromeda, dplyr
+License: Apache License
+MD5sum: 0e694ac5dd79542bd9518d64c657a3ae
+NeedsCompilation: no
+
 Package: DeepPatientLevelPrediction
 Version: 1.0.0
 Depends: R (>= 3.5.0)
