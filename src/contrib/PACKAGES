@@ -1024,6 +1024,16 @@ License: Apache License
 MD5sum: 5766543743b90e97263872d8b62a302e
 NeedsCompilation: no
 
+Package: CohortExplorer
+Version: 0.0.6
+Depends: DatabaseConnector (>= 5.0.0), R (>= 4.1.0)
+Imports: checkmate, clock, dplyr, lifecycle, ParallelLogger, rlang,
+        stats
+Suggests: rmarkdown, testthat, knitr, withr
+License: Apache License
+MD5sum: 344c686a4d4e3c64159eeaecc0781062
+NeedsCompilation: no
+
 Package: CohortGenerator
 Version: 0.1.0
 Depends: DatabaseConnector (>= 4.0.0), CirceR (>= 1.1.1), R (>= 3.5.0)
