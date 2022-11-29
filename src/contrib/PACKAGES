@@ -4324,6 +4324,14 @@ License: Apache License
 MD5sum: ea89796c904f060ee9d9144b87c673c1
 NeedsCompilation: no
 
+Package: PhenotypeLibrary
+Version: 3.5.0
+Imports: checkmate, readr, dplyr, rlang, stringr, tidyr
+Suggests: DatabaseConnector, reactable, testthat, rmarkdown, knitr
+License: Apache License
+MD5sum: 7ba283d2ea1ef79ce067c8117a74a549
+NeedsCompilation: no
+
 Package: PheValuator
 Version: 0.1.0
 Depends: R (>= 3.2.2), DatabaseConnector (>= 2.1.4)
