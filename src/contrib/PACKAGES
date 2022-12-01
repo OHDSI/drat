@@ -4631,6 +4631,18 @@ MD5sum: 7dcffcea2455f874ea67ae26db600217
 NeedsCompilation: no
 
 Package: PheValuator
+Version: 2.1.13
+Depends: R (>= 3.2.2), DatabaseConnector, PatientLevelPrediction (>=
+        6.0.4), FeatureExtraction (>= 2.1.5)
+Imports: SqlRender (>= 1.5.2), dplyr (>= 0.7.8), methods,
+        ParallelLogger, tibble
+Suggests: knitr, rmarkdown, ROhdsiWebApi, shiny, shinydashboard, DT,
+        htmltools, qpdf, testthat, Eunomia, CohortGenerator, withr
+License: Apache License 2.0
+MD5sum: e2e1c19d024636942f70063821561e81
+NeedsCompilation: no
+
+Package: PheValuator
 Version: 2.1.2
 Depends: R (>= 3.2.2), DatabaseConnector, FeatureExtraction (>= 2.1.5)
 Imports: PatientLevelPrediction (>= 2.0.4), SqlRender (>= 1.5.2), dplyr
