@@ -4687,6 +4687,15 @@ License: Apache License 2.0 | file LICENSE
 MD5sum: 3e85ec3111abc136840847d9748a98be
 NeedsCompilation: yes
 
+Package: ResultModelManager
+Version: 0.1.1
+Depends: R6, DatabaseConnector (>= 5.0.0)
+Imports: SqlRender, ParallelLogger, checkmate, DBI, pool, readr
+Suggests: testthat (>= 3.0.0), RSQLite, withr, knitr, rmarkdown
+License: Apache License
+MD5sum: 06d8b680784d1b6ddea7a8000e9caa19
+NeedsCompilation: no
+
 Package: ROhdsiWebApi
 Version: 0.0.3
 Depends: R (>= 3.1.0),
