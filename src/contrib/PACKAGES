@@ -2714,6 +2714,16 @@ License: Apache License 2.0
 MD5sum: 233e259b84db6ff9f9fc0ef8a0c7841b
 NeedsCompilation: no
 
+Package: EvidenceSynthesis
+Version: 0.4.0
+Depends: survival, R (>= 3.5.0)
+Imports: ggplot2, gridExtra, meta, EmpiricalCalibration, rJava,
+        BeastJar, Cyclops (>= 3.1.0), HDInterval, coda, rlang, methods
+Suggests: knitr, rmarkdown, testthat, sn
+License: Apache License 2.0
+MD5sum: b7a5509913c5e65a9796893e88d1ced5
+NeedsCompilation: no
+
 Package: FeatureExtraction
 Version: 1.0.0
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0),
