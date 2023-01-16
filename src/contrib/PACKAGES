@@ -1075,6 +1075,16 @@ MD5sum: bc33d613c3d300ec4b4e7799f596e019
 NeedsCompilation: no
 
 Package: CohortExplorer
+Version: 0.0.10
+Depends: DatabaseConnector (>= 5.0.0), R (>= 4.1.0)
+Imports: checkmate, clock, dplyr, lifecycle, ParallelLogger, rlang,
+        stats
+Suggests: rmarkdown, testthat, knitr, withr
+License: Apache License
+MD5sum: 17a4a40527ea2d287204bd1d3104d3ff
+NeedsCompilation: no
+
+Package: CohortExplorer
 Version: 0.0.3
 Depends: DatabaseConnector (>= 5.0.0), R (>= 4.1.0)
 Imports: checkmate, clock, dplyr, lifecycle, ParallelLogger, rlang,
