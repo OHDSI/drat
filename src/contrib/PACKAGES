@@ -3180,6 +3180,22 @@ License: Apache License 2.0
 MD5sum: 635eb3df848a6356938f92cae9346edd
 NeedsCompilation: no
 
+Package: Hades
+Version: 1.9.0
+Imports: SqlRender, Andromeda, DatabaseConnector, ParallelLogger, Capr,
+        CirceR, Cyclops, DeepPatientLevelPrediction,
+        EmpiricalCalibration, EnsemblePatientLevelPrediction, Eunomia,
+        EvidenceSynthesis, BigKnn, ROhdsiWebApi, FeatureExtraction,
+        CohortDiagnostics, CohortMethod, CohortGenerator,
+        CohortExplorer, SelfControlledCaseSeries, SelfControlledCohort,
+        PatientLevelPrediction, PhenotypeLibrary, PheValuator,
+        MethodEvaluation, OhdsiSharing, Hydra,
+        IterativeHardThresholding, OhdsiShinyModules,
+        ResultModelManager, Characterization
+License: Apache License 2.0
+MD5sum: 142e5e1fc636645a99e465ccc0605dbc
+NeedsCompilation: no
+
 Package: Hydra
 Version: 0.0.11
 Imports: rJava
