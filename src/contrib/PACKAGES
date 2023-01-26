@@ -588,6 +588,15 @@ License: Apache License 2.0
 MD5sum: a53eaab144dcdffbcfc5c50ec8598022
 NeedsCompilation: no
 
+Package: CirceR
+Version: 1.3.0
+Depends: R (>= 3.5.0)
+Imports: rJava, RJSONIO
+Suggests: testthat, knitr, rmarkdown
+License: Apache License 2.0
+MD5sum: 75f0a4c11133f3ce894b8314c9866409
+NeedsCompilation: no
+
 Package: CohortAlgebra
 Version: 0.01.0
 Depends: DatabaseConnector (>= 5.0.0), R (>= 4.1.0)
