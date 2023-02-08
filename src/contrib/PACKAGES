@@ -3909,6 +3909,21 @@ License: Apache License 2.0
 MD5sum: 4beb1f39b09b9f973f6cd5c1d6fb72f4
 NeedsCompilation: no
 
+Package: OhdsiShinyModules
+Version: 1.0.2
+Depends: R (>= 3.3.0)
+Imports: checkmate, CirceR, DatabaseConnector, dplyr, DT, ggh4x,
+        ggiraph, ggplot2, gridExtra, htmltools, lubridate, methods,
+        ParallelLogger, plotly, purrr, reactable, readr, RJSONIO,
+        rlang, rmarkdown, scales, shiny, shinycssloaders,
+        shinydashboard, shinyWidgets, SqlRender, stringr, tibble,
+        tidyr, tidyselect, tippy
+Suggests: kableExtra, knitr, markdown, ResultModelManager, RSQLite,
+        testthat, withr
+License: Apache License 2.0
+MD5sum: 66ebf661355a32edc57dedbba06c0875
+NeedsCompilation: no
+
 Package: ParallelLogger
 Version: 1.1.0
 Depends: R (>= 3.1.0)
