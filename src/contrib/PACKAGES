@@ -5435,6 +5435,16 @@ License: Apache License 2.0
 MD5sum: 0da8ea5185780ff1a158fc598c1dfd5d
 NeedsCompilation: no
 
+Package: ShinyAppBuilder
+Version: 1.1.1
+Depends: R (>= 3.3.0)
+Imports: dplyr, jsonlite, keyring, OhdsiShinyModules (>= 1.0.2),
+        ParallelLogger (>= 2.0.0), rlang, shiny, shinydashboard
+Suggests: Eunomia, knitr, rmarkdown, testthat, markdown, remotes
+License: Apache License 2.0
+MD5sum: 247aa3a6f824923ccda16a58eb246a4a
+NeedsCompilation: no
+
 Package: SqlRender
 Version: 1.1.3
 Imports: rJava
