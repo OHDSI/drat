@@ -4618,6 +4618,14 @@ MD5sum: 0a795a20bf9f42f9ee36b070fce623f7
 NeedsCompilation: no
 
 Package: PhenotypeLibrary
+Version: 3.10.0
+Imports: checkmate, readr, dplyr, rlang
+Suggests: DatabaseConnector, reactable, testthat, rmarkdown, knitr
+License: Apache License
+MD5sum: c0a34e026bf72e5195c99eafb1da12a3
+NeedsCompilation: no
+
+Package: PhenotypeLibrary
 Version: 3.2.0
 Imports: checkmate, readr, dplyr, rlang, stringr, tidyr
 Suggests: DatabaseConnector, reactable, testthat, rmarkdown, knitr
