@@ -2706,6 +2706,17 @@ License: Apache License 2.0
 MD5sum: b2587753cfc1663785a3a38f2a991d6c
 NeedsCompilation: yes
 
+Package: EnsemblePatientLevelPrediction
+Version: 1.0.1
+Depends: R (>= 3.5.0)
+Imports: dplyr, PatientLevelPrediction (>= 6.0.0), ParallelLogger,
+        rlang, tidyr
+Suggests: Eunomia, FeatureExtraction, knitr, markdown, rmarkdown,
+        testthat, xgboost
+License: Apache License 2.0
+MD5sum: 3adef89aeb72acfa668159b6374239d9
+NeedsCompilation: no
+
 Package: Eunomia
 Version: 1.0.0
 Depends: DatabaseConnector (>= 2.2.0)
