@@ -195,6 +195,14 @@ License: Apache License
 MD5sum: 82d16bfe0d9137c9f77a391a2230d398
 NeedsCompilation: no
 
+Package: BigKnn
+Version: 1.0.2
+Imports: rJava, Andromeda (>= 0.3.0), dplyr, rlang
+Suggests: testthat
+License: Apache License
+MD5sum: b258c8bf61025135dfc1d12e473f3d39
+NeedsCompilation: no
+
 Package: BoostCompiledLibraries
 Version: 1.58.0-1
 LinkingTo: BH (>= 1.58.0)
