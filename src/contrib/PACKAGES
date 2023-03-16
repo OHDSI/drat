@@ -2584,6 +2584,17 @@ License: Apache License (>= 2)
 MD5sum: 34db0f63bb8fa3470086ec3e754bb9af
 NeedsCompilation: no
 
+Package: DataQualityDashboard
+Version: 2.1.2
+Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2)
+Imports: magrittr, ParallelLogger, dplyr, jsonlite, rJava, SqlRender
+        (>= 1.6.0), plyr, stringr, rlang, tidyselect
+Suggests: testthat, knitr, rmarkdown, markdown, shiny, ggplot2,
+        Eunomia, R.utils
+License: Apache License (>= 2)
+MD5sum: d3a2bc74d7d5a17f4db2c60ee24fafdf
+NeedsCompilation: no
+
 Package: DeepPatientLevelPrediction
 Version: 1.0.0
 Depends: R (>= 3.5.0)
