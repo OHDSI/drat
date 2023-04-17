@@ -1949,6 +1949,21 @@ License: Apache License 2.0
 MD5sum: 54fa13c1fe8a76f70967ebf34d7928e4
 NeedsCompilation: yes
 
+Package: CohortMethod
+Version: 5.0.0
+Depends: R (>= 3.6.0), DatabaseConnector (>= 6.0.0), Cyclops (>=
+        3.1.2), FeatureExtraction (>= 3.0.0), Andromeda (>= 0.6.3)
+Imports: methods, ggplot2, gridExtra, grid, readr, plyr, dplyr, rlang,
+        cli, pillar, Rcpp (>= 0.11.2), SqlRender (>= 1.7.0), survival,
+        ParallelLogger (>= 3.0.1), bit64, checkmate,
+        EmpiricalCalibration
+LinkingTo: Rcpp
+Suggests: testthat, pROC, knitr, rmarkdown, Eunomia, withr, R.utils,
+        RSQLite, ResultModelManager, ShinyAppBuilder, markdown, remotes
+License: Apache License 2.0
+MD5sum: b33649511786d76d8807870ad38a8ce2
+NeedsCompilation: yes
+
 Package: Cyclops
 Version: 1.2.0
 Depends: R (>= 3.1.0)
