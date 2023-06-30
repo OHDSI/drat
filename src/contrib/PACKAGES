@@ -6397,6 +6397,14 @@ MD5sum: 625a8b36fb19de8353fcf518ab7a0b80
 NeedsCompilation: no
 
 Package: SqlRender
+Version: 1.15.1
+Imports: rJava, rlang, checkmate
+Suggests: testthat, knitr, rmarkdown, stringr, shiny, shinydashboard
+License: Apache License 2.0
+MD5sum: ea2b07f6c4be02dcc1f56417d459a954
+NeedsCompilation: no
+
+Package: SqlRender
 Version: 1.2.0
 Imports: rJava
 Suggests: testthat, knitr, rmarkdown
