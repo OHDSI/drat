@@ -6751,6 +6751,16 @@ License: Apache License 2.0
 MD5sum: 97fab39d2beda970ae88e6a121967256
 NeedsCompilation: no
 
+Package: Ulysses
+Version: 0.0.2
+Imports: cli, crayon, fs, gert, gh, glue, keyring, lifecycle,
+        lubridate, magrittr, purrr, rlang, rstudioapi, scales,
+        snakecase, usethis, whisker, withr, yaml
+Suggests: knitr, rmarkdown, here, testthat (>= 3.0.0)
+License: Apache License (>= 2)
+MD5sum: 39f43054d5da49887f0bc64977acfffe
+NeedsCompilation: no
+
 Package: xml2
 Version: 1.0.0.9000
 Depends: R (>= 3.1.0)
