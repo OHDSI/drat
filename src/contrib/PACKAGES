@@ -3047,6 +3047,18 @@ MD5sum: 76477b58f980172a355d0fac05e6c7b7
 NeedsCompilation: no
 
 Package: DeepPatientLevelPrediction
+Version: 1.9.0
+Depends: R (>= 4.0.0)
+Imports: dplyr, FeatureExtraction (>= 3.0.0), ParallelLogger (>=
+        2.0.0), PatientLevelPrediction (>= 6.3.2), rlang, withr,
+        reticulate (>= 1.31)
+Suggests: devtools, Eunomia, knitr, markdown, plyr, testthat, PRROC,
+        ResultModelManager (>= 0.2.0), DatabaseConnector (>= 6.0.0)
+License: Apache License 2.0
+MD5sum: 9708e9c3cd847405efa92f971f1af779
+NeedsCompilation: no
+
+Package: DeepPatientLevelPrediction
 Version: 2.0.0
 Depends: R (>= 4.0.0)
 Imports: dplyr, FeatureExtraction (>= 3.0.0), ParallelLogger (>=
