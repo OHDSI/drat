@@ -3262,7 +3262,7 @@ Suggests: devtools, Eunomia, knitr, markdown, plyr, testthat, PRROC,
         ResultModelManager (>= 0.2.0), DatabaseConnector (>= 6.0.0),
         Andromeda
 License: Apache License 2.0
-MD5sum: f7e6e4de00084126d2aa671ccfd2910d
+MD5sum: 87ddd0f5a2e289a31ce0a49d8e49baa8
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
