@@ -3456,6 +3456,17 @@ License: Apache License 2.0
 MD5sum: b2587753cfc1663785a3a38f2a991d6c
 NeedsCompilation: yes
 
+Package: EmpiricalCalibration
+Version: 3.1.2
+Depends: R (>= 3.5.0)
+Imports: ggplot2 (>= 2.0.0), gridExtra, methods, rlang, Rcpp
+LinkingTo: Rcpp
+Suggests: knitr, markdown, rmarkdown, testthat, Cyclops, survival,
+        Sequential
+License: Apache License 2.0
+MD5sum: bbc40d84be5328ca9aea41f45c389fea
+NeedsCompilation: yes
+
 Package: EnsemblePatientLevelPrediction
 Version: 1.0.1
 Depends: R (>= 3.5.0)
