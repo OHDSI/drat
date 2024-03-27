@@ -3569,6 +3569,15 @@ License: Apache License 2.0
 MD5sum: 65d550e5f551cf5901cf092775ce198d
 NeedsCompilation: no
 
+Package: Eunomia
+Version: 1.0.3
+Depends: DatabaseConnector (>= 2.2.0)
+Imports: SqlRender, RSQLite (> 2.1.1), readr
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 616b91a00fa2b41ede492dc25abfaf25
+NeedsCompilation: no
+
 Package: EvidenceSynthesis
 Version: 0.0.4
 Imports: ggplot2 (>= 2.0.0), gridExtra, meta, EmpiricalCalibration
