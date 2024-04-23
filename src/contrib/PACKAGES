@@ -3599,6 +3599,14 @@ License: Apache License 2.0
 MD5sum: 616b91a00fa2b41ede492dc25abfaf25
 NeedsCompilation: no
 
+Package: Eunomia
+Version: 2.0.0
+Imports: readr, rlang, RSQLite, DBI, arrow, CommonDataModel
+Suggests: testthat, withr, duckdb, DatabaseConnector
+License: Apache License 2.0
+MD5sum: 39f1720c222c5bd7e122115e142bf595
+NeedsCompilation: no
+
 Package: EvidenceSynthesis
 Version: 0.0.4
 Imports: ggplot2 (>= 2.0.0), gridExtra, meta, EmpiricalCalibration
