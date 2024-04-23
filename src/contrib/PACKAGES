@@ -850,7 +850,7 @@ Depends: R (>= 3.5.0)
 Imports: rJava, RJSONIO
 Suggests: testthat, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 2a60052bc615f21b3fbf6ec61e46fc11
+MD5sum: c46aa03bf778bad9d232fa343dc8e7b6
 NeedsCompilation: no
 
 Package: CohortAlgebra
