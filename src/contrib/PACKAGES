@@ -790,6 +790,18 @@ License: Apache License 2.0
 MD5sum: 928cb986f6daf39172f2c659b0824617
 NeedsCompilation: no
 
+Package: Characterization
+Version: 0.2.0
+Depends: R (>= 4.0.0)
+Imports: Andromeda, DatabaseConnector (>= 6.3.1), FeatureExtraction (>=
+        3.5.0), SqlRender (>= 1.9.0), ParallelLogger (>= 3.0.0),
+        checkmate, dplyr, readr, rlang
+Suggests: devtools, testthat, Eunomia, kableExtra, knitr, markdown,
+        ResultModelManager, ShinyAppBuilder, shiny, withr
+License: Apache License 2.0
+MD5sum: cfd29106564353a6b2b3dc3795c02a6e
+NeedsCompilation: no
+
 Package: CirceR
 Version: 1.1.1
 Depends: R (>= 3.5.0)
