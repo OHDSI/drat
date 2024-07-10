@@ -1849,6 +1849,17 @@ License: Apache License 2.0
 MD5sum: 497519c8b08840fadb5817e8a3410b13
 NeedsCompilation: yes
 
+Package: CohortIncidence
+Version: 4.0.0
+Depends: R (>= 3.2.2), DatabaseConnector (>= 3.0.0)
+Imports: rlang, rJava(>= 0.9-10), checkmate, jsonlite, SqlRender (>=
+        1.6.0)
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown, withr, readr, Eunomia,
+        duckdb, R6
+License: Apache License 2.0
+MD5sum: a7e1f77a8a97a288d11f6ef03c9e3e35
+NeedsCompilation: yes
+
 Package: CohortMethod
 Version: 1.1.3
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>=
