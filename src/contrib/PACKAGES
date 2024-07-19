@@ -1870,7 +1870,7 @@ Imports: rlang, rJava(>= 0.9-10), checkmate, jsonlite, SqlRender (>=
 Suggests: testthat (>= 3.0.0), knitr, rmarkdown, withr, readr, Eunomia,
         duckdb, R6
 License: Apache License 2.0
-MD5sum: 26407e3e6cd0a729aa113aa0a8e41bee
+MD5sum: 3181565b6e5be344d6ed5b25d8edcee0
 NeedsCompilation: yes
 
 Package: CohortMethod
