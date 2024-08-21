@@ -6907,6 +6907,17 @@ MD5sum: 2ee0146b112ed3afe2a76128895c5481
 NeedsCompilation: no
 
 Package: ResultModelManager
+Version: 0.5.10
+Depends: R (>= 4.1.0), R6, DatabaseConnector (>= 6.0.0)
+Imports: SqlRender, ParallelLogger, checkmate, DBI, pool, readr, zip,
+        dplyr, dbplyr, rlang, lubridate, fastmap, withr
+Suggests: testthat (>= 3.0.0), RSQLite, duckdb, knitr, rmarkdown,
+        keyring, devtools, pkgdown, remotes, styler, Andromeda
+License: Apache License (== 2.0)
+MD5sum: 72d31e2d4f2da22275a807e9ed4d9501
+NeedsCompilation: no
+
+Package: ResultModelManager
 Version: 0.5.2
 Depends: R (>= 4.1.0), R6, DatabaseConnector (>= 6.0.0)
 Imports: SqlRender, ParallelLogger, checkmate, DBI, pool, readr, zip,
