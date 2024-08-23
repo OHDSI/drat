@@ -5469,6 +5469,15 @@ License: Apache License 2.0
 MD5sum: f47ac05009eea269b96d2ee17df3ef5b
 NeedsCompilation: no
 
+Package: ParallelLogger
+Version: 3.3.1
+Depends: R (>= 4.0.0)
+Imports: snow, xml2, jsonlite, methods, utils
+Suggests: sendmailR, testthat, shiny, DT, knitr, rmarkdown, tibble
+License: Apache License 2.0
+MD5sum: dbf6ea9fcd089f0614e9723310d8c5e1
+NeedsCompilation: no
+
 Package: PatientLevelPrediction
 Version: 1.1.0
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.3.0), Cyclops (>= 1.2.0)
