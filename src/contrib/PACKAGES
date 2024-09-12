@@ -4288,6 +4288,18 @@ License: Apache License 2.0
 MD5sum: 493a744a9dde8a835b07b84bf8866f02
 NeedsCompilation: no
 
+Package: FeatureExtraction
+Version: 3.7.1
+Depends: R (>= 3.2.2), DatabaseConnector (>= 3.0.0), Andromeda
+Imports: methods, dplyr, rJava, jsonlite, SqlRender (>= 1.18.0),
+        ParallelLogger (>= 2.0.2), cli, pillar, readr, rlang, RSQLite,
+        DBI, checkmate
+Suggests: testthat, knitr, rmarkdown, Eunomia (>= 2.0.0), withr, curl,
+        httr
+License: Apache License 2.0
+MD5sum: 1f9d248086cb56c12ca208e72c5af1b9
+NeedsCompilation: no
+
 Package: Hades
 Version: 1.0.0
 Imports: SqlRender, Andromeda, DatabaseConnector, ParallelLogger,
