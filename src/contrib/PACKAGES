@@ -1644,6 +1644,19 @@ MD5sum: b5dd10e0462072c45e153a25c3181b96
 NeedsCompilation: no
 
 Package: CohortGenerator
+Version: 0.11.1
+Depends: DatabaseConnector (>= 5.0.0), R (>= 3.6.0), R6
+Imports: checkmate, digest, dplyr, lubridate, methods, ParallelLogger
+        (>= 3.0.0), readr (>= 2.1.0), rlang, RJSONIO, jsonlite,
+        ResultModelManager, SqlRender (>= 1.11.1), stringi (>= 1.7.6),
+        tibble
+Suggests: CirceR (>= 1.1.1), Eunomia, knitr, rmarkdown, testthat,
+        withr, zip
+License: Apache License
+MD5sum: 710b9c5cf1c4997d3a0fd47b9c99f21c
+NeedsCompilation: no
+
+Package: CohortGenerator
 Version: 0.2.0
 Depends: DatabaseConnector (>= 5.0.0), R (>= 3.6.0)
 Imports: checkmate, digest, dplyr, lubridate, ParallelLogger (>=
