@@ -8459,6 +8459,22 @@ License: Apache License 2.0
 MD5sum: e24118077de2ae8d47c84d2f8bb3fbd9
 NeedsCompilation: no
 
+Package: Strategus
+Version: 1.1.2
+Depends: R (>= 4.2.0), CohortGenerator (>= 0.11.0), DatabaseConnector
+        (>= 6.2.3), R6
+Imports: checkmate, cli, digest, dplyr, methods, ParallelLogger (>=
+        3.1.0), purrr, ResultModelManager (>= 0.5.8), rlang, SqlRender
+        (>= 1.18.0)
+Suggests: Characterization, CirceR, CohortDiagnostics, CohortIncidence,
+        CohortMethod, Cyclops, Eunomia, EvidenceSynthesis,
+        FeatureExtraction, fs, knitr, PatientLevelPrediction, readr,
+        rmarkdown, RSQLite, SelfControlledCaseSeries, testthat (>=
+        3.0.0), withr
+License: Apache License 2.0
+MD5sum: 6d2e0041db0e8f8a5a387ef861177362
+NeedsCompilation: no
+
 Package: Ulysses
 Version: 0.0.2
 Imports: cli, crayon, fs, gert, gh, glue, keyring, lifecycle,
