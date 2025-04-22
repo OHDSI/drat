@@ -6574,7 +6574,7 @@ Suggests: curl, Eunomia (>= 2.0.0), glmnet, ggplot2, gridExtra,
         (>= 1.30), rmarkdown, RSQLite, scoring, survival, survminer,
         testthat, withr, xgboost (> 1.3.2.1)
 License: Apache License 2.0
-MD5sum: c5197b033ddaba6406fd95c9a0ae94ac
+MD5sum: f51cde62db846aafa89ed075a2d3a781
 NeedsCompilation: no
 
 Package: PhenotypeLibrary
