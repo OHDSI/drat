@@ -2871,6 +2871,18 @@ License: Apache License 2.0
 MD5sum: 51980e4016a9dad0597e6dfe9de8310d
 NeedsCompilation: yes
 
+Package: Cyclops
+Version: 3.6.0
+Depends: R (>= 3.5.0)
+Imports: rlang, Matrix, Rcpp (>= 0.12.12), Andromeda, dplyr, methods,
+        survival, tidyr, bit, bit64
+LinkingTo: Rcpp, RcppEigen (>= 0.3.2), RcppParallel
+Suggests: testthat, readr, MASS, gnm, ggplot2, microbenchmark, cmprsk,
+        boot, rsample
+License: Apache License 2.0
+MD5sum: 7c95842ea427dc16fb4ca4e98289619e
+NeedsCompilation: yes
+
 Package: DatabaseConnector
 Version: 1.10.0
 Depends: RJDBC (>= 0.2-5)
