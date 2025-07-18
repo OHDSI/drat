@@ -2876,11 +2876,11 @@ Version: 3.6.0
 Depends: R (>= 3.5.0)
 Imports: rlang, Matrix, Rcpp (>= 0.12.12), Andromeda, dplyr, methods,
         survival, tidyr, bit, bit64
-LinkingTo: Rcpp, RcppEigen (>= 0.3.2), RcppParallel
+LinkingTo: Rcpp, RcppEigen (>= 0.3.2)
 Suggests: testthat, readr, MASS, gnm, ggplot2, microbenchmark, cmprsk,
         boot, rsample
 License: Apache License 2.0
-MD5sum: 7c95842ea427dc16fb4ca4e98289619e
+MD5sum: 6e9c22aa6f5da5edc949606c1e17016b
 NeedsCompilation: yes
 
 Package: DatabaseConnector
