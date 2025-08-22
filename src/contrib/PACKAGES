@@ -219,6 +219,16 @@ License: Apache License 2.0
 MD5sum: 724f65018159a31438b5a52d0b71ebc0
 NeedsCompilation: no
 
+Package: Andromeda
+Version: 1.1.1
+Depends: dplyr
+Imports: DBI, zip, methods, dbplyr, tidyselect, cli, rlang, pillar,
+        duckdb (>= 1.3.0)
+Suggests: testthat, stringr, knitr, rmarkdown, tibble, rJava, rcmdcheck
+License: Apache License 2.0
+MD5sum: 8e62077a099c135dac63cf75e1de57e3
+NeedsCompilation: no
+
 Package: aws.s3
 Version: 0.1.27
 Imports: tools, httr, xml2 (>= 1.0.0), base64enc, digest, curl,
