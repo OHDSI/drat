@@ -3804,7 +3804,7 @@ Suggests: Eunomia, knitr, rmarkdown, testthat, PRROC, FeatureExtraction
         (>= 3.7.0), ResultModelManager (>= 0.2.0), DatabaseConnector
         (>= 6.3.0), Andromeda (> 1.0.0)
 License: Apache License 2.0
-MD5sum: 69ade097a447d6e88217c6927e94b992
+MD5sum: 9c6fc1952a0c41fb4e729edfc73ad7f8
 NeedsCompilation: no
 
 Package: EmpiricalCalibration
