@@ -3555,6 +3555,19 @@ License: Apache License
 MD5sum: 0e4d000989156a5420310839499ae35f
 NeedsCompilation: no
 
+Package: DatabaseConnector
+Version: 7.0.0
+Depends: R (>= 4.0.0)
+Imports: rJava, SqlRender (>= 1.19.2), methods, stringr, readr, rlang,
+        utils, DBI (>= 1.0.0), urltools, bit64, checkmate, digest,
+        dbplyr (>= 2.2.0)
+Suggests: aws.s3, R.utils, withr, testthat, DBItest, knitr, rmarkdown,
+        RSQLite, ssh, Andromeda, dplyr, RPostgres, odbc, duckdb,
+        bigrquery, pool, ParallelLogger, AzureStor
+License: Apache License
+MD5sum: 46bd7bd06ffb50f96c6d31ee399f6427
+NeedsCompilation: no
+
 Package: DataQualityDashboard
 Version: 2.1.1
 Depends: R (>= 3.2.2), DatabaseConnector (>= 2.0.2)
