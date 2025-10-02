@@ -7990,6 +7990,17 @@ License: Apache License (== 2.0)
 MD5sum: f7c366719efa2fce956a4bdbaf51cde5
 NeedsCompilation: no
 
+Package: ResultModelManager
+Version: 0.6.2
+Depends: R (>= 4.1.0), R6, DatabaseConnector (>= 7.0.0)
+Imports: SqlRender, ParallelLogger, checkmate, DBI, pool, readr, zip,
+        dplyr, dbplyr, rlang, lubridate, fastmap, withr
+Suggests: testthat (>= 3.0.0), RSQLite, duckdb, knitr, rmarkdown,
+        keyring, devtools, pkgdown, remotes, styler, rJava, reticulate
+License: Apache License (== 2.0)
+MD5sum: 10c1740381002542d25d7e1efae5b99b
+NeedsCompilation: no
+
 Package: ROhdsiWebApi
 Version: 0.0.3
 Depends: R (>= 3.1.0),
