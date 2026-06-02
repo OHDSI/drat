@@ -7385,6 +7385,18 @@ License: Apache License 2.0
 MD5sum: 4bfe735bb8623b845064b32aba994de1
 NeedsCompilation: no
 
+Package: Phenelope
+Version: 0.1.2
+Depends: R (>= 4.2.0)
+Imports: dplyr (>= 1.1.4), DatabaseConnector (>= 6.3.0), httr, readr,
+        rJava, Capr (>= 2.0.9), officer, tidyr, jsonlite, ellmer,
+        SqlRender, rlang, CirceR, checkmate
+Suggests: knitr, rmarkdown, shiny, shinydashboard, DT, htmltools, qpdf,
+        testthat, Eunomia, CohortGenerator, withr, keyring, R6
+License: Apache License 2.0
+MD5sum: 76709ac55088d939c0aa1b1d07f7566f
+NeedsCompilation: no
+
 Package: PhenotypeLibrary
 Version: 3.1.1
 Imports: checkmate, readr, dplyr, rlang
