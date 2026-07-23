@@ -6264,6 +6264,18 @@ License: Apache License
 MD5sum: f1ef87c26fe8c3e3a8d971728a3af92c
 NeedsCompilation: no
 
+Package: OhdsiShinyAppBuilder
+Version: 1.1.0
+Depends: R (>= 3.3.0)
+Imports: checkmate, DatabaseConnector, dplyr, ParallelLogger (>=
+        2.0.0), remotes, ResultModelManager (>= 0.5.0), rlang, shiny,
+        shinydashboard, utils
+Suggests: devtools, Eunomia, jsonlite, knitr, rmarkdown, testthat,
+        markdown
+License: Apache License 2.0
+MD5sum: 7b8fe0abde942c22263ba9df147c0850
+NeedsCompilation: no
+
 Package: OhdsiShinyModules
 Version: 1.0.1
 Depends: R (>= 3.3.0)
