@@ -496,6 +496,19 @@ License: Apache License (>= 2)
 MD5sum: 305be8898a46e9bd338a8d221e750226
 NeedsCompilation: no
 
+Package: Capr
+Version: 3.0.0
+Depends: R (>= 4.2.0)
+Imports: jsonlite, methods, purrr (>= 1.0.1), rlang, dplyr, tidyr,
+        checkmate, tibble, readr, stringr, glue, cli, digest, fs,
+        lubridate, DBI, DatabaseConnector, SqlRender, CirceR,
+        jsonvalidate
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown, Eunomia, bit64,
+        PhenotypeLibrary (>= 3.36.0), rstudioapi, waldo
+License: Apache License (>= 2)
+MD5sum: 4b76dc7738857ea36698b7b94dfd4edd
+NeedsCompilation: no
+
 Package: CaseControl
 Version: 0.0.2
 Depends: R (>= 3.2.2), Cyclops (>= 1.2.0), DatabaseConnector (>=
