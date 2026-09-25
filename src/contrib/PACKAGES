@@ -5764,6 +5764,17 @@ License: Apache License
 MD5sum: a773a3189e670725f0e8352bd41fc4af
 NeedsCompilation: no
 
+Package: Keeper
+Version: 2.2.0
+Depends: DatabaseConnector (>= 7.0.0), R (>= 4.1.0)
+Imports: checkmate, dplyr, SqlRender, english, stringr, jsonlite, httr,
+        yaml
+Suggests: rmarkdown, testthat, knitr, withr, Eunomia, shiny, ellmer,
+        bslib, shinyjs, readr, plotly, pool, R6
+License: Apache License
+MD5sum: 8d75b3af413e8f1d390343fb4b575e83
+NeedsCompilation: no
+
 Package: KeppraAngioedema
 Version: 0.1.0
 Depends: R (>= 3.2.2), DatabaseConnector (>= 1.4.0)
