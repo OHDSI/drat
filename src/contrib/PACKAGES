@@ -4241,6 +4241,19 @@ License: Apache License 2.0
 MD5sum: 5f12675d981b47ebd5b4ab33883c9bf9
 NeedsCompilation: no
 
+Package: DeepPatientLevelPrediction
+Version: 2.4.0
+Depends: R (>= 4.1.0)
+Imports: Andromeda (> 1.0.0), dplyr, ParallelLogger (>= 2.0.0),
+        PatientLevelPrediction (>= 6.5.0), R6, reticulate (>= 1.41),
+        rlang, withr
+Suggests: curl, DatabaseConnector (>= 6.3.0), Eunomia,
+        FeatureExtraction (>= 3.7.0), knitr, PRROC, ResultModelManager
+        (>= 0.2.0), rmarkdown, RSQLite, testthat
+License: Apache License 2.0
+MD5sum: 415e4fa0a76473b69aef46a157beb80b
+NeedsCompilation: no
+
 Package: EmpiricalCalibration
 Version: 1.1.0
 Imports: ggplot2 (>= 2.0.0), MASS
