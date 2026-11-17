@@ -5796,6 +5796,15 @@ License: Apache License 2.0
 MD5sum: 76c8904d5538b3843940676e00a96c68
 NeedsCompilation: no
 
+Package: IterativeHardThresholding
+Version: 2.0.0
+Depends: R (>= 3.5.0), Cyclops (>= 4.0.1)
+Imports: ParallelLogger, stats, utils
+Suggests: survival, testthat
+License: Apache License 2.0
+MD5sum: 7b756cec43f3ac3c080f093fb4f53b69
+NeedsCompilation: no
+
 Package: Keeper
 Version: 0.2.0
 Depends: DatabaseConnector (>= 5.0.0), R (>= 4.0.0)
